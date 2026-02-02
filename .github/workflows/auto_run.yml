@@ -23,16 +23,26 @@ jobs:
         run: pip install requests
 
       - name: Run logic
-        # 注入飞书 Webhook 密钥
+        # 在这里注入环境变量
         env:
           FEISHU_WEBHOOK: ${{ secrets.FEISHU_WEBHOOK }}
+          # 左边是脚本读取的名字，右边是你在 Settings 里存的 Secret 名字
+          GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
         run: python radar.py
 
       - name: Commit and Push
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          
+          # 1. 先暂存文件
           git add README.md pushed_ids.txt stars_history.json
+          
+          # 2. 提交，如果没变动就跳过不报错
           git commit -m "Auto-update dashboard and history" || exit 0
+          
+          # 3. 这里的 rebase 是核心，防止多人（或多任务）并发导致冲突
           git pull origin main --rebase
+          
+          # 4. 推送
           git push
