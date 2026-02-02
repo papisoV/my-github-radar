@@ -65,6 +65,33 @@ def translate_to_zh(text):
     except:
         return text
 
+def get_external_insight(full_name, repo_url):
+    """
+    寻找跨界关联：HN 讨论与 Google 趋势预判
+    """
+    insight = {"hn_url": None, "tag": "", "score_bonus": 0}
+    try:
+        # 1. 搜索 Hacker News 关联
+        search_str = urllib.parse.quote(full_name)
+        hn_api = f"https://hn.algolia.com/api/v1/search?query={search_str}&tags=story"
+        res = requests.get(hn_api, timeout=5).json()
+        
+        if res['nbHits'] > 0:
+            top_story = res['hits'][0]
+            comment_count = top_story.get('num_comments', 0)
+            insight["hn_url"] = f"https://news.ycombinator.com/item?id={top_story['objectID']}"
+            
+            # 质量判定：有讨论的项目权重更高
+            if comment_count > 30:
+                insight["tag"] = f"🔥 HN 热议({comment_count})"
+                insight["score_bonus"] = 2000 # 极大幅度提升优先级
+            else:
+                insight["tag"] = "🔍 极客关注"
+                insight["score_bonus"] = 500
+    except:
+        pass
+    return insight
+
 # --- 3. 时间与数据加载 ---
 # 关键：修正为北京时间 (UTC+8)
 now = datetime.datetime.utcnow() + datetime.timedelta(hours=8)
@@ -122,6 +149,19 @@ try:
         # 存储原始数据
         i['raw_growth'] = base_growth
         i['hour_growth'] = base_growth 
+        i['fame_tag'] = fame_tag
+        
+        # --- 新增：跨界情报获取 ---
+        # 只有当时速爆发(>30)或大佬项目时，才去查 HN，避免浪费请求
+        i['hn_info'] = None
+        if i['raw_growth'] > 30 or fame_tag:
+            i['hn_info'] = get_hn_context(i['full_name'])
+            if i['hn_info'] and i['hn_info']['comments'] > 10:
+                i['hour_growth'] += 2000 # 深度讨论的项目，权重直接拉满
+                i['smart_tags'] += " 🔥极客热议"
+
+        i['smart_tags'] = (f"{fame_tag} " if fame_tag else "") + get_smart_tags(i)
+        qualified_items.append(i)
 
         # 5. 动态权重分配
         # 条件 A：大佬/大厂项目，给予最高优先级提拔
@@ -180,8 +220,12 @@ try:
         limit = 8 if is_summary_time else 5
         
         for idx, i in enumerate(push_candidates[:limit]):
-            desc_zh = translate_to_zh(i['description'])
+            desc_zh =translate_to_zh(i['description'])
             growth_info = f"\n🚀 **时速: +{i['raw_growth']} stars/hr**" if i['raw_growth'] > 0 else ""
+
+            hn_text = ""
+            if i.get('hn_info'):
+                hn_text = f"\n🌐 **HN讨论**: [{i['hn_info']['points']}分/{i['hn_info']['comments']}评]({i['hn_info']['url']})"
             
             if is_summary_time:
                 status = f"{status_prefix} {idx+1}"
@@ -190,7 +234,10 @@ try:
             
             card_elements.append({
                 "tag": "div",
-                "text": {"tag": "lark_md", "content": f"**{status}** | {i['smart_tags']}\n**项目**: [{i['full_name']}]({i['html_url']})\n**总 Stars**: `{i['stargazers_count']}`{growth_info}\n**简介**: {desc_zh}"}
+               text": {
+                    "tag": "lark_md", 
+                    "content": f"**{status}** | {i['smart_tags']}\n**项目**: [{i['full_name']}]({i['html_url']})\n**总 Stars**: `{i['stargazers_count']}`{growth_info}{hn_text}\n**简介**: {desc_zh}"
+                }
             })
             card_elements.append({"tag": "hr"})
 
