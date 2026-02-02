@@ -4,7 +4,7 @@ import datetime
 import requests
 
 # 在循环获取到 repo 信息后
-push_key = "你的PUSHKEY"
+push_key = "PDU38939T9Wp8bt11RTZPCi5FkYaV24vJjCzfXu28"
 text = f"发现 GitHub 暗流项目: {item['full_name']}"
 desp = f"Stars: {item['stargazers_count']}\n简介: {item['description']}\n链接: {item['html_url']}"
 
