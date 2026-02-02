@@ -3,13 +3,18 @@ import datetime
 import os
 
 # --- 1. 配置区 ---
-# 飞书 Webhook 地址从 GitHub Secrets 读取
 FEISHU_WEBHOOK = os.getenv('FEISHU_WEBHOOK')
+DB_FILE = "pushed_ids.txt"
 
-# --- 2. 抓取逻辑 ---
-# 计算 30 天前的日期
+# --- 2. 读取已推送的 ID 列表 ---
+if os.path.exists(DB_FILE):
+    with open(DB_FILE, "r") as f:
+        pushed_ids = set(line.strip() for line in f if line.strip())
+else:
+    pushed_ids = set()
+
+# --- 3. 抓取逻辑 ---
 start_date = (datetime.datetime.now() - datetime.timedelta(days=30)).strftime('%Y-%m-%d')
-# 查询条件：新项目、高 Star、非 Fork
 query = f"created:>{start_date} stars:>500 fork:false"
 url = f"https://api.github.com/search/repositories?q={query}&sort=stars&order=desc"
 
@@ -19,45 +24,56 @@ try:
     
     if not items:
         print("暂时没有符合条件的新项目。")
-        # 如果没有新项目，可以退出
         exit(0)
 
-    # --- 3. 构造 Markdown 并写入 README.md ---
-    md_content = f"# 🌊 GitHub 暗流监控报告\n\n> 监控标准：创建时间 < 30天 且 Stars > 500\n>\n> 最后更新：{datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n\n"
-    
+    # 过滤出真正“新鲜”的项目
+    new_items = [item for item in items if str(item['id']) not in pushed_ids]
+
+    if not new_items:
+        print("没有检测到未推送的新增项目。")
+        exit(0)
+
+    # --- 4. 构造并写入 README.md (保持显示前 15 个最火的) ---
+    md_content = f"# 🌊 GitHub 暗流监控报告\n\n> 更新时间：{datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n\n"
     for item in items[:15]:
         md_content += f"### ⭐ {item['stargazers_count']} | [{item['full_name']}]({item['html_url']})\n"
-        md_content += f"- **简介**: {item['description'] or '暂无描述'}\n"
-        md_content += f"- **创建时间**: {item['created_at'][:10]}\n\n"
+        md_content += f"- **简介**: {item['description'] or '暂无描述'}\n\n"
 
     with open("README.md", "w", encoding="utf-8") as f:
         f.write(md_content)
 
-    # --- 4. 构造飞书推送卡片 ---
+    # --- 5. 推送新项目并更新 ID 记录 ---
     if FEISHU_WEBHOOK:
         card_elements = []
-        for item in items[:8]:  # 选取前 8 个精选
+        # 只推送前 5 个真正新鲜的项目，防止单次推送过多
+        for item in new_items[:5]:
             card_elements.append({
                 "tag": "div",
                 "text": {
                     "tag": "lark_md",
-                    "content": f"**⭐ {item['stargazers_count']}** | [{item['full_name']}]({item['html_url']})\n{item['description'] or '暂无描述'}"
+                    "content": f"**✨ 发现新暗流** | [{item['full_name']}]({item['html_url']})\n**Stars**: {item['stargazers_count']}\n{item['description'] or '无描述'}"
                 }
             })
             card_elements.append({"tag": "hr"})
+            # 记录此 ID
+            pushed_ids.add(str(item['id']))
 
         payload = {
             "msg_type": "interactive",
             "card": {
                 "header": {
-                    "title": {"tag": "plain_text", "content": "🚀 GitHub 暗流实时监控"},
-                    "template": "blue"
+                    "title": {"tag": "plain_text", "content": "🚀 GitHub 新增暗流项目"},
+                    "template": "orange"
                 },
                 "elements": card_elements
             }
         }
         requests.post(FEISHU_WEBHOOK, json=payload)
-        print("飞书卡片推送成功！")
+
+    # 将更新后的 ID 列表写回文件
+    with open(DB_FILE, "w") as f:
+        for _id in pushed_ids:
+            f.write(f"{_id}\n")
 
 except Exception as e:
     print(f"执行出错: {e}")
