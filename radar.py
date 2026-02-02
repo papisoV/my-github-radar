@@ -143,27 +143,57 @@ try:
     with open("README.md", "w", encoding="utf-8") as f:
         f.write(md_content)
 
-    # --- 6. 飞书卡片推送 ---
-    # 综合列表：优先显示爆发的大佬项目，其次是普通新项目
-    push_candidates = explosive_items + [i for i in new_items if i not in explosive_items]
-    
+# --- 6. 飞书卡片推送 (智能汇总版) ---
+    now = datetime.datetime.now()
+    # 设定汇总播报的时间点（24小时制）
+    SUMMARY_HOURS = [9, 21] 
+    is_summary_time = now.hour in SUMMARY_HOURS
+
+    if is_summary_time:
+        # 【播报模式】：直接取 README 榜单的前 8 名（不查重，直接发大盘）
+        push_candidates = sorted_items[:8]
+        card_title = "📊 GitHub 技术趋势汇总"
+        card_template = "blue"  # 汇总用蓝色区分
+        status_prefix = "📈 榜单 Top"
+    else:
+        # 【即时模式】：你原来的逻辑，只推送爆发项目或新发现
+        push_candidates = explosive_items + [i for i in new_items if i not in explosive_items]
+        card_title = "🛰️ 顶级技术情报"
+        card_template = "purple" if explosive_items and explosive_items[0]['fame_tag'] else "orange"
+        status_prefix = ""
+
     if push_candidates and FEISHU_WEBHOOK:
         card_elements = []
-        for i in push_candidates[:5]:
+        # 为了防止卡片过长，汇总模式取前 8，平时取前 5
+        limit = 8 if is_summary_time else 5
+        
+        for idx, i in enumerate(push_candidates[:limit]):
             desc_zh = translate_to_zh(i['description'])
             growth_info = f"\n🚀 **时速: +{i['raw_growth']} stars/hr**" if i['raw_growth'] > 0 else ""
-            status = "🚨 大佬动向" if i['fame_tag'] else ("🔴 特急爆发" if i['raw_growth'] >= GROWTH_THRESHOLD else "✨ 发现新项目")
+            
+            # 状态标签逻辑
+            if is_summary_time:
+                status = f"{status_prefix} {idx+1}"
+            else:
+                status = "🚨 大佬动向" if i['fame_tag'] else ("🔴 特急爆发" if i['raw_growth'] >= GROWTH_THRESHOLD else "✨ 发现新项目")
             
             card_elements.append({
                 "tag": "div",
-                "text": {"tag": "lark_md", "content": f"**{status}** | {i['smart_tags']}\n**项目**: [{i['full_name']}]({i['html_url']})\n**总 Stars**: `{i['stargazers_count']}`{growth_info}\n**简介**: {desc_zh}"}
+                "text": {
+                    "tag": "lark_md", 
+                    "content": f"**{status}** | {i['smart_tags']}\n**项目**: [{i['full_name']}]({i['html_url']})\n**总 Stars**: `{i['stargazers_count']}`{growth_info}\n**简介**: {desc_zh}"
+                }
             })
             card_elements.append({"tag": "hr"})
 
+        # 发送请求
         requests.post(FEISHU_WEBHOOK, json={
             "msg_type": "interactive",
             "card": {
-                "header": {"title": {"tag": "plain_text", "content": "🛰️ 顶级技术情报"}, "template": "purple" if explosive_items and explosive_items[0]['fame_tag'] else "orange"},
+                "header": {
+                    "title": {"tag": "plain_text", "content": card_title}, 
+                    "template": card_template
+                },
                 "elements": card_elements
             }
         })
