@@ -33,3 +33,20 @@ try:
         print(f"🔗 链接: {item['html_url']}\n" + "-"*40)
 except Exception as e:
     print(f"查询出错: {e}")
+
+start_date = (datetime.datetime.now() - datetime.timedelta(days=30)).strftime('%Y-%m-%d')
+query = f"created:>{start_date} stars:>500 fork:false"
+url = f"https://api.github.com/search/repositories?q={query}&sort=stars&order=desc"
+
+response = requests.get(url)
+items = response.json().get('items', [])
+
+# 构造 Markdown 内容
+md_content = f"# 🌊 GitHub 暗流监控报告\n\n> 更新时间：{datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n\n"
+for item in items[:15]:
+    md_content += f"### ⭐ {item['stargazers_count']} | [{item['full_name']}]({item['html_url']})\n"
+    md_content += f"- **简介**: {item['description']}\n"
+    md_content += f"- **创建时间**: {item['created_at']}\n\n"
+
+with open("README.md", "w", encoding="utf-8") as f:
+    f.write(md_content)
