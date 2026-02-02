@@ -1,21 +1,21 @@
 # 🌊 GitHub 技术暗流雷达
 
-> 🕒 更新: 2026-02-03 00:06:34 | 👑=大佬 | 🌐=有跨界讨论
+> 🕒 更新: 2026-02-03 00:22:07 | 👑=大佬 | 🌐=有跨界讨论
 
 | 增长/h | 智能标签 | 项目名称 | 总 Stars | 跨界讨论 | 中文简介 |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| +0 | 🏢 大厂官号 🏷️TypeScript ☁️ DevOps 🔥极客热议 | [cloudflare/moltworker](https://github.com/cloudflare/moltworker) | 6346 | [💬讨论](https://news.ycombinator.com/item?id=46810828) | 在 Cloudflare Workers 上运行 OpenClaw（以前称为 Moltbot、以前称为 Clawdbot） |
-| +0 | 🏷️TypeScript 🤖 AI/ML 🌐 Web | [vercel-labs/agent-browser](https://github.com/vercel-labs/agent-browser) | 12213 | -- | 用于 AI 代理的浏览器自动化 CLI |
+| +27 | 🏢 大厂官号 🏷️TypeScript ☁️ DevOps 🔥极客热议 | [cloudflare/moltworker](https://github.com/cloudflare/moltworker) | 6373 | [💬讨论](https://news.ycombinator.com/item?id=46810828) | 在 Cloudflare Workers 上运行 OpenClaw（以前称为 Moltbot、以前称为 Clawdbot） |
+| +3 | 🏷️TypeScript 🤖 AI/ML 🌐 Web | [vercel-labs/agent-browser](https://github.com/vercel-labs/agent-browser) | 12216 | -- | 用于 AI 代理的浏览器自动化 CLI |
+| +2 | 🏷️Python 🤖 AI/ML | [ZhuLinsen/daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis) | 8919 | -- | LLM驱动的A/H/美股智能分析器，多数据源行情 + 实时新闻 + Gemini 决策仪表盘 + 多渠道主动，零成本，纯白嫖，定时运行 |
+| +2 | 🏷️Python 🤖 AI/ML | [adenhq/hive](https://github.com/adenhq/hive) | 4434 | -- | 不断发展的结果驱动代理开发框架 |
+| +2 | 🏷️TypeScript | [vudovn/antigravity-kit](https://github.com/vudovn/antigravity-kit) | 3924 | -- | 无描述 |
+| +1 | 🏷️TypeScript 🤖 AI/ML | [different-ai/openwork](https://github.com/different-ai/openwork) | 8207 | -- | Claude Cowork 的开源替代方案，由 opencode 提供支持 |
+| +1 | 🏷️Vue 🤖 AI/ML | [chatfire-AI/huobao-drama](https://github.com/chatfire-AI/huobao-drama) | 6950 | -- | 🎬火宝短剧 - 基于AI的一站式短剧生成平台《一句话生成完整短剧，从论证到成片全自动化》火宝短剧 - AI驱动的端到端短剧生成器“一句完成戏剧：从脚本到最终视频完全自动化” |
+| +1 | 🏷️TypeScript 🤖 AI/ML | [github/copilot-sdk](https://github.com/github/copilot-sdk) | 6622 | -- | 用于将 GitHub Copilot Agent 集成到应用程序和服务中的多平台 SDK |
+| +1 | 🏷️Rust | [lucasgelfond/zerobrew](https://github.com/lucasgelfond/zerobrew) | 4840 | -- | 速度快 5-20 倍的嵌入式实验性 Homebrew 替代品 |
+| +1 | 🏷️TypeScript 🤖 AI/ML | [Yeachan-Heo/oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode) | 4182 | -- | Claude Code 的多代理编排具有 5 种执行模式：Autopilot（自主）、Ultrapilot（3-5x 并行）、Swarm（协调代理）、Pipeline（顺序链）、Ecomode（令牌高效）。 31+技能，32位专业特工，零学习曲线。 |
+| +1 | 🏷️TypeScript | [JimLiu/baoyu-skills](https://github.com/JimLiu/baoyu-skills) | 3512 | -- | 无描述 |
+| +1 |  | [forrestchang/andrej-karpathy-skills](https://github.com/forrestchang/andrej-karpathy-skills) | 3436 | -- | 无描述 |
 | +0 | 🏷️TypeScript 🤖 AI/ML | [snarktank/ralph](https://github.com/snarktank/ralph) | 9142 | -- | Ralph 是一个自主的 AI 代理循环，它会重复运行，直到所有 PRD 项目完成。 |
-| +0 | 🏷️Python 🤖 AI/ML | [ZhuLinsen/daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis) | 8917 | -- | LLM驱动的A/H/美股智能分析器，多数据源行情 + 实时新闻 + Gemini 决策仪表盘 + 多渠道主动，零成本，纯白嫖，定时运行 |
-| +0 | 🏷️TypeScript 🤖 AI/ML | [different-ai/openwork](https://github.com/different-ai/openwork) | 8206 | -- | Claude Cowork 的开源替代方案，由 opencode 提供支持 |
-| +0 | 🏷️Vue 🤖 AI/ML | [chatfire-AI/huobao-drama](https://github.com/chatfire-AI/huobao-drama) | 6949 | -- | 🎬火宝短剧 - 基于AI的一站式短剧生成平台《一句话生成完整短剧，从论证到成片全自动化》火宝短剧 - AI驱动的端到端短剧生成器“一句完成戏剧：从脚本到最终视频完全自动化” |
-| +0 | 🏷️TypeScript 🤖 AI/ML | [github/copilot-sdk](https://github.com/github/copilot-sdk) | 6621 | -- | 用于将 GitHub Copilot Agent 集成到应用程序和服务中的多平台 SDK |
-| +0 | 🏷️Rust | [lucasgelfond/zerobrew](https://github.com/lucasgelfond/zerobrew) | 4839 | -- | 速度快 5-20 倍的嵌入式实验性 Homebrew 替代品 |
 | +0 | 🏷️TypeScript 🤖 AI/ML | [21st-dev/1code](https://github.com/21st-dev/1code) | 4708 | -- | Claude Code 的最佳 UI |
-| +0 | 🏷️Python 🤖 AI/ML | [adenhq/hive](https://github.com/adenhq/hive) | 4432 | -- | 不断发展的结果驱动代理开发框架 |
-| +0 | 🏷️TypeScript 🤖 AI/ML | [Yeachan-Heo/oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode) | 4181 | -- | Claude Code 的多代理编排具有 5 种执行模式：Autopilot（自主）、Ultrapilot（3-5x 并行）、Swarm（协调代理）、Pipeline（顺序链）、Ecomode（令牌高效）。 31+种技能，32位专业特工，零学习曲线。 |
 | +0 | 🏷️TypeScript 🤖 AI/ML | [vercel-labs/skills](https://github.com/vercel-labs/skills) | 4087 | -- | 开放代理技能工具——npx技能 |
-| +0 | 🏷️TypeScript | [vudovn/antigravity-kit](https://github.com/vudovn/antigravity-kit) | 3922 | -- | 无描述 |
-| +0 | 🏷️C | [z-libs/Zen-C](https://github.com/z-libs/Zen-C) | 3665 | -- | 像高级语言一样编写，像 C 一样运行。 |
-| +0 | 🏷️TypeScript | [JimLiu/baoyu-skills](https://github.com/JimLiu/baoyu-skills) | 3511 | -- | 无描述 |
