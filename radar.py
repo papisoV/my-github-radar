@@ -83,6 +83,7 @@ if os.path.exists(HISTORY_FILE):
 
 # --- 4. 抓取与处理 ---
 start_date = (now - datetime.timedelta(days=30)).strftime('%Y-%m-%d')
+# 增加一个搜索范围，支持抓取最近 1 年内创建的高星项目（成长期项目）
 query = f"created:>{start_date} stars:>500 fork:false"
 url = f"https://api.github.com/search/repositories?q={query}&sort=stars&order=desc"
 
@@ -96,35 +97,52 @@ try:
     qualified_items = []
     
     for i in items:
-        # 黑名单过滤
+        # 1. 基础黑名单过滤
         if any(word in (i['full_name']+(i['description'] or "")).lower() for word in BLACK_LIST):
+            continue
+
+        # 2. 活跃度过滤器：必须在 48 小时内有代码推送 (pushed_at)
+        # 排除那些只有 Star 在涨但代码已断更的“僵尸/营销”项目
+        pushed_at = datetime.datetime.strptime(i['pushed_at'], '%Y-%m-%dT%H:%M:%SZ') + datetime.timedelta(hours=8)
+        if (now - pushed_at).total_seconds() > 48 * 3600:
             continue
             
         item_id = str(i['id'])
         current_stars = i['stargazers_count']
         current_stars_map[item_id] = current_stars
         
-        # 计算增长时速
+        # 3. 计算斜率 (增长时速)
         base_growth = 0
         if item_id in stars_history:
             base_growth = current_stars - stars_history[item_id]
         
-        # 识别大佬
+        # 4. 识别大佬画像 (核心权重逻辑)
         fame_tag = get_owner_fame(i['owner']['login'])
         
-        # 存储原始数据和权重数据
+        # 存储原始数据
         i['raw_growth'] = base_growth
         i['hour_growth'] = base_growth 
-        if fame_tag and base_growth > 20:
-             i['hour_growth'] += 10000 # 权重提拔，确保大佬项目在 README 置顶
+
+        # 5. 动态权重分配
+        # 条件 A：大佬/大厂项目，给予最高优先级提拔
+        if fame_tag:
+             i['hour_growth'] += 10000 
+        # 条件 B：成名大作 (Star > 10k) 且依然在高速增长，给予额外关注度
+        elif current_stars > 10000 and base_growth > 30:
+             i['hour_growth'] += 500
         
         i['fame_tag'] = fame_tag
         i['smart_tags'] = (f"{fame_tag} " if fame_tag else "") + get_smart_tags(i)
         qualified_items.append(i)
 
-    # 排序与判定
+    # 排序：根据权重后的 hour_growth 排序，确保大佬和爆发项目排在 README 最前面
     sorted_items = sorted(qualified_items, key=lambda x: x['hour_growth'], reverse=True)
+    
+    # 飞书触发器逻辑：
+    # 触发条件：时速爆发 (>=50) OR (是大佬项目且时速 > 20)
     explosive_items = [i for i in sorted_items if i['raw_growth'] >= GROWTH_THRESHOLD or (i['fame_tag'] and i['raw_growth'] > 20)]
+    
+    # 新发现逻辑：从未推送过的项目
     new_items = [i for i in sorted_items if str(i['id']) not in pushed_ids]
 
     # --- 5. README 构造 ---
