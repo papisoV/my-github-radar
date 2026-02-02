@@ -7,7 +7,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    # 关键点 1: 必须显式开启写权限，否则无法自动修改 README
+    # 显式开启写权限，用于更新 README 和状态文件
     permissions:
       contents: write
       
@@ -23,7 +23,7 @@ jobs:
         run: pip install requests
 
       - name: Run logic
-        # 关键点 2: 必须把 Secret 注入给 Python 脚本
+        # 注入飞书 Webhook 密钥
         env:
           FEISHU_WEBHOOK: ${{ secrets.FEISHU_WEBHOOK }}
         run: python radar.py
@@ -32,9 +32,14 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          # 确保拉取最新更改，防止冲突
-          git pull origin main
-          # 同时添加 README 和 ID 记录文件
-          git add README.md pushed_ids.txt
-          git commit -m "Auto-update report and push cache" || exit 0
+          
+          # 1. 尝试拉取最新更改，防止由于 Actions 运行重叠导致的推送冲突
+          git pull origin main --rebase
+          
+          # 2. 核心变化：将 stars_history.json 也加入 Git 追踪
+          # 只有把这个文件存回仓库，下次运行才能读到上小时的 Star 数
+          git add README.md pushed_ids.txt stars_history.json
+          
+          # 3. 提交并推送
+          git commit -m "Auto-update: report, cache and slope history" || exit 0
           git push
