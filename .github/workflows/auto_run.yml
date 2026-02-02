@@ -1,0 +1,19 @@
+name: Hourly_Radar
+on:
+  schedule:
+    - cron: '0 * * * *'  # 每小时 0 分运行
+  workflow_dispatch:      # 允许你手动点击按钮运行
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+      - name: Run logic
+        run: |
+          pip install requests
+          python radar.py
