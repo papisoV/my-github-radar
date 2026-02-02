@@ -12,7 +12,21 @@ HISTORY_FILE = "stars_history.json" # 新增：存储上一次扫描的 Star 数
 BLACK_LIST = ["awesome", "roadmap", "interview", "collection", "guide", "free-courses"]
 GROWTH_THRESHOLD = 100 # 每小时增长阈值
 
-# --- 2. 加载数据 ---
+# --- 2. 新增：免费翻译函数 (利用 Google Translate 备用接口) ---
+def translate_to_zh(text):
+    if not text: return "无描述"
+    try:
+        # 使用 Google 翻译的简易接口
+        base_url = "https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=zh-CN&dt=t&q="
+        res = requests.get(base_url + urllib.parse.quote(text), timeout=5)
+        # 结果是嵌套列表，取第一个元素
+        return "".join([i[0] for i in res.json()[0]])
+    except Exception as e:
+        print(f"翻译失败: {e}")
+        return text # 失败则返回原文
+        
+
+# --- 3. 加载数据 ---
 if os.path.exists(DB_FILE):
     with open(DB_FILE, "r") as f:
         pushed_ids = set(line.strip() for line in f if line.strip())
@@ -36,11 +50,18 @@ url = f"https://api.github.com/search/repositories?q={query}&sort=stars&order=de
 try:
     response = requests.get(url)
     all_items = response.json().get('items', [])
-    if not all_items:
-        exit(0)
+    if not all_items: exit(0)
 
-    # 精炼项目列表
-    qualified_items = [i for i in all_items if not any(word in (i['full_name']+(i['description'] or "")).lower() for word in BLACK_LIST)]
+    # 精炼并进行双语转换
+    qualified_items = []
+    for i in all_items:
+        if not any(word in (i['full_name']+(i['description'] or "")).lower() for word in BLACK_LIST):
+            # 获取翻译后的描述
+            desc_en = i['description'] or "No description"
+            desc_zh = translate_to_zh(desc_en)
+            i['bilingual_desc'] = f"{desc_zh}\n*(原文: {desc_en})*"
+            qualified_items.append(i)
+    
 
     # --- 4. 计算增长斜率 ---
     current_stars_map = {}
@@ -66,7 +87,7 @@ try:
     # 我们优先推送爆发项目，其次是新项目
     push_list = explosive_items + [i for i in new_items if i not in explosive_items]
 
-    if push_list and FEISHU_WEBHOOK:
+if push_list and FEISHU_WEBHOOK:
         card_elements = []
         for item in push_list[:5]:
             growth_info = f"\n🔥 **[时速爆发] 近一小时增长: {item.get('hour_growth', 'N/A')} Stars**" if 'hour_growth' in item else ""
@@ -76,7 +97,8 @@ try:
                 "tag": "div",
                 "text": {
                     "tag": "lark_md", 
-                    "content": f"**{prefix}**\n**项目**: [{item['full_name']}]({item['html_url']})\n**总 Stars**: `{item['stargazers_count']}`{growth_info}\n**简介**: {item['description'] or '无'}"
+                    # 这里使用了我们新生成的 bilingual_desc
+                    "content": f"**{prefix}**\n**项目**: [{item['full_name']}]({item['html_url']})\n**总 Stars**: `{item['stargazers_count']}`{growth_info}\n**简介**: {item['bilingual_desc']}"
                 }
             })
             card_elements.append({"tag": "hr"})
@@ -105,6 +127,14 @@ try:
         json.dump(current_stars_map, f)
 
     # 更新 README (此处省略部分重复的 Markdown 构造逻辑，保持与上版本一致)
+md_content = f"# 🌊 GitHub 暗流监控报告 (双语版)\n\n> 更新时间：{datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n\n"
+    for item in qualified_items[:15]:
+        md_content += f"### ⭐ {item['stargazers_count']} | [{item['full_name']}]({item['html_url']})\n"
+        md_content += f"- **中文简介**: {translate_to_zh(item['description'])}\n"
+        md_content += f"- **Original**: {item['description'] or 'N/A'}\n\n"
+    
+    with open("README.md", "w", encoding="utf-8") as f:
+        f.write(md_content)
     # ... (原有 README 写入逻辑) ...
 
 except Exception as e:
