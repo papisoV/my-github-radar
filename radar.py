@@ -11,9 +11,35 @@ DB_FILE = "pushed_ids.txt"
 HISTORY_FILE = "stars_history.json"
 
 BLACK_LIST = ["awesome", "roadmap", "interview", "collection", "guide", "free-courses"]
-GROWTH_THRESHOLD = 50 # 降低门槛，捕捉更多动态
+GROWTH_THRESHOLD = 50 
 
-# --- 2. 翻译函数 ---
+# --- 2. 增强功能：智能标签识别 ---
+def get_smart_tags(item):
+    """根据项目信息自动识别标签"""
+    name_desc = (item['full_name'] + (item['description'] or "")).lower()
+    tags = []
+    
+    # 语言标签
+    if item['language']:
+        tags.append(f"🏷️{item['language']}")
+    
+    # 技术领域识别
+    topics = {
+        "🤖 AI/ML": ["llm", "ai", "gpt", "claude", "agent", "stable-diffusion", "inference"],
+        "🌐 Web/Frontend": ["react", "vue", "typescript", "tailwild", "nextjs", "browser"],
+        "⚙️ Tooling": ["cli", "workflow", "automation", "scripts"],
+        "🦀 Rust/Performance": ["rust", "performance", "blazing"],
+        "📱 Mobile": ["ios", "android", "flutter", "react-native"],
+        "☁️ Cloud/DevOps": ["docker", "k8s", "aws", "serverless", "deploy"]
+    }
+    
+    for tag, keywords in topics.items():
+        if any(key in name_desc for key in keywords):
+            tags.append(tag)
+            
+    return " ".join(tags[:3]) # 最多展示3个标签
+
+# --- 3. 翻译函数 ---
 def translate_to_zh(text):
     if not text: return "无描述"
     try:
@@ -23,7 +49,7 @@ def translate_to_zh(text):
     except:
         return text
 
-# --- 3. 数据加载 ---
+# --- 4. 数据加载 ---
 pushed_ids = set()
 if os.path.exists(DB_FILE):
     with open(DB_FILE, "r") as f:
@@ -35,7 +61,7 @@ if os.path.exists(HISTORY_FILE):
         try: stars_history = json.load(f)
         except: stars_history = {}
 
-# --- 4. 抓取与初步精炼 ---
+# --- 5. 抓取与计算 ---
 start_date = (datetime.datetime.now() - datetime.timedelta(days=30)).strftime('%Y-%m-%d')
 query = f"created:>{start_date} stars:>500 fork:false"
 url = f"https://api.github.com/search/repositories?q={query}&sort=stars&order=desc"
@@ -49,7 +75,6 @@ try:
     qualified_items = []
     
     for i in items:
-        # 排除黑名单
         if any(word in (i['full_name']+(i['description'] or "")).lower() for word in BLACK_LIST):
             continue
             
@@ -57,60 +82,59 @@ try:
         current_stars = i['stargazers_count']
         current_stars_map[item_id] = current_stars
         
-        # 计算时速 (Velocity)
+        # 计算时速
         i['hour_growth'] = 0
         if item_id in stars_history:
             i['hour_growth'] = current_stars - stars_history[item_id]
         
+        # 注入智能标签
+        i['smart_tags'] = get_smart_tags(i)
         qualified_items.append(i)
 
-    # --- 5. 核心：排序逻辑 (按时速排行) ---
-    # 先按小时增长排，再按总星数排
+    # 排序：时速优先
     sorted_items = sorted(qualified_items, key=lambda x: (x['hour_growth'], x['stargazers_count']), reverse=True)
-    
     explosive_items = [i for i in sorted_items if i['hour_growth'] >= GROWTH_THRESHOLD]
     new_items = [i for i in sorted_items if str(i['id']) not in pushed_ids]
 
-    # --- 6. 构造可视化 README (仪表盘化) ---
+    # --- 6. README 仪表盘构造 ---
     now_str = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
-    md_content = f"# 🌊 GitHub 技术暗流雷达 (时速排行版)\n\n"
-    md_content += f"> 🕒 最后更新: {now_str} | 🚀 监控阈值: Stars > 500 & 创建 < 30天\n\n"
+    md_content = f"# 🌊 GitHub 技术暗流雷达 (智能标签版)\n\n"
+    md_content += f"> 🕒 更新: {now_str} | 🔥 爆发阈值: +{GROWTH_THRESHOLD} stars/hr\n\n"
     
-    # 时速爆发榜
     md_content += "## 🚀 每小时热度爆发榜\n"
-    md_content += "| 增长/h | 项目名称 | 总 Stars | 中文简介 |\n| :--- | :--- | :--- | :--- |\n"
-    for i in sorted_items[:10]: # 只展示前 10 名最活跃的项目
-        growth_label = f"**+{i['hour_growth']}**" if i['hour_growth'] > 0 else "0"
+    md_content += "| 增长/h | 智能标签 | 项目名称 | 总 Stars | 中文简介 |\n| :--- | :--- | :--- | :--- | :--- |\n"
+    for i in sorted_items[:15]:
+        growth_style = f"**🔥 +{i['hour_growth']}**" if i['hour_growth'] >= GROWTH_THRESHOLD else f"+{i['hour_growth']}"
         desc_zh = translate_to_zh(i['description'])
-        md_content += f"| {growth_label} | [{i['full_name']}]({i['html_url']}) | {i['stargazers_count']} | {desc_zh} |\n"
+        md_content += f"| {growth_style} | {i['smart_tags']} | [{i['full_name']}]({i['html_url']}) | {i['stargazers_count']} | {desc_zh} |\n"
 
     with open("README.md", "w", encoding="utf-8") as f:
         f.write(md_content)
 
-    # --- 7. 推送飞书卡片 (仅推送真正的新项目或特大爆发) ---
+    # --- 7. 飞书卡片推送 ---
     push_list = explosive_items + [i for i in new_items if i not in explosive_items]
     if push_list and FEISHU_WEBHOOK:
         card_elements = []
         for i in push_list[:5]:
             desc_zh = translate_to_zh(i['description'])
-            growth_info = f"\n🔥 **时速: +{i['hour_growth']} stars/hr**" if i['hour_growth'] > 0 else ""
+            growth_info = f"\n🚀 **时速: +{i['hour_growth']} stars/hr**" if i['hour_growth'] > 0 else ""
             status = "🔴 特急爆发" if i['hour_growth'] >= GROWTH_THRESHOLD else "✨ 发现新项目"
             
             card_elements.append({
                 "tag": "div",
-                "text": {"tag": "lark_md", "content": f"**{status}** | [{i['full_name']}]({i['html_url']})\n**总 Stars**: `{i['stargazers_count']}`{growth_info}\n**简介**: {desc_zh}"}
+                "text": {"tag": "lark_md", "content": f"**{status}** | {i['smart_tags']}\n**项目**: [{i['full_name']}]({i['html_url']})\n**总 Stars**: `{i['stargazers_count']}`{growth_info}\n**简介**: {desc_zh}"}
             })
             card_elements.append({"tag": "hr"})
 
         requests.post(FEISHU_WEBHOOK, json={
             "msg_type": "interactive",
             "card": {
-                "header": {"title": {"tag": "plain_text", "content": "🛰️ 暗流情报: 增长斜率预警"}, "template": "red" if explosive_items else "orange"},
+                "header": {"title": {"tag": "plain_text", "content": "🛰️ 暗流情报: 智能分类版"}, "template": "red" if explosive_items else "orange"},
                 "elements": card_elements
             }
         })
 
-    # --- 8. 数据持久化 ---
+    # --- 8. 持久化 ---
     for i in new_items: pushed_ids.add(str(i['id']))
     with open(DB_FILE, "w") as f:
         for _id in pushed_ids: f.write(f"{_id}\n")
