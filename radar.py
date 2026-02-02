@@ -1,5 +1,15 @@
 import requests
 import datetime
+# 在脚本开头 import requests
+import requests
+
+# 在循环获取到 repo 信息后
+push_key = "你的PUSHKEY"
+text = f"发现 GitHub 暗流项目: {item['full_name']}"
+desp = f"Stars: {item['stargazers_count']}\n简介: {item['description']}\n链接: {item['html_url']}"
+
+# 发送到手机
+requests.get(f"https://api2.pushdeer.com/message/push?pushkey={push_key}&text={text}&desp={desp}")
 
 # 核心：计算 30 天前的日期
 start_date = (datetime.datetime.now() - datetime.timedelta(days=30)).strftime('%Y-%m-%d')
