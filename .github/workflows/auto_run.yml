@@ -32,15 +32,7 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          
-          # 1. 先把本地改动的文件暂存起来
           git add README.md pushed_ids.txt stars_history.json
-          
-          # 2. 提交到本地仓库
-          git commit -m "Auto-update: report and status" || exit 0
-          
-          # 3. 此时再拉取远程更新（如果有的话），使用 rebase 保持提交线整洁
+          git commit -m "Auto-update dashboard and history" || exit 0
           git pull origin main --rebase
-          
-          # 4. 最后推送到远程
           git push
