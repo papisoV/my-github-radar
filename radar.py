@@ -2,7 +2,7 @@ import requests
 import datetime
 import os
 import json
-import urllib.parse  # 必须导入这个，否则翻译功能会崩
+import urllib.parse
 
 # --- 1. 配置区 ---
 FEISHU_WEBHOOK = os.getenv('FEISHU_WEBHOOK')
@@ -11,129 +11,111 @@ DB_FILE = "pushed_ids.txt"
 HISTORY_FILE = "stars_history.json"
 
 BLACK_LIST = ["awesome", "roadmap", "interview", "collection", "guide", "free-courses"]
-GROWTH_THRESHOLD = 100 
+GROWTH_THRESHOLD = 50 # 降低门槛，捕捉更多动态
 
-# --- 2. 免费翻译函数 ---
+# --- 2. 翻译函数 ---
 def translate_to_zh(text):
     if not text: return "无描述"
     try:
-        # 使用 Google 翻译公开接口
         base_url = "https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=zh-CN&dt=t&q="
         res = requests.get(base_url + urllib.parse.quote(text), timeout=5)
         return "".join([i[0] for i in res.json()[0]])
-    except Exception as e:
-        print(f"翻译失败: {e}")
+    except:
         return text
 
-# --- 3. 加载历史数据 ---
+# --- 3. 数据加载 ---
+pushed_ids = set()
 if os.path.exists(DB_FILE):
     with open(DB_FILE, "r") as f:
         pushed_ids = set(line.strip() for line in f if line.strip())
-else:
-    pushed_ids = set()
 
+stars_history = {}
 if os.path.exists(HISTORY_FILE):
     with open(HISTORY_FILE, "r") as f:
         try: stars_history = json.load(f)
         except: stars_history = {}
-else:
-    stars_history = {}
 
-# --- 4. 抓取逻辑 ---
+# --- 4. 抓取与初步精炼 ---
 start_date = (datetime.datetime.now() - datetime.timedelta(days=30)).strftime('%Y-%m-%d')
 query = f"created:>{start_date} stars:>500 fork:false"
 url = f"https://api.github.com/search/repositories?q={query}&sort=stars&order=desc"
 
 try:
     response = requests.get(url)
-    all_items = response.json().get('items', [])
-    if not all_items:
-        print("未抓取到任何项目")
-        exit(0)
+    items = response.json().get('items', [])
+    if not items: exit(0)
 
-    # 精炼并进行双语转换
-    qualified_items = []
-    for i in all_items:
-        # 排除黑名单
-        if not any(word in (i['full_name']+(i['description'] or "")).lower() for word in BLACK_LIST):
-            desc_en = i['description'] or "No description"
-            # 为了节省运行时间，这里仅对可能推送的前 15 个进行翻译
-            qualified_items.append(i)
-
-    # --- 5. 计算增长斜率 ---
     current_stars_map = {}
-    explosive_items = []
-
-    for item in qualified_items:
-        item_id = str(item['id'])
-        current_stars = item['stargazers_count']
+    qualified_items = []
+    
+    for i in items:
+        # 排除黑名单
+        if any(word in (i['full_name']+(i['description'] or "")).lower() for word in BLACK_LIST):
+            continue
+            
+        item_id = str(i['id'])
+        current_stars = i['stargazers_count']
         current_stars_map[item_id] = current_stars
         
+        # 计算时速 (Velocity)
+        i['hour_growth'] = 0
         if item_id in stars_history:
-            delta = current_stars - stars_history[item_id]
-            if delta >= GROWTH_THRESHOLD:
-                item['hour_growth'] = delta
-                explosive_items.append(item)
+            i['hour_growth'] = current_stars - stars_history[item_id]
+        
+        qualified_items.append(i)
 
-    # 场景 A：从未见过的新项目
-    new_items = [item for item in qualified_items if str(item['id']) not in pushed_ids]
-    # 场景 B：所有需要推送的项目
+    # --- 5. 核心：排序逻辑 (按时速排行) ---
+    # 先按小时增长排，再按总星数排
+    sorted_items = sorted(qualified_items, key=lambda x: (x['hour_growth'], x['stargazers_count']), reverse=True)
+    
+    explosive_items = [i for i in sorted_items if i['hour_growth'] >= GROWTH_THRESHOLD]
+    new_items = [i for i in sorted_items if str(i['id']) not in pushed_ids]
+
+    # --- 6. 构造可视化 README (仪表盘化) ---
+    now_str = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+    md_content = f"# 🌊 GitHub 技术暗流雷达 (时速排行版)\n\n"
+    md_content += f"> 🕒 最后更新: {now_str} | 🚀 监控阈值: Stars > 500 & 创建 < 30天\n\n"
+    
+    # 时速爆发榜
+    md_content += "## 🚀 每小时热度爆发榜\n"
+    md_content += "| 增长/h | 项目名称 | 总 Stars | 中文简介 |\n| :--- | :--- | :--- | :--- |\n"
+    for i in sorted_items[:10]: # 只展示前 10 名最活跃的项目
+        growth_label = f"**+{i['hour_growth']}**" if i['hour_growth'] > 0 else "0"
+        desc_zh = translate_to_zh(i['description'])
+        md_content += f"| {growth_label} | [{i['full_name']}]({i['html_url']}) | {i['stargazers_count']} | {desc_zh} |\n"
+
+    with open("README.md", "w", encoding="utf-8") as f:
+        f.write(md_content)
+
+    # --- 7. 推送飞书卡片 (仅推送真正的新项目或特大爆发) ---
     push_list = explosive_items + [i for i in new_items if i not in explosive_items]
-
-    # --- 6. 执行推送逻辑 ---
     if push_list and FEISHU_WEBHOOK:
         card_elements = []
-        for item in push_list[:5]:
-            # 翻译描述
-            desc_en = item['description'] or "No description"
-            desc_zh = translate_to_zh(desc_en)
-            bilingual_desc = f"{desc_zh}\n*(原文: {desc_en})*"
-            
-            growth_info = f"\n🔥 **[时速爆发] 近一小时增长: {item.get('hour_growth', 'N/A')} Stars**" if 'hour_growth' in item else ""
-            prefix = "🔴【特急预警】" if 'hour_growth' in item else "✨【发现新暗流】"
+        for i in push_list[:5]:
+            desc_zh = translate_to_zh(i['description'])
+            growth_info = f"\n🔥 **时速: +{i['hour_growth']} stars/hr**" if i['hour_growth'] > 0 else ""
+            status = "🔴 特急爆发" if i['hour_growth'] >= GROWTH_THRESHOLD else "✨ 发现新项目"
             
             card_elements.append({
                 "tag": "div",
-                "text": {
-                    "tag": "lark_md", 
-                    "content": f"**{prefix}**\n**项目**: [{item['full_name']}]({item['html_url']})\n**总 Stars**: `{item['stargazers_count']}`{growth_info}\n**简介**: {bilingual_desc}"
-                }
+                "text": {"tag": "lark_md", "content": f"**{status}** | [{i['full_name']}]({i['html_url']})\n**总 Stars**: `{i['stargazers_count']}`{growth_info}\n**简介**: {desc_zh}"}
             })
             card_elements.append({"tag": "hr"})
 
-        payload = {
+        requests.post(FEISHU_WEBHOOK, json={
             "msg_type": "interactive",
             "card": {
-                "header": {
-                    "title": {"tag": "plain_text", "content": "🛰️ 极简暗流监控(斜率双语版)"},
-                    "template": "red" if explosive_items else "orange"
-                },
+                "header": {"title": {"tag": "plain_text", "content": "🛰️ 暗流情报: 增长斜率预警"}, "template": "red" if explosive_items else "orange"},
                 "elements": card_elements
             }
-        }
-        requests.post(FEISHU_WEBHOOK, json=payload)
+        })
 
-    # --- 7. 数据持久化与 README 更新 ---
-    for item in new_items:
-        pushed_ids.add(str(item['id']))
-    
+    # --- 8. 数据持久化 ---
+    for i in new_items: pushed_ids.add(str(i['id']))
     with open(DB_FILE, "w") as f:
         for _id in pushed_ids: f.write(f"{_id}\n")
-    
     with open(HISTORY_FILE, "w") as f:
         json.dump(current_stars_map, f)
-
-    # 构造 README 内容 (前 15 个项目)
-    md_content = f"# 🌊 GitHub 暗流监控报告 (双语版)\n\n> 更新时间：{datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n\n"
-    for item in qualified_items[:15]:
-        desc_en = item['description'] or "N/A"
-        desc_zh = translate_to_zh(desc_en)
-        md_content += f"### ⭐ {item['stargazers_count']} | [{item['full_name']}]({item['html_url']})\n"
-        md_content += f"- **中文简介**: {desc_zh}\n"
-        md_content += f"- **Original**: {desc_en}\n\n"
-    
-    with open("README.md", "w", encoding="utf-8") as f:
-        f.write(md_content)
 
 except Exception as e:
     print(f"运行出错: {e}")
