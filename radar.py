@@ -9,37 +9,52 @@ FEISHU_WEBHOOK = os.getenv('FEISHU_WEBHOOK')
 PUSHDEER_KEY = "PDU38939T9Wp8bt11RTZPCi5FkYaV24vJjCzfXu28"
 DB_FILE = "pushed_ids.txt"
 HISTORY_FILE = "stars_history.json"
+GITHUB_TOKEN = os.getenv('GITHUB_TOKEN') # 建议在 GitHub Actions Secrets 中配置
 
 BLACK_LIST = ["awesome", "roadmap", "interview", "collection", "guide", "free-courses"]
+# 补全大厂名单
+FAMOUS_ORGS = ["vercel", "openai", "anthropic", "meta", "google", "microsoft", "bytedance", "alibaba", "xai-org", "nvidia"]
 GROWTH_THRESHOLD = 50 
 
-# --- 2. 增强功能：智能标签识别 ---
+# --- 2. 核心功能函数 ---
+
+def get_owner_fame(owner_name):
+    """识别 Owner 是否是大佬或大厂"""
+    if owner_name.lower() in FAMOUS_ORGS:
+        return "🏢 大厂官号"
+    
+    if GITHUB_TOKEN:
+        try:
+            headers = {"Authorization": f"token {GITHUB_TOKEN}"}
+            # 查该作者最火的一个项目是否过万
+            user_url = f"https://api.github.com/users/{owner_name}/repos?sort=stars&per_page=1"
+            res = requests.get(user_url, headers=headers, timeout=5).json()
+            if isinstance(res, list) and len(res) > 0:
+                if res[0]['stargazers_count'] > 10000:
+                    return "👑 大佬回归"
+        except Exception as e:
+            print(f"查询名声失败: {e}")
+    return ""
+
 def get_smart_tags(item):
     """根据项目信息自动识别标签"""
     name_desc = (item['full_name'] + (item['description'] or "")).lower()
     tags = []
-    
-    # 语言标签
     if item['language']:
         tags.append(f"🏷️{item['language']}")
     
-    # 技术领域识别
     topics = {
-        "🤖 AI/ML": ["llm", "ai", "gpt", "claude", "agent", "stable-diffusion", "inference"],
-        "🌐 Web/Frontend": ["react", "vue", "typescript", "tailwild", "nextjs", "browser"],
+        "🤖 AI/ML": ["llm", "ai", "gpt", "claude", "agent", "rag", "inference"],
+        "🌐 Web/Frontend": ["react", "vue", "typescript", "tailwind", "nextjs", "browser"],
         "⚙️ Tooling": ["cli", "workflow", "automation", "scripts"],
-        "🦀 Rust/Performance": ["rust", "performance", "blazing"],
-        "📱 Mobile": ["ios", "android", "flutter", "react-native"],
-        "☁️ Cloud/DevOps": ["docker", "k8s", "aws", "serverless", "deploy"]
+        "🦀 Performance": ["rust", "performance", "blazing", "cuda", "cpp"],
+        "☁️ DevOps": ["docker", "k8s", "aws", "serverless"]
     }
-    
     for tag, keywords in topics.items():
         if any(key in name_desc for key in keywords):
             tags.append(tag)
-            
-    return " ".join(tags[:3]) # 最多展示3个标签
+    return " ".join(tags[:3])
 
-# --- 3. 翻译函数 ---
 def translate_to_zh(text):
     if not text: return "无描述"
     try:
@@ -49,7 +64,7 @@ def translate_to_zh(text):
     except:
         return text
 
-# --- 4. 数据加载 ---
+# --- 3. 数据加载 ---
 pushed_ids = set()
 if os.path.exists(DB_FILE):
     with open(DB_FILE, "r") as f:
@@ -61,13 +76,15 @@ if os.path.exists(HISTORY_FILE):
         try: stars_history = json.load(f)
         except: stars_history = {}
 
-# --- 5. 抓取与计算 ---
+# --- 4. 抓取与处理 ---
 start_date = (datetime.datetime.now() - datetime.timedelta(days=30)).strftime('%Y-%m-%d')
 query = f"created:>{start_date} stars:>500 fork:false"
 url = f"https://api.github.com/search/repositories?q={query}&sort=stars&order=desc"
 
 try:
-    response = requests.get(url)
+    # 抓取时也带上 Token 避免频率限制
+    headers = {"Authorization": f"token {GITHUB_TOKEN}"} if GITHUB_TOKEN else {}
+    response = requests.get(url, headers=headers)
     items = response.json().get('items', [])
     if not items: exit(0)
 
@@ -82,43 +99,60 @@ try:
         current_stars = i['stargazers_count']
         current_stars_map[item_id] = current_stars
         
-        # 计算时速
-        i['hour_growth'] = 0
+        # 1. 计算基础增长
+        base_growth = 0
         if item_id in stars_history:
-            i['hour_growth'] = current_stars - stars_history[item_id]
+            base_growth = current_stars - stars_history[item_id]
         
-        # 注入智能标签
-        i['smart_tags'] = get_smart_tags(i)
+        # 2. 识别大佬画像
+        owner_name = i['owner']['login']
+        fame_tag = get_owner_fame(owner_name)
+        
+        # 3. 汇总增长数值 (权重提拔逻辑)
+        # 我们把原始增长存起来用于 README，把权重增长用于排序
+        i['raw_growth'] = base_growth
+        i['hour_growth'] = base_growth 
+        if fame_tag and base_growth > 20:
+             i['hour_growth'] += 10000 # 显著提拔
+        
+        # 4. 注入智能标签
+        i['fame_tag'] = fame_tag
+        i['smart_tags'] = (f"{fame_tag} " if fame_tag else "") + get_smart_tags(i)
+        
         qualified_items.append(i)
 
-    # 排序：时速优先
-    sorted_items = sorted(qualified_items, key=lambda x: (x['hour_growth'], x['stargazers_count']), reverse=True)
-    explosive_items = [i for i in sorted_items if i['hour_growth'] >= GROWTH_THRESHOLD]
+    # 排序：按“提拔后”的 hour_growth 排序
+    sorted_items = sorted(qualified_items, key=lambda x: x['hour_growth'], reverse=True)
+    
+    # 判定推送列表 (大佬有动向或普通增长达标)
+    explosive_items = [i for i in sorted_items if i['raw_growth'] >= GROWTH_THRESHOLD or (i['fame_tag'] and i['raw_growth'] > 20)]
     new_items = [i for i in sorted_items if str(i['id']) not in pushed_ids]
 
-    # --- 6. README 仪表盘构造 ---
+    # --- 5. README 构造 ---
     now_str = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
-    md_content = f"# 🌊 GitHub 技术暗流雷达 (智能标签版)\n\n"
-    md_content += f"> 🕒 更新: {now_str} | 🔥 爆发阈值: +{GROWTH_THRESHOLD} stars/hr\n\n"
-    
-    md_content += "## 🚀 每小时热度爆发榜\n"
+    md_content = f"# 🌊 GitHub 技术暗流雷达 (情报员版)\n\n"
+    md_content += f"> 🕒 更新: {now_str} | 👑 = 万星作者 | 🏢 = 核心机构\n\n"
     md_content += "| 增长/h | 智能标签 | 项目名称 | 总 Stars | 中文简介 |\n| :--- | :--- | :--- | :--- | :--- |\n"
+    
     for i in sorted_items[:15]:
-        growth_style = f"**🔥 +{i['hour_growth']}**" if i['hour_growth'] >= GROWTH_THRESHOLD else f"+{i['hour_growth']}"
+        # README 使用原始增长数值展示
+        growth_style = f"**🔥 +{i['raw_growth']}**" if i['raw_growth'] >= GROWTH_THRESHOLD else f"+{i['raw_growth']}"
         desc_zh = translate_to_zh(i['description'])
         md_content += f"| {growth_style} | {i['smart_tags']} | [{i['full_name']}]({i['html_url']}) | {i['stargazers_count']} | {desc_zh} |\n"
 
     with open("README.md", "w", encoding="utf-8") as f:
         f.write(md_content)
 
-    # --- 7. 飞书卡片推送 ---
-    push_list = explosive_items + [i for i in new_items if i not in explosive_items]
-    if push_list and FEISHU_WEBHOOK:
+    # --- 6. 飞书卡片推送 ---
+    # 综合列表：优先显示爆发的大佬项目，其次是普通新项目
+    push_candidates = explosive_items + [i for i in new_items if i not in explosive_items]
+    
+    if push_candidates and FEISHU_WEBHOOK:
         card_elements = []
-        for i in push_list[:5]:
+        for i in push_candidates[:5]:
             desc_zh = translate_to_zh(i['description'])
-            growth_info = f"\n🚀 **时速: +{i['hour_growth']} stars/hr**" if i['hour_growth'] > 0 else ""
-            status = "🔴 特急爆发" if i['hour_growth'] >= GROWTH_THRESHOLD else "✨ 发现新项目"
+            growth_info = f"\n🚀 **时速: +{i['raw_growth']} stars/hr**" if i['raw_growth'] > 0 else ""
+            status = "🚨 大佬动向" if i['fame_tag'] else ("🔴 特急爆发" if i['raw_growth'] >= GROWTH_THRESHOLD else "✨ 发现新项目")
             
             card_elements.append({
                 "tag": "div",
@@ -129,12 +163,12 @@ try:
         requests.post(FEISHU_WEBHOOK, json={
             "msg_type": "interactive",
             "card": {
-                "header": {"title": {"tag": "plain_text", "content": "🛰️ 暗流情报: 智能分类版"}, "template": "red" if explosive_items else "orange"},
+                "header": {"title": {"tag": "plain_text", "content": "🛰️ 顶级技术情报"}, "template": "purple" if explosive_items and explosive_items[0]['fame_tag'] else "orange"},
                 "elements": card_elements
             }
         })
 
-    # --- 8. 持久化 ---
+    # --- 7. 持久化 ---
     for i in new_items: pushed_ids.add(str(i['id']))
     with open(DB_FILE, "w") as f:
         for _id in pushed_ids: f.write(f"{_id}\n")
