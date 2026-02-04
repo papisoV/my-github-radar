@@ -1,21 +1,21 @@
 # 🌊 GitHub 技术暗流雷达
 
-> 🕒 更新: 2026-02-04 11:25:46 | 👑=大佬 | 🌐=有跨界讨论
+> 🕒 更新: 2026-02-04 13:03:08 | 👑=大佬 | 🌐=有跨界讨论
 
 | 增长/h | 智能标签 | 项目名称 | 总 Stars | 跨界讨论 | 中文简介 |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| +32 | 🏢 大厂官号 🏷️TypeScript ☁️ DevOps 🔥极客热议 | [cloudflare/moltworker](https://github.com/cloudflare/moltworker) | 7488 | [💬讨论](https://news.ycombinator.com/item?id=46810828) | 在 Cloudflare Workers 上运行 OpenClaw（以前称为 Moltbot、以前称为 Clawdbot） |
-| **🔥 +252** | 🏷️Python 🔥极客热议 | [HKUDS/nanobot](https://github.com/HKUDS/nanobot) | 4246 | [💬讨论](https://news.ycombinator.com/item?id=16512840) | “🐈 纳米机器人：超轻量级 Clawdbot” |
-| **🔥 +81** | 🏷️TypeScript 🤖 AI/ML 🔥极客热议 | [gavrielc/nanoclaw](https://github.com/gavrielc/nanoclaw) | 4167 | [💬讨论](https://news.ycombinator.com/item?id=46850205) | 我的个人 Claude 助理在 Apple 容器中运行。轻量、安全，并且可以根据您自己的需求进行理解和定制。 |
-| **🔥 +50** | 🏷️TypeScript 🤖 AI/ML | [Yeachan-Heo/oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode) | 4451 | -- | Claude Code 的多代理编排具有 5 种执行模式：Autopilot（自主）、Ultrapilot（3-5x 并行）、Swarm（协调代理）、Pipeline（顺序链）、Ecomode（令牌高效）。 31+技能，32位专业特工，零学习曲线。 |
-| +37 | 🏷️Python 🤖 AI/ML | [ZhuLinsen/daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis) | 9257 | [💬讨论](https://news.ycombinator.com/item?id=27531883) | LLM驱动的A/H/美股智能分析器，多数据源行情 + 实时新闻 + Gemini 决策仪表盘 + 多渠道主动，零成本，纯白嫖，定时运行 |
-| +29 | 🏷️TypeScript 🤖 AI/ML | [different-ai/openwork](https://github.com/different-ai/openwork) | 8376 | -- | Claude Cowork 的开源替代方案，由 opencode 提供支持 |
-| +26 | 🏷️TypeScript 🤖 AI/ML | [vercel-labs/skills](https://github.com/vercel-labs/skills) | 4295 | -- | 开放代理技能工具——npx技能 |
-| +21 | 🏷️TypeScript 🤖 AI/ML 🌐 Web | [vercel-labs/agent-browser](https://github.com/vercel-labs/agent-browser) | 12454 | -- | 用于 AI 代理的浏览器自动化 CLI |
-| +14 | 🏷️TypeScript | [JimLiu/baoyu-skills](https://github.com/JimLiu/baoyu-skills) | 3604 | -- | 无描述 |
-| +11 | 🏷️Python 🤖 AI/ML | [adenhq/hive](https://github.com/adenhq/hive) | 4837 | -- | 不断发展的结果驱动代理开发框架 |
-| +7 | 🏷️Rust | [lucasgelfond/zerobrew](https://github.com/lucasgelfond/zerobrew) | 4919 | -- | 速度快 5-20 倍的嵌入式实验性 Homebrew 替代品 |
-| +5 | 🏷️TypeScript 🤖 AI/ML | [github/copilot-sdk](https://github.com/github/copilot-sdk) | 6701 | -- | 用于将 GitHub Copilot Agent 集成到应用程序和服务中的多平台 SDK |
-| +1 | 🏷️TypeScript 🤖 AI/ML | [21st-dev/1code](https://github.com/21st-dev/1code) | 4753 | -- | Claude Code 的最佳 UI |
-| +1 | 🏷️C | [z-libs/Zen-C](https://github.com/z-libs/Zen-C) | 3683 | -- | 像高级语言一样编写，像C 一样运行。 |
-| +0 | 🏷️Python | [QwenLM/Qwen3-TTS](https://github.com/QwenLM/Qwen3-TTS) | 6765 | -- | Qwen3-TTS是阿里云Qwen团队开发的开源TTS模型系列，支持稳定、富有表现力、流式的语音生成、自由形式的语音设计、生动的语音克隆。 |
+| +16 | 🏢 大厂官号 🏷️TypeScript ☁️ DevOps 🔥极客热议 | [cloudflare/moltworker](https://github.com/cloudflare/moltworker) | 7504 | [💬讨论](https://news.ycombinator.com/item?id=46810828) | 在 Cloudflare Workers 上运行 OpenClaw（以前称为 Moltbot、以前称为 Clawdbot） |
+| **🔥 +104** | 🏷️Python 🔥极客热议 | [HKUDS/nanobot](https://github.com/HKUDS/nanobot) | 4350 | [💬讨论](https://news.ycombinator.com/item?id=16512840) | “🐈 纳米机器人：超轻量级 Clawdbot” |
+| **🔥 +55** | 🏷️TypeScript 🤖 AI/ML 🔥极客热议 | [gavrielc/nanoclaw](https://github.com/gavrielc/nanoclaw) | 4222 | [💬讨论](https://news.ycombinator.com/item?id=46850205) | 我的个人 Claude 助理在 Apple 容器中运行。轻量、安全，并且可以根据您自己的需求进行理解和定制。 |
+| +18 | 🏷️TypeScript 🤖 AI/ML | [Yeachan-Heo/oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode) | 4469 | -- | Claude Code 的多代理编排具有 5 种执行模式：Autopilot（自主）、Ultrapilot（3-5x 并行）、Swarm（协调代理）、Pipeline（顺序链）、Ecomode（令牌高效）。 31+技能，32位专业特工，零学习曲线。 |
+| +17 | 🏷️TypeScript 🤖 AI/ML 🌐 Web | [vercel-labs/agent-browser](https://github.com/vercel-labs/agent-browser) | 12471 | -- | 用于 AI 代理的浏览器自动化 CLI |
+| +17 | 🏷️Python 🤖 AI/ML | [adenhq/hive](https://github.com/adenhq/hive) | 4854 | -- | 不断发展的结果驱动代理开发框架 |
+| +14 | 🏷️TypeScript 🤖 AI/ML | [different-ai/openwork](https://github.com/different-ai/openwork) | 8390 | -- | Claude Cowork 的开源替代方案，由 opencode 提供支持 |
+| +13 | 🏷️TypeScript 🤖 AI/ML | [vercel-labs/skills](https://github.com/vercel-labs/skills) | 4308 | -- | 开放代理技能工具——npx技能 |
+| +12 | 🤖 AI/ML | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) | 5703 | -- | Claude Code 和 AI 代理的营销技巧。 CRO、文案、SEO、分析和增长工程。 |
+| +10 | 🏷️Python 🤖 AI/ML | [ZhuLinsen/daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis) | 9267 | -- | LLM驱动的A/H/美股智能分析器，多数据源行情 + 实时新闻 + Gemini 决策仪表盘 + 多渠道主动，零成本，纯白嫖，定时运行 |
+| +9 | 🏷️Python | [QwenLM/Qwen3-TTS](https://github.com/QwenLM/Qwen3-TTS) | 6774 | -- | Qwen3-TTS是阿里云Qwen团队开发的开源TTS模型系列，支持稳定、富有表现力、流式的语音生成、自由形式的语音设计、生动的语音克隆。 |
+| +7 | 🏷️TypeScript | [JimLiu/baoyu-skills](https://github.com/JimLiu/baoyu-skills) | 3611 | -- | 无描述 |
+| +4 | 🏷️TypeScript 🤖 AI/ML | [github/copilot-sdk](https://github.com/github/copilot-sdk) | 6705 | -- | 用于将 GitHub Copilot Agent 集成到应用程序和服务中的多平台 SDK |
+| +4 | 🏷️Rust | [lucasgelfond/zerobrew](https://github.com/lucasgelfond/zerobrew) | 4923 | -- | 速度快 5-20 倍的嵌入式实验性 Homebrew 替代品 |
+| +2 | 🏷️TypeScript 🤖 AI/ML | [21st-dev/1code](https://github.com/21st-dev/1code) | 4755 | -- | Claude Code 的最佳 UI |
