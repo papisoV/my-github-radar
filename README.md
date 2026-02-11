@@ -1,19 +1,19 @@
 # 🌊 GitHub 技术暗流雷达
 
-> 🕒 更新: 2026-02-11 22:07:02 | 👑=大佬 | 🌐=有跨界讨论
+> 🕒 更新: 2026-02-11 23:46:11 | 👑=大佬 | 🌐=有跨界讨论
 
 | 增长/h | 智能标签 | 项目名称 | 总 Stars | 跨界讨论 | 中文简介 |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| +10 | 🏢 大厂官号 🏷️TypeScript ☁️ DevOps 🔥极客热议 | [cloudflare/moltworker](https://github.com/cloudflare/moltworker) | 8421 | [💬讨论](https://news.ycombinator.com/item?id=46810828) | 在 Cloudflare Workers 上运行 OpenClaw（以前称为 Moltbot、以前称为 Clawdbot） |
-| **🔥 +65** | 🏷️Python 🔥极客热议 | [HKUDS/nanobot](https://github.com/HKUDS/nanobot) | 16764 | [💬讨论](https://news.ycombinator.com/item?id=46897737) | “🐈 纳米机器人：超轻量级 OpenClaw” |
-| **🔥 +163** | 🏷️TypeScript 🤖 AI/ML 🔥极客热议 | [accomplish-ai/accomplish](https://github.com/accomplish-ai/accomplish) | 5554 | [💬讨论](https://news.ycombinator.com/item?id=17022963) | Accomplish™（以前称为 Openwork）是位于您桌面上的开源 Al 同事 |
-| +14 | 🏷️Python 🤖 AI/ML | [anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins) | 7022 | -- | 主要供知识工作者在 Claude Cowork 中使用的开源插件存储库 |
-| +14 | 🏷️TypeScript 🤖 AI/ML | [vercel-labs/skills](https://github.com/vercel-labs/skills) | 5584 | -- | 开放代理技能工具——npx技能 |
-| +12 | 🏷️Rust | [lucasgelfond/zerobrew](https://github.com/lucasgelfond/zerobrew) | 5859 | -- | 速度快 5-20 倍的嵌入式实验性 Homebrew 替代品 |
-| +10 | 🏷️TypeScript 🤖 AI/ML | [qwibitai/nanoclaw](https://github.com/qwibitai/nanoclaw) | 7048 | -- | Clawdbot / OpenClaw 的轻量级替代品，在 Apple 容器中运行以确保安全。连接到 WhatsApp，具有内存、计划作业，并直接在 Anthropic 的 Agents SDK 上运行 |
-| +8 | 🏷️TypeScript 🤖 AI/ML | [different-ai/openwork](https://github.com/different-ai/openwork) | 9501 | -- | Claude Cowork 的开源替代方案，由 opencode 提供支持 |
-| +3 | 🏷️TypeScript 🤖 AI/ML | [github/copilot-sdk](https://github.com/github/copilot-sdk) | 7044 | -- | 用于将 GitHub Copilot Agent 集成到应用程序和服务中的多平台 SDK |
-| +3 | 🏷️TypeScript | [JimLiu/baoyu-skills](https://github.com/JimLiu/baoyu-skills) | 4262 | -- | 无描述 |
-| +2 | 🏷️TypeScript | [vercel-labs/json-render](https://github.com/vercel-labs/json-render) | 10401 | -- | 用户生成界面的框架 |
-| +2 | 🏷️TypeScript 🤖 AI/ML | [21st-dev/1code](https://github.com/21st-dev/1code) | 4893 | -- | 编码代理的编排层（Claude Codes） |
-| +1 | 🏷️TypeScript | [m1heng/clawdbot-feishu](https://github.com/m1heng/clawdbot-feishu) | 2986 | -- | 无描述 |
+| +2 | 🏢 大厂官号 🏷️TypeScript ☁️ DevOps 🔥极客热议 | [cloudflare/moltworker](https://github.com/cloudflare/moltworker) | 8423 | [💬讨论](https://news.ycombinator.com/item?id=46810828) | 在 Cloudflare Workers 上运行 OpenClaw（以前称为 Moltbot、以前称为 Clawdbot） |
+| **🔥 +83** | 🏷️Python 🔥极客热议 | [HKUDS/nanobot](https://github.com/HKUDS/nanobot) | 16847 | [💬讨论](https://news.ycombinator.com/item?id=46897737) | “🐈 纳米机器人：超轻量级 OpenClaw” |
+| **🔥 +131** | 🏷️TypeScript 🤖 AI/ML 🔥极客热议 | [accomplish-ai/accomplish](https://github.com/accomplish-ai/accomplish) | 5685 | [💬讨论](https://news.ycombinator.com/item?id=17022963) | Accomplish™（以前称为 Openwork）是位于您桌面上的开源 Al 同事 |
+| +25 | 🏷️Rust | [lucasgelfond/zerobrew](https://github.com/lucasgelfond/zerobrew) | 5884 | -- | 速度快 5-20 倍的嵌入式实验性 Homebrew 替代品 |
+| +22 | 🏷️TypeScript 🤖 AI/ML | [qwibitai/nanoclaw](https://github.com/qwibitai/nanoclaw) | 7070 | -- | Clawdbot / OpenClaw 的轻量级替代品，在 Apple 容器中运行以确保安全。连接到 WhatsApp，具有内存、计划作业，并直接在 Anthropic 的 Agents SDK 上运行 |
+| +12 | 🏷️TypeScript 🤖 AI/ML | [vercel-labs/skills](https://github.com/vercel-labs/skills) | 5596 | -- | 开放代理技能工具——npx技能 |
+| +11 | 🏷️Python 🤖 AI/ML | [anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins) | 7033 | -- | 主要供知识工作者在 Claude Cowork 中使用的开源插件存储库 |
+| +8 | 🏷️TypeScript 🤖 AI/ML | [different-ai/openwork](https://github.com/different-ai/openwork) | 9509 | -- | Claude Cowork 的开源替代方案，由 opencode 提供支持 |
+| +6 | 🏷️TypeScript | [JimLiu/baoyu-skills](https://github.com/JimLiu/baoyu-skills) | 4268 | -- | 无描述 |
+| +4 | 🏷️TypeScript 🤖 AI/ML | [github/copilot-sdk](https://github.com/github/copilot-sdk) | 7048 | -- | 用于将 GitHub Copilot Agent 集成到应用程序和服务中的多平台 SDK |
+| +3 | 🏷️TypeScript | [m1heng/clawdbot-feishu](https://github.com/m1heng/clawdbot-feishu) | 2989 | -- | 无描述 |
+| +2 | 🏷️TypeScript | [vercel-labs/json-render](https://github.com/vercel-labs/json-render) | 10403 | -- | 用户生成界面的框架 |
+| +0 | 🏷️TypeScript 🤖 AI/ML | [21st-dev/1code](https://github.com/21st-dev/1code) | 4893 | -- | 编码代理的编排层（Claude Codes） |
