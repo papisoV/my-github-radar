@@ -1,19 +1,19 @@
 # 🌊 GitHub 技术暗流雷达
 
-> 🕒 更新: 2026-02-12 20:34:14 | 👑=大佬 | 🌐=有跨界讨论
+> 🕒 更新: 2026-02-12 23:38:37 | 👑=大佬 | 🌐=有跨界讨论
 
 | 增长/h | 智能标签 | 项目名称 | 总 Stars | 跨界讨论 | 中文简介 |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| +3 | 🏢 大厂官号 🏷️TypeScript ☁️ DevOps 🔥极客热议 | [cloudflare/moltworker](https://github.com/cloudflare/moltworker) | 8478 | [💬讨论](https://news.ycombinator.com/item?id=46810828) | 在 Cloudflare Workers 上运行 OpenClaw（以前称为 Moltbot、以前称为 Clawdbot） |
-| +40 | 🏷️TypeScript 🤖 AI/ML 🔥极客热议 | [accomplish-ai/accomplish](https://github.com/accomplish-ai/accomplish) | 6556 | [💬讨论](https://news.ycombinator.com/item?id=17022963) | Accomplish™（以前称为 Openwork）是位于您桌面上的开源 Al 同事 |
-| **🔥 +75** | 🏷️Go | [sipeed/picoclaw](https://github.com/sipeed/picoclaw) | 3571 | [💬讨论](https://news.ycombinator.com/item?id=46955793) | 皮爪 |
-| +26 | 🏷️Python | [HKUDS/nanobot](https://github.com/HKUDS/nanobot) | 17587 | -- | “🐈 纳米机器人：超轻量级 OpenClaw” |
-| +20 | 🏷️TypeScript 🤖 AI/ML | [qwibitai/nanoclaw](https://github.com/qwibitai/nanoclaw) | 7362 | -- | Clawdbot / OpenClaw 的轻量级替代品，在 Apple 容器中运行以确保安全。连接到 WhatsApp，具有内存、计划作业，并直接在 Anthropic 的 Agents SDK 上运行 |
-| +8 | 🏷️TypeScript 🤖 AI/ML | [vercel-labs/skills](https://github.com/vercel-labs/skills) | 5715 | -- | 开放代理技能工具——npx技能 |
-| +6 | 🏷️TypeScript 🤖 AI/ML | [different-ai/openwork](https://github.com/different-ai/openwork) | 9587 | -- | Claude Cowork 的开源替代方案，由 opencode 提供支持 |
-| +6 | 🏷️Rust | [lucasgelfond/zerobrew](https://github.com/lucasgelfond/zerobrew) | 6063 | -- | 速度快 5-20 倍的嵌入式实验性 Homebrew 替代品 |
-| +5 | 🏷️TypeScript | [m1heng/clawdbot-feishu](https://github.com/m1heng/clawdbot-feishu) | 3051 | -- | 无描述 |
-| +4 | 🏷️TypeScript | [vercel-labs/json-render](https://github.com/vercel-labs/json-render) | 10482 | -- | 用户生成界面的框架 |
-| +2 | 🏷️TypeScript 🤖 AI/ML | [21st-dev/1code](https://github.com/21st-dev/1code) | 4905 | -- | 编码代理的编排层（Claude Codes） |
-| +1 | 🏷️Python 🤖 AI/ML | [anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins) | 7140 | -- | 主要供知识工作者在 Claude Cowork 中使用的开源插件存储库 |
-| +1 | 🏷️TypeScript 🤖 AI/ML | [github/copilot-sdk](https://github.com/github/copilot-sdk) | 7064 | -- | 用于将 GitHub Copilot Agent 集成到应用程序和服务中的多平台 SDK |
+| +8 | 🏢 大厂官号 🏷️TypeScript ☁️ DevOps 🔥极客热议 | [cloudflare/moltworker](https://github.com/cloudflare/moltworker) | 8486 | [💬讨论](https://news.ycombinator.com/item?id=46810828) | 在 Cloudflare Workers 上运行 OpenClaw（以前称为 Moltbot、以前称为 Clawdbot） |
+| **🔥 +90** | 🏷️Python 🔥极客热议 | [HKUDS/nanobot](https://github.com/HKUDS/nanobot) | 17677 | [💬讨论](https://news.ycombinator.com/item?id=46897737) | “🐈 纳米机器人：超轻量级 OpenClaw” |
+| **🔥 +99** | 🏷️TypeScript 🤖 AI/ML 🔥极客热议 | [accomplish-ai/accomplish](https://github.com/accomplish-ai/accomplish) | 6655 | [💬讨论](https://news.ycombinator.com/item?id=17022963) | Accomplish™（以前称为 Openwork）是位于您桌面上的开源 Al 同事 |
+| **🔥 +77** | 🏷️TypeScript 🤖 AI/ML 🔥极客热议 | [qwibitai/nanoclaw](https://github.com/qwibitai/nanoclaw) | 7439 | [💬讨论](https://news.ycombinator.com/item?id=46850205) | Clawdbot / OpenClaw 的轻量级替代品，在 Apple 容器中运行以确保安全。连接到 WhatsApp，具有内存、计划作业，并直接在 Anthropic 的 Agents SDK 上运行 |
+| **🔥 +312** | 🏷️Go | [sipeed/picoclaw](https://github.com/sipeed/picoclaw) | 3883 | [💬讨论](https://news.ycombinator.com/item?id=46955793) | 皮爪 |
+| +21 | 🏷️Rust | [lucasgelfond/zerobrew](https://github.com/lucasgelfond/zerobrew) | 6084 | -- | 速度快 5-20 倍的嵌入式实验性 Homebrew 替代品 |
+| +20 | 🏷️TypeScript 🤖 AI/ML | [vercel-labs/skills](https://github.com/vercel-labs/skills) | 5735 | -- | 开放代理技能工具——npx技能 |
+| +16 | 🏷️TypeScript 🤖 AI/ML | [different-ai/openwork](https://github.com/different-ai/openwork) | 9603 | -- | Claude Cowork 的开源替代方案，由 opencode 提供支持 |
+| +15 | 🏷️Python 🤖 AI/ML | [anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins) | 7155 | -- | 主要供知识工作者在 Claude Cowork 中使用的开源插件存储库 |
+| +9 | 🏷️TypeScript | [m1heng/clawdbot-feishu](https://github.com/m1heng/clawdbot-feishu) | 3060 | -- | 无描述 |
+| +6 | 🏷️TypeScript 🤖 AI/ML | [github/copilot-sdk](https://github.com/github/copilot-sdk) | 7070 | -- | 用于将 GitHub Copilot Agent 集成到应用程序和服务中的多平台 SDK |
+| +5 | 🏷️TypeScript | [vercel-labs/json-render](https://github.com/vercel-labs/json-render) | 10487 | -- | 用户生成界面的框架 |
+| +4 | 🏷️TypeScript 🤖 AI/ML | [21st-dev/1code](https://github.com/21st-dev/1code) | 4909 | -- | 编码代理的编排层（Claude Codes） |
