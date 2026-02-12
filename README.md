@@ -1,19 +1,18 @@
 # 🌊 GitHub 技术暗流雷达
 
-> 🕒 更新: 2026-02-12 23:38:37 | 👑=大佬 | 🌐=有跨界讨论
+> 🕒 更新: 2026-02-13 00:43:12 | 👑=大佬 | 🌐=有跨界讨论
 
 | 增长/h | 智能标签 | 项目名称 | 总 Stars | 跨界讨论 | 中文简介 |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| +8 | 🏢 大厂官号 🏷️TypeScript ☁️ DevOps 🔥极客热议 | [cloudflare/moltworker](https://github.com/cloudflare/moltworker) | 8486 | [💬讨论](https://news.ycombinator.com/item?id=46810828) | 在 Cloudflare Workers 上运行 OpenClaw（以前称为 Moltbot、以前称为 Clawdbot） |
-| **🔥 +90** | 🏷️Python 🔥极客热议 | [HKUDS/nanobot](https://github.com/HKUDS/nanobot) | 17677 | [💬讨论](https://news.ycombinator.com/item?id=46897737) | “🐈 纳米机器人：超轻量级 OpenClaw” |
-| **🔥 +99** | 🏷️TypeScript 🤖 AI/ML 🔥极客热议 | [accomplish-ai/accomplish](https://github.com/accomplish-ai/accomplish) | 6655 | [💬讨论](https://news.ycombinator.com/item?id=17022963) | Accomplish™（以前称为 Openwork）是位于您桌面上的开源 Al 同事 |
-| **🔥 +77** | 🏷️TypeScript 🤖 AI/ML 🔥极客热议 | [qwibitai/nanoclaw](https://github.com/qwibitai/nanoclaw) | 7439 | [💬讨论](https://news.ycombinator.com/item?id=46850205) | Clawdbot / OpenClaw 的轻量级替代品，在 Apple 容器中运行以确保安全。连接到 WhatsApp，具有内存、计划作业，并直接在 Anthropic 的 Agents SDK 上运行 |
-| **🔥 +312** | 🏷️Go | [sipeed/picoclaw](https://github.com/sipeed/picoclaw) | 3883 | [💬讨论](https://news.ycombinator.com/item?id=46955793) | 皮爪 |
-| +21 | 🏷️Rust | [lucasgelfond/zerobrew](https://github.com/lucasgelfond/zerobrew) | 6084 | -- | 速度快 5-20 倍的嵌入式实验性 Homebrew 替代品 |
-| +20 | 🏷️TypeScript 🤖 AI/ML | [vercel-labs/skills](https://github.com/vercel-labs/skills) | 5735 | -- | 开放代理技能工具——npx技能 |
-| +16 | 🏷️TypeScript 🤖 AI/ML | [different-ai/openwork](https://github.com/different-ai/openwork) | 9603 | -- | Claude Cowork 的开源替代方案，由 opencode 提供支持 |
-| +15 | 🏷️Python 🤖 AI/ML | [anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins) | 7155 | -- | 主要供知识工作者在 Claude Cowork 中使用的开源插件存储库 |
-| +9 | 🏷️TypeScript | [m1heng/clawdbot-feishu](https://github.com/m1heng/clawdbot-feishu) | 3060 | -- | 无描述 |
-| +6 | 🏷️TypeScript 🤖 AI/ML | [github/copilot-sdk](https://github.com/github/copilot-sdk) | 7070 | -- | 用于将 GitHub Copilot Agent 集成到应用程序和服务中的多平台 SDK |
-| +5 | 🏷️TypeScript | [vercel-labs/json-render](https://github.com/vercel-labs/json-render) | 10487 | -- | 用户生成界面的框架 |
-| +4 | 🏷️TypeScript 🤖 AI/ML | [21st-dev/1code](https://github.com/21st-dev/1code) | 4909 | -- | 编码代理的编排层（Claude Codes） |
+| +3 | 🏢 大厂官号 🏷️TypeScript ☁️ DevOps 🔥极客热议 | [cloudflare/moltworker](https://github.com/cloudflare/moltworker) | 8489 | [💬讨论](https://news.ycombinator.com/item?id=46810828) | 在 Cloudflare Workers 上运行 OpenClaw（以前称为 Moltbot、以前称为 Clawdbot） |
+| **🔥 +91** | 🏷️Go | [sipeed/picoclaw](https://github.com/sipeed/picoclaw) | 3974 | [💬讨论](https://news.ycombinator.com/item?id=46955793) | 皮爪 |
+| +28 | 🏷️Python | [HKUDS/nanobot](https://github.com/HKUDS/nanobot) | 17705 | -- | “🐈 纳米机器人：超轻量级 OpenClaw” |
+| +12 | 🏷️TypeScript 🤖 AI/ML | [qwibitai/nanoclaw](https://github.com/qwibitai/nanoclaw) | 7451 | -- | Clawdbot / OpenClaw 的轻量级替代品，在 Apple 容器中运行以确保安全。连接到 WhatsApp，具有内存、计划作业，并直接在 Anthropic 的 Agents SDK 上运行 |
+| +11 | 🏷️Rust | [lucasgelfond/zerobrew](https://github.com/lucasgelfond/zerobrew) | 6095 | -- | 速度快 5-20 倍的嵌入式实验性 Homebrew 替代品 |
+| +8 | 🏷️Python 🤖 AI/ML | [anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins) | 7163 | -- | 主要供知识工作者在 Claude Cowork 中使用的开源插件存储库 |
+| +4 | 🏷️TypeScript | [m1heng/clawdbot-feishu](https://github.com/m1heng/clawdbot-feishu) | 3064 | -- | 无描述 |
+| +0 | 🏷️Nushell 🦀 Performance | [mitchellh/vouch](https://github.com/mitchellh/vouch) | 2736 | -- | 基于显式参与凭证的社区信任管理系统。 |
+| +0 | 🏷️TypeScript 🤖 AI/ML | [lukilabs/craft-agents-oss](https://github.com/lukilabs/craft-agents-oss) | 2707 | -- | 无描述 |
+| +0 | 🏷️TypeScript | [ChartGPU/ChartGPU](https://github.com/ChartGPU/ChartGPU) | 2621 | -- | 美观、开源、基于 WebGPU 的图表库 |
+| +0 | 🏷️Swift | [ronitsingh10/FineTune](https://github.com/ronitsingh10/FineTune) | 2475 | -- | FineTune，一个 macOS 菜单栏应用程序，用于每个应用程序的音量控制、多设备输出、音频路由和 10 频段均衡器。 SoundSource 的免费开源替代品。 |
+| +0 | 🏷️TypeScript 🤖 AI/ML | [BlockRunAI/ClawRouter](https://github.com/BlockRunAI/ClawRouter) | 2253 | -- | 智能 LLM 路由器 — 节省 78% 的推理成本。 30 多种型号，一个钱包，x402 小额支付。 |
