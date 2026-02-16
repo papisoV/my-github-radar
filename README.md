@@ -1,18 +1,18 @@
 # 🌊 GitHub 技术暗流雷达
 
-> 🕒 更新: 2026-02-16 07:14:11 | 👑=大佬 | 🌐=有跨界讨论
+> 🕒 更新: 2026-02-16 09:00:48 | 👑=大佬 | 🌐=有跨界讨论
 
 | 增长/h | 智能标签 | 项目名称 | 总 Stars | 跨界讨论 | 中文简介 |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| +0 | 🏢 大厂官号 🏷️TypeScript ☁️ DevOps 🔥极客热议 | [cloudflare/moltworker](https://github.com/cloudflare/moltworker) | 8725 | [💬讨论](https://news.ycombinator.com/item?id=46810828) | 在 Cloudflare Workers 上运行 OpenClaw（以前称为 Moltbot、以前称为 Clawdbot） |
-| **🔥 +125** | 👑 大佬回归 🏷️Go | [sipeed/picoclaw](https://github.com/sipeed/picoclaw) | 10743 | [💬讨论](https://news.ycombinator.com/item?id=46955793) | 皮爪 |
-| **🔥 +59** | 🏷️Rust | [zeroclaw-labs/zeroclaw](https://github.com/zeroclaw-labs/zeroclaw) | 3815 | [💬讨论](https://news.ycombinator.com/item?id=47016328) | 爪子做对了🦀 |
-| +27 | 🏷️Python | [HKUDS/nanobot](https://github.com/HKUDS/nanobot) | 19464 | -- | “🐈 纳米机器人：超轻量级 OpenClaw” |
-| +15 | 🏷️TypeScript 🤖 AI/ML | [qwibitai/nanoclaw](https://github.com/qwibitai/nanoclaw) | 8530 | -- | Clawdbot / OpenClaw 的轻量级替代品，在容器中运行以确保安全。连接到 WhatsApp，具有内存、计划作业，并直接在 Anthropic 的 Agents SDK 上运行 |
-| +6 | 🏷️TypeScript | [excalidraw/excalidraw-mcp](https://github.com/excalidraw/excalidraw-mcp) | 2277 | -- | 快速且可流式传输的 Excalidraw MCP 应用程序 |
-| +3 | 🏷️Nushell 🦀 Performance | [mitchellh/vouch](https://github.com/mitchellh/vouch) | 3015 | -- | 基于显式参与凭证的社区信任管理系统。 |
-| +2 | 🏷️Rust | [lucasgelfond/zerobrew](https://github.com/lucasgelfond/zerobrew) | 6306 | -- | 速度提高 5-20 倍的实验性 Homebrew 替代方案 |
-| +2 | 🏷️Python 🤖 AI/ML | [mindfold-ai/Trellis](https://github.com/mindfold-ai/Trellis) | 2216 | -- | 适用于 Claude Code 和 Cursor 的一体化 AI 框架和工具包 |
-| +1 | 🏷️TypeScript 🤖 AI/ML | [BlockRunAI/ClawRouter](https://github.com/BlockRunAI/ClawRouter) | 2506 | -- | 为 OpenClaw 提供支持的代理本机 LLM 路由器 — 由 BlockRun 提供 |
-| +0 | 🏷️TypeScript | [m1heng/clawdbot-feishu](https://github.com/m1heng/clawdbot-feishu) | 3172 | -- | 无描述 |
-| +-1 | 🏷️Python 🤖 AI/ML | [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) | 2644 | -- | Claude 代码技能，研究过去 30 天内 Reddit + X 上的任何主题，然后编写复制粘贴提示 |
+| +8 | 🏢 大厂官号 🏷️TypeScript ☁️ DevOps 🔥极客热议 | [cloudflare/moltworker](https://github.com/cloudflare/moltworker) | 8733 | [💬讨论](https://news.ycombinator.com/item?id=46810828) | 在 Cloudflare Workers 上运行 OpenClaw（以前称为 Moltbot、以前称为 Clawdbot） |
+| **🔥 +181** | 👑 大佬回归 🏷️Go | [sipeed/picoclaw](https://github.com/sipeed/picoclaw) | 10924 | [💬讨论](https://news.ycombinator.com/item?id=46955793) | 皮爪 |
+| **🔥 +57** | 🏷️Python 🔥极客热议 | [HKUDS/nanobot](https://github.com/HKUDS/nanobot) | 19521 | [💬讨论](https://news.ycombinator.com/item?id=46897737) | “🐈 纳米机器人：超轻量级 OpenClaw” |
+| **🔥 +121** | 🏷️Rust | [zeroclaw-labs/zeroclaw](https://github.com/zeroclaw-labs/zeroclaw) | 3936 | [💬讨论](https://news.ycombinator.com/item?id=47016328) | 爪子做对了🦀 |
+| +12 | 🏷️TypeScript 🤖 AI/ML | [qwibitai/nanoclaw](https://github.com/qwibitai/nanoclaw) | 8542 | -- | Clawdbot / OpenClaw 的轻量级替代品，在容器中运行以确保安全。连接到 WhatsApp，具有内存、计划作业，并直接在 Anthropic 的 Agents SDK 上运行 |
+| +7 | 🏷️Nushell 🦀 Performance | [mitchellh/vouch](https://github.com/mitchellh/vouch) | 3022 | -- | 基于显式参与凭证的社区信任管理系统。 |
+| +6 | 🏷️Python 🤖 AI/ML | [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) | 2650 | -- | Claude 代码技能，研究过去 30 天内 Reddit + X 上的任何主题，然后编写复制粘贴提示 |
+| +6 | 🏷️TypeScript | [excalidraw/excalidraw-mcp](https://github.com/excalidraw/excalidraw-mcp) | 2283 | -- | 快速且可流式传输的 Excalidraw MCP 应用程序 |
+| +4 | 🏷️TypeScript 🤖 AI/ML | [BlockRunAI/ClawRouter](https://github.com/BlockRunAI/ClawRouter) | 2510 | -- | 为 OpenClaw 提供支持的代理本机 LLM 路由器 — 由 BlockRun 提供 |
+| +2 | 🏷️TypeScript | [m1heng/clawdbot-feishu](https://github.com/m1heng/clawdbot-feishu) | 3174 | -- | 无描述 |
+| +0 | 🏷️Rust | [lucasgelfond/zerobrew](https://github.com/lucasgelfond/zerobrew) | 6306 | -- | 速度提高 5-20 倍的实验性 Homebrew 替代方案 |
+| +0 | 🏷️Python 🤖 AI/ML | [mindfold-ai/Trellis](https://github.com/mindfold-ai/Trellis) | 2216 | -- | 适用于 Claude Code 和 Cursor 的一体化 AI 框架和工具包 |
