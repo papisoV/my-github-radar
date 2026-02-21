@@ -1,21 +1,21 @@
 # 🌊 GitHub 技术暗流雷达
 
-> 🕒 更新: 2026-02-21 16:16:05 | 👑=大佬 | 🌐=有跨界讨论
+> 🕒 更新: 2026-02-21 17:18:15 | 👑=大佬 | 🌐=有跨界讨论
 
 | 增长/h | 智能标签 | 项目名称 | 总 Stars | 跨界讨论 | 中文简介 |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| +41 | 👑 大佬回归 🏷️TypeScript 🤖 AI/ML 🔥极客热议 | [qwibitai/nanoclaw](https://github.com/qwibitai/nanoclaw) | 10006 | [💬讨论](https://news.ycombinator.com/item?id=46850205) | Clawdbot / OpenClaw 的轻量级替代品，在容器中运行以确保安全。连接到 WhatsApp，具有内存、计划作业，并直接在 Anthropic 的 Agents SDK 上运行 |
-| +0 | 🏢 大厂官号 🏷️TypeScript ☁️ DevOps 🔥极客热议 | [cloudflare/moltworker](https://github.com/cloudflare/moltworker) | 9020 | [💬讨论](https://news.ycombinator.com/item?id=46810828) | 在 Cloudflare Workers 上运行 OpenClaw（以前称为 Moltbot、以前称为 Clawdbot） |
-| +24 | 👑 大佬回归 🏷️Go | [sipeed/picoclaw](https://github.com/sipeed/picoclaw) | 17173 | [💬讨论](https://news.ycombinator.com/item?id=46955793) | 小巧、快速且可在任何地方部署 — 自动化日常工作，释放您的创造力 |
-| +23 | 👑 大佬回归 🏷️Rust 🤖 AI/ML | [zeroclaw-labs/zeroclaw](https://github.com/zeroclaw-labs/zeroclaw) | 15970 | [💬讨论](https://news.ycombinator.com/item?id=47047192) | 快速、小型且完全自主的 AI 助手基础设施 — 部署在任何地方，交换任何东西 🦀 |
-| +14 | 🏷️Python | [HKUDS/nanobot](https://github.com/HKUDS/nanobot) | 22393 | -- | “🐈 纳米机器人：超轻量级 OpenClaw” |
-| +13 | 🏷️TypeScript 🤖 AI/ML 🌐 Web | [millionco/react-doctor](https://github.com/millionco/react-doctor) | 3833 | -- | 让编码代理诊断并修复您的 React 代码 |
-| +11 | 🏷️Python 🤖 AI/ML | [HKUDS/ClawWork](https://github.com/HKUDS/ClawWork) | 4645 | -- | “ClawWork：OpenClaw 作为您的 AI 同事 - 💰 7 小时内赚取 1 万美元” |
-| +5 | 🏷️C 🤖 AI/ML | [memovai/mimiclaw](https://github.com/memovai/mimiclaw) | 2785 | -- | MimiClaw：在 5 美元的芯片上运行 OpenClaw。无操作系统（Linux）。没有 Node.js。没有Mac迷你。没有树莓派。没有VPS。😗本地优先内存。可分享。便携的。隐私第一。比 PicoClaw 更聪明。 |
-| +5 | 🏷️Python 🤖 AI/ML | [mindfold-ai/Trellis](https://github.com/mindfold-ai/Trellis) | 2314 | -- | 一体化人工智能框架和工具包 |
-| +4 | 🏷️TypeScript 🤖 AI/ML | [BlockRunAI/ClawRouter](https://github.com/BlockRunAI/ClawRouter) | 3119 | -- | 为 OpenClaw 提供支持的代理原生 LLM 路由器 — 由 BlockRunAI 提供 |
-| +2 | 🏷️Shell 🤖 AI/ML | [TinyAGI/tinyclaw](https://github.com/TinyAGI/tinyclaw) | 2278 | -- | TinyClaw 是一个相互协作的私人代理团队 |
-| +1 | 🏷️Rust 🤖 AI/ML 🦀 Performance | [nearai/ironclaw](https://github.com/nearai/ironclaw) | 2579 | -- | IronClaw 是受 OpenClaw 启发的 Rust 实现，专注于隐私和安全 |
-| +0 | 🏷️PowerShell 🤖 AI/ML | [bwya77/vscode-dark-islands](https://github.com/bwya77/vscode-dark-islands) | 3721 | -- | VSCode 主题基于 easemate IDE 和 Jetbrains 群岛主题 |
-| +0 | 🏷️Nushell 🦀 Performance | [mitchellh/vouch](https://github.com/mitchellh/vouch) | 3384 | -- | 基于显式参与凭证的社区信任管理系统。 |
-| +0 | 🏷️Python 🤖 AI/ML | [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) | 2876 | -- | Claude 代码技能，研究过去 30 天内 Reddit + X 上的任何主题，然后编写复制粘贴提示 |
+| **🔥 +57** | 👑 大佬回归 🏷️TypeScript 🤖 AI/ML 🔥极客热议 | [qwibitai/nanoclaw](https://github.com/qwibitai/nanoclaw) | 10063 | [💬讨论](https://news.ycombinator.com/item?id=46850205) | Clawdbot / OpenClaw 的轻量级替代品，在容器中运行以确保安全。连接到 WhatsApp，具有内存、计划作业，并直接在 Anthropic 的 Agents SDK 上运行 |
+| +1 | 🏢 大厂官号 🏷️TypeScript ☁️ DevOps 🔥极客热议 | [cloudflare/moltworker](https://github.com/cloudflare/moltworker) | 9021 | [💬讨论](https://news.ycombinator.com/item?id=46810828) | 在 Cloudflare Workers 上运行 OpenClaw（以前称为 Moltbot、以前称为 Clawdbot） |
+| +23 | 👑 大佬回归 🏷️Rust 🤖 AI/ML | [zeroclaw-labs/zeroclaw](https://github.com/zeroclaw-labs/zeroclaw) | 15993 | [💬讨论](https://news.ycombinator.com/item?id=47047192) | 快速、小型且完全自主的 AI 助手基础设施 — 部署在任何地方，交换任何东西 🦀 |
+| +21 | 👑 大佬回归 🏷️Go | [sipeed/picoclaw](https://github.com/sipeed/picoclaw) | 17194 | [💬讨论](https://news.ycombinator.com/item?id=46955793) | 小巧、快速且可在任何地方部署 — 自动化日常工作，释放您的创造力 |
+| +19 | 🏷️Python | [HKUDS/nanobot](https://github.com/HKUDS/nanobot) | 22412 | -- | “🐈 纳米机器人：超轻量级 OpenClaw” |
+| +15 | 🏷️TypeScript 🤖 AI/ML 🌐 Web | [millionco/react-doctor](https://github.com/millionco/react-doctor) | 3848 | -- | 让编码代理诊断并修复您的 React 代码 |
+| +11 | 🏷️Python 🤖 AI/ML | [HKUDS/ClawWork](https://github.com/HKUDS/ClawWork) | 4656 | -- | “ClawWork：OpenClaw 作为您的 AI 同事 - 💰 7 小时内赚取 1 万美元” |
+| +7 | 🏷️Python 🤖 AI/ML | [mindfold-ai/Trellis](https://github.com/mindfold-ai/Trellis) | 2321 | -- | 一体化人工智能框架和工具包 |
+| +5 | 🏷️C 🤖 AI/ML | [memovai/mimiclaw](https://github.com/memovai/mimiclaw) | 2790 | -- | MimiClaw：在 5 美元的芯片上运行 OpenClaw。无操作系统（Linux）。没有 Node.js。没有Mac迷你。没有树莓派。没有VPS。😗本地优先内存。可分享。便携的。隐私第一。比 PicoClaw 更聪明。 |
+| +4 | 🏷️PowerShell 🤖 AI/ML | [bwya77/vscode-dark-islands](https://github.com/bwya77/vscode-dark-islands) | 3725 | -- | VSCode 主题基于 easemate IDE 和 Jetbrains 群岛主题 |
+| +4 | 🏷️TypeScript 🤖 AI/ML | [BlockRunAI/ClawRouter](https://github.com/BlockRunAI/ClawRouter) | 3123 | -- | 为 OpenClaw 提供支持的代理原生 LLM 路由器 — 由 BlockRunAI 提供 |
+| +4 | 🏷️Rust 🤖 AI/ML 🦀 Performance | [nearai/ironclaw](https://github.com/nearai/ironclaw) | 2583 | -- | IronClaw 是受 OpenClaw 启发的 Rust 实现，专注于隐私和安全 |
+| +2 | 🏷️TypeScript | [excalidraw/excalidraw-mcp](https://github.com/excalidraw/excalidraw-mcp) | 2609 | -- | 快速且可流式传输的 Excalidraw MCP 应用程序 |
+| +2 | 🏷️Shell 🤖 AI/ML | [TinyAGI/tinyclaw](https://github.com/TinyAGI/tinyclaw) | 2280 | -- | TinyClaw 是一个相互协作的私人代理团队 |
+| +1 | 🏷️Nushell 🦀 Performance | [mitchellh/vouch](https://github.com/mitchellh/vouch) | 3385 | -- | 基于显式参与凭证的社区信任管理系统。 |
