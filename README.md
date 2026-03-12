@@ -1,21 +1,21 @@
 # 🌊 GitHub 技术暗流雷达
 
-> 🕒 更新: 2026-03-12 08:52:34 | 👑=大佬 | 🌐=有跨界讨论
+> 🕒 更新: 2026-03-12 11:26:00 | 👑=大佬 | 🌐=有跨界讨论
 
 | 增长/h | 智能标签 | 项目名称 | 总 Stars | 跨界讨论 | 中文简介 |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **🔥 +174** | 👑 大佬回归 🏷️Python 🤖 AI/ML 🔥极客热议 | [karpathy/autoresearch](https://github.com/karpathy/autoresearch) | 26221 | [💬讨论](https://news.ycombinator.com/item?id=47291123) | AI 代理自动运行单 GPU 纳米聊天训练研究 |
-| **🔥 +70** | 🏢 大厂官号 🏷️Elixir 🤖 AI/ML 🔥极客热议 | [openai/symphony](https://github.com/openai/symphony) | 11380 | [💬讨论](https://news.ycombinator.com/item?id=25329201) | Symphony 将项目工作转变为孤立的、自主的实施运行，允许团队管理工作而不是监督编码代理。 |
-| +40 | 👑 大佬回归 🏷️Rust 🤖 AI/ML ⚙️ Tooling 🔥极客热议 | [googleworkspace/cli](https://github.com/googleworkspace/cli) | 19048 | [💬讨论](https://news.ycombinator.com/item?id=29250063) | Google Workspace CLI — 一款适用于云端硬盘、Gmail、日历、表格、文档、聊天、管理等的命令行工具。从 Google Discovery Service 动态构建。包括人工智能代理技能。 |
-| +8 | 👑 大佬回归 🏷️Python 🤖 AI/ML 🔥极客热议 | [agentscope-ai/CoPaw](https://github.com/agentscope-ai/CoPaw) | 10765 | [💬讨论](https://news.ycombinator.com/item?id=14013996) | 您的私人人工智能助理；易于安装、部署在自己的机器上或云端；支持多个具有易于扩展功能的聊天应用程序。 |
-| +1 | 🏢 大厂官号 🏷️TypeScript ☁️ DevOps | [cloudflare/vinext](https://github.com/cloudflare/vinext) | 6455 | [💬讨论](https://news.ycombinator.com/item?id=47149811) | Vite 插件重新实现了 Next.js API 界面——部署在任何地方 |
-| **🔥 +171** | 🏷️TypeScript 🤖 AI/ML ⚙️ Tooling 🔥极客热议 | [paperclipai/paperclip](https://github.com/paperclipai/paperclip) | 18836 | [💬讨论](https://news.ycombinator.com/item?id=33446121) | 零人公司的开源编排 |
-| **🔥 +169** | 🏷️Python 🤖 AI/ML ⚙️ Tooling | [HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything) | 5320 | -- | CLI-Anything：使所有软件代理原生化 |
-| +43 | 🏷️Python | [nikopueringer/CorridorKey](https://github.com/nikopueringer/CorridorKey) | 5399 | [💬讨论](https://news.ycombinator.com/item?id=47306778) | 完美的绿屏键 |
-| +32 | 🏷️Go 🌐 Web ⚙️ Tooling | [pinchtab/pinchtab](https://github.com/pinchtab/pinchtab) | 6826 | [💬讨论](https://news.ycombinator.com/item?id=47025839) | 高性能浏览器自动化桥和多实例协调器，具有先进的隐形注入和实时仪表板。 |
-| +26 | 🏷️Python 🤖 AI/ML | [jundot/omlx](https://github.com/jundot/omlx) | 3368 | -- | LLM 推理服务器，具有适用于 Apple Silicon 的连续批处理和 SSD 缓存 - 从 macOS 菜单栏进行管理 |
-| +21 | 🏷️Rust 🤖 AI/ML | [AlexsJones/llmfit](https://github.com/AlexsJones/llmfit) | 14798 | -- | 数百个模型和提供商。一个命令即可查找您的硬件上运行的内容。 |
-| +19 | 🏷️Rust 🤖 AI/ML | [zeroclaw-labs/zeroclaw](https://github.com/zeroclaw-labs/zeroclaw) | 26177 | -- | 快速、小型且完全自主的 AI 助手基础设施 — 部署在任何地方，交换任何东西 🦀 |
-| +12 | 🏷️Python 🤖 AI/ML ⚙️ Tooling | [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) | 8435 | -- | 让您的人工智能代理有一双能够看到整个互联网的眼睛。阅读和搜索 Twitter、Reddit、YouTube、GitHub、Bilibili、小红书 — 一个 CLI，零 API 费用。 |
-| +11 | 🏷️TypeScript 🤖 AI/ML | [vercel-labs/portless](https://github.com/vercel-labs/portless) | 4722 | -- | 将端口号替换为稳定的、命名的本地 URL。对于人类和特工来说。 |
-| +10 | 🏷️C++ 🤖 AI/ML | [smartcmd/MinecraftConsoles](https://github.com/smartcmd/MinecraftConsoles) | 5036 | -- | 某个方块游戏 |
+| **🔥 +264** | 👑 大佬回归 🏷️Python 🤖 AI/ML 🔥极客热议 | [karpathy/autoresearch](https://github.com/karpathy/autoresearch) | 26485 | [💬讨论](https://news.ycombinator.com/item?id=47291123) | AI 代理自动运行单 GPU 纳米聊天训练研究 |
+| **🔥 +96** | 🏢 大厂官号 🏷️Elixir 🤖 AI/ML 🔥极客热议 | [openai/symphony](https://github.com/openai/symphony) | 11476 | [💬讨论](https://news.ycombinator.com/item?id=25329201) | Symphony 将项目工作转变为孤立的、自主的实施运行，允许团队管理工作而不是监督编码代理。 |
+| **🔥 +75** | 👑 大佬回归 🏷️Rust 🤖 AI/ML ⚙️ Tooling 🔥极客热议 | [googleworkspace/cli](https://github.com/googleworkspace/cli) | 19123 | [💬讨论](https://news.ycombinator.com/item?id=29250063) | Google Workspace CLI — 一款适用于云端硬盘、Gmail、日历、表格、文档、聊天、管理等的命令行工具。从 Google Discovery Service 动态构建。包括人工智能代理技能。 |
+| **🔥 +51** | 👑 大佬回归 🏷️Python 🤖 AI/ML 🔥极客热议 | [agentscope-ai/CoPaw](https://github.com/agentscope-ai/CoPaw) | 10816 | [💬讨论](https://news.ycombinator.com/item?id=14013996) | 您的私人人工智能助理；易于安装、部署在自己的机器上或云端；支持多个具有易于扩展功能的聊天应用程序。 |
+| +3 | 🏢 大厂官号 🏷️TypeScript ☁️ DevOps | [cloudflare/vinext](https://github.com/cloudflare/vinext) | 6458 | [💬讨论](https://news.ycombinator.com/item?id=47149811) | Vite 插件重新实现了 Next.js API 界面——部署在任何地方 |
+| **🔥 +272** | 🏷️TypeScript 🤖 AI/ML ⚙️ Tooling 🔥极客热议 | [paperclipai/paperclip](https://github.com/paperclipai/paperclip) | 19108 | [💬讨论](https://news.ycombinator.com/item?id=33446121) | 零人公司的开源编排 |
+| **🔥 +60** | 🏷️Rust 🤖 AI/ML | [zeroclaw-labs/zeroclaw](https://github.com/zeroclaw-labs/zeroclaw) | 26237 | [💬讨论](https://news.ycombinator.com/item?id=47047192) | 快速、小型且完全自主的 AI 助手基础设施 — 部署在任何地方，交换任何东西 🦀 |
+| +38 | 🏷️Rust 🤖 AI/ML | [AlexsJones/llmfit](https://github.com/AlexsJones/llmfit) | 14836 | [💬讨论](https://news.ycombinator.com/item?id=47045434) | 数百个模型和提供商。一个命令即可查找您的硬件上运行的内容。 |
+| **🔥 +510** | 🏷️Python 🤖 AI/ML ⚙️ Tooling | [HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything) | 5830 | -- | CLI-Anything：使所有软件代理原生化 |
+| **🔥 +84** | 🏷️Python | [nikopueringer/CorridorKey](https://github.com/nikopueringer/CorridorKey) | 5483 | [💬讨论](https://news.ycombinator.com/item?id=47306778) | 完美的绿屏键 |
+| **🔥 +76** | 🏷️Python 🤖 AI/ML | [jundot/omlx](https://github.com/jundot/omlx) | 3444 | [💬讨论](https://news.ycombinator.com/item?id=47247294) | LLM 推理服务器，具有适用于 Apple Silicon 的连续批处理和 SSD 缓存 - 从 macOS 菜单栏进行管理 |
+| +46 | 🏷️Go 🌐 Web ⚙️ Tooling | [pinchtab/pinchtab](https://github.com/pinchtab/pinchtab) | 6872 | [💬讨论](https://news.ycombinator.com/item?id=47025839) | 高性能浏览器自动化桥和多实例协调器，具有先进的隐形注入和实时仪表板。 |
+| +41 | 🏷️Python 🤖 AI/ML ⚙️ Tooling | [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) | 8476 | [💬讨论](https://news.ycombinator.com/item?id=35974910) | 让您的人工智能代理有一双能够看到整个互联网的眼睛。阅读和搜索 Twitter、Reddit、YouTube、GitHub、Bilibili、小红书 — 一个 CLI，零 API 费用。 |
+| +32 | 🏷️HTML 🤖 AI/ML | [ringhyacinth/Star-Office-UI](https://github.com/ringhyacinth/Star-Office-UI) | 4326 | -- | 适合 OpenClaw 的像素办公室：将隐形的工作状态变成一个舒适的小空间，里面有角色、日常笔记和客座代理。 MIT下的代码；艺术资产仅供非商业学习。 |
+| +26 | 🏷️Rust 🤖 AI/ML | [RightNow-AI/openfang](https://github.com/RightNow-AI/openfang) | 13829 | -- | 开源代理操作系统 |
