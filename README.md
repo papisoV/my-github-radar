@@ -1,21 +1,21 @@
 # 🌊 GitHub 技术暗流雷达
 
-> 🕒 更新: 2026-03-18 07:20:10 | 👑=大佬 | 🌐=有跨界讨论
+> 🕒 更新: 2026-03-18 09:03:22 | 👑=大佬 | 🌐=有跨界讨论
 
 | 增长/h | 智能标签 | 项目名称 | 总 Stars | 跨界讨论 | 中文简介 |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **🔥 +116** | 👑 大佬回归 🏷️TypeScript 🤖 AI/ML 🔥极客热议 | [garrytan/gstack](https://github.com/garrytan/gstack) | 20320 | [💬讨论](https://news.ycombinator.com/item?id=47355173) | 使用 Garry Tan 的精确 Claude Code 设置：10 个固执己见的工具，可充当首席执行官、工程经理、发布经理、文档工程师和 QA |
-| +6 | 👑 大佬回归 🏷️Rust 🤖 AI/ML ⚙️ Tooling 🔥极客热议 | [googleworkspace/cli](https://github.com/googleworkspace/cli) | 21194 | [💬讨论](https://news.ycombinator.com/item?id=29250063) | Google Workspace CLI — 一款适用于云端硬盘、Gmail、日历、表格、文档、聊天、管理等的命令行工具。从 Google Discovery Service 动态构建。包括人工智能代理技能。 |
-| +5 | 🏢 大厂官号 🏷️Elixir 🤖 AI/ML 🔥极客热议 | [openai/symphony](https://github.com/openai/symphony) | 13197 | [💬讨论](https://news.ycombinator.com/item?id=25329201) | Symphony 将项目工作转变为孤立的、自主的实施运行，允许团队管理工作而不是监督编码代理。 |
-| +2 | 👑 大佬回归 🏷️Python 🤖 AI/ML 🔥极客热议 | [agentscope-ai/CoPaw](https://github.com/agentscope-ai/CoPaw) | 12457 | [💬讨论](https://news.ycombinator.com/item?id=14013996) | 您的私人人工智能助理；易于安装、部署在自己的机器上或云端；支持多个具有易于扩展功能的聊天应用程序。 |
-| +0 | 👑 大佬回归 🏷️Python 🤖 AI/ML 🔥极客热议 | [cft0808/edict](https://github.com/cft0808/edict) | 10564 | [💬讨论](https://news.ycombinator.com/item?id=12231839) | 🏛️ 三省六部制 · OpenClaw 多代理编排系统 — 9 个专门的 AI 代理，具有实时仪表板、模型配置和完整的审计跟踪 |
-| **🔥 +113** | 🏢 大厂官号 🏷️TypeScript | [NVIDIA/NemoClaw](https://github.com/NVIDIA/NemoClaw) | 4006 | [💬讨论](https://news.ycombinator.com/item?id=47405924) | 用于安全安装 OpenClaw 的 NVIDIA 插件 |
-| +1 | 🏢 大厂官号 🏷️TypeScript ☁️ DevOps | [cloudflare/vinext](https://github.com/cloudflare/vinext) | 6872 | [💬讨论](https://news.ycombinator.com/item?id=47149811) | Vite 插件重新实现 Next.js API 界面 — 部署在任何地方 |
-| **🔥 +62** | 🏷️Python 🤖 AI/ML 🔥极客热议 | [karpathy/autoresearch](https://github.com/karpathy/autoresearch) | 40356 | [💬讨论](https://news.ycombinator.com/item?id=47291123) | AI 代理自动运行单 GPU 纳米聊天训练研究 |
-| +35 | 🏷️TypeScript 🤖 AI/ML ⚙️ Tooling 🔥极客热议 | [paperclipai/paperclip](https://github.com/paperclipai/paperclip) | 28010 | [💬讨论](https://news.ycombinator.com/item?id=33446121) | 零人公司的开源编排 |
-| **🔥 +87** | 🏷️TypeScript 🤖 AI/ML ⚙️ Tooling 🔥极客热议 | [THU-MAIC/OpenMAIC](https://github.com/THU-MAIC/OpenMAIC) | 4239 | [💬讨论](https://news.ycombinator.com/item?id=6174603) | 开放式多智能体互动课堂——一键获得沉浸式多智能体学习体验 |
-| **🔥 +82** | 🏷️Python 🤖 AI/ML | [aiming-lab/AutoResearchClaw](https://github.com/aiming-lab/AutoResearchClaw) | 3946 | [💬讨论](https://news.ycombinator.com/item?id=47385787) | 从想法到论文的完全自主和自我进化的研究。聊天一个想法。拿一张纸。 🦞 |
-| +32 | 🏷️JavaScript 🤖 AI/ML | [calesthio/Crucix](https://github.com/calesthio/Crucix) | 2999 | [💬讨论](https://news.ycombinator.com/item?id=47374536) | 您的个人情报代理。从多个数据源观察世界，并在发生变化时向您发出通知。 |
-| +21 | 🏷️Python | [nikopueringer/CorridorKey](https://github.com/nikopueringer/CorridorKey) | 8042 | -- | 完美的绿屏键 |
-| +16 | 🏷️Python 🤖 AI/ML ⚙️ Tooling | [HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything) | 17720 | -- | CLI-Anything：使所有软件代理原生化 |
-| +13 | 🤖 AI/ML | [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) | 3775 | -- | Taste-Skill（高级代理前端）- 为您的 AI 提供良好的品味。阻止人工智能生成无聊的、通用的、“废话” |
+| +18 | 👑 大佬回归 🏷️Python 🤖 AI/ML 🔥极客热议 | [cft0808/edict](https://github.com/cft0808/edict) | 10582 | [💬讨论](https://news.ycombinator.com/item?id=12231839) | 🏛️ 三省六部制 · OpenClaw 多代理编排系统 — 9 个专门的 AI 代理，具有实时仪表板、模型配置和完整的审计跟踪 |
+| +17 | 👑 大佬回归 🏷️Rust 🤖 AI/ML ⚙️ Tooling 🔥极客热议 | [googleworkspace/cli](https://github.com/googleworkspace/cli) | 21211 | [💬讨论](https://news.ycombinator.com/item?id=29250063) | Google Workspace CLI — 一款适用于云端硬盘、Gmail、日历、表格、文档、聊天、管理等的命令行工具。从 Google Discovery Service 动态构建。包括人工智能代理技能。 |
+| +8 | 🏢 大厂官号 🏷️Elixir 🤖 AI/ML 🔥极客热议 | [openai/symphony](https://github.com/openai/symphony) | 13205 | [💬讨论](https://news.ycombinator.com/item?id=25329201) | Symphony 将项目工作转变为孤立的、自主的实施运行，允许团队管理工作而不是监督编码代理。 |
+| +5 | 👑 大佬回归 🏷️Python 🤖 AI/ML 🔥极客热议 | [agentscope-ai/CoPaw](https://github.com/agentscope-ai/CoPaw) | 12462 | [💬讨论](https://news.ycombinator.com/item?id=14013996) | 您的私人人工智能助理；易于安装、部署在自己的机器上或云端；支持多个具有易于扩展功能的聊天应用程序。 |
+| **🔥 +208** | 🏢 大厂官号 🏷️TypeScript | [NVIDIA/NemoClaw](https://github.com/NVIDIA/NemoClaw) | 4214 | [💬讨论](https://news.ycombinator.com/item?id=47405924) | 用于安全安装 OpenClaw 的 NVIDIA 插件 |
+| +4 | 🏢 大厂官号 🏷️TypeScript ☁️ DevOps | [cloudflare/vinext](https://github.com/cloudflare/vinext) | 6876 | [💬讨论](https://news.ycombinator.com/item?id=47149811) | Vite 插件重新实现 Next.js API 界面 — 部署在任何地方 |
+| **🔥 +294** | 🏷️TypeScript 🤖 AI/ML 🔥极客热议 | [garrytan/gstack](https://github.com/garrytan/gstack) | 20614 | [💬讨论](https://news.ycombinator.com/item?id=47355173) | 使用 Garry Tan 的精确 Claude Code 设置：10 个固执己见的工具，可充当首席执行官、工程经理、发布经理、文档工程师和 QA |
+| **🔥 +88** | 🏷️Python 🤖 AI/ML 🔥极客热议 | [karpathy/autoresearch](https://github.com/karpathy/autoresearch) | 40444 | [💬讨论](https://news.ycombinator.com/item?id=47291123) | AI 代理自动运行单 GPU 纳米聊天训练研究 |
+| **🔥 +61** | 🏷️TypeScript 🤖 AI/ML ⚙️ Tooling 🔥极客热议 | [paperclipai/paperclip](https://github.com/paperclipai/paperclip) | 28071 | [💬讨论](https://news.ycombinator.com/item?id=33446121) | 零人公司的开源编排 |
+| **🔥 +272** | 🏷️TypeScript 🤖 AI/ML ⚙️ Tooling 🔥极客热议 | [THU-MAIC/OpenMAIC](https://github.com/THU-MAIC/OpenMAIC) | 4511 | [💬讨论](https://news.ycombinator.com/item?id=6174603) | 开放式多智能体互动课堂——一键获得沉浸式多智能体学习体验 |
+| +33 | 🏷️Python 🤖 AI/ML ⚙️ Tooling | [HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything) | 17753 | [💬讨论](https://news.ycombinator.com/item?id=47360545) | CLI-Anything：使所有软件代理原生化 |
+| **🔥 +167** | 🏷️Python 🤖 AI/ML | [aiming-lab/AutoResearchClaw](https://github.com/aiming-lab/AutoResearchClaw) | 4113 | [💬讨论](https://news.ycombinator.com/item?id=47385787) | 从想法到论文的完全自主和自我进化的研究。聊天一个想法。拿一张纸。 🦞 |
+| **🔥 +53** | 🏷️JavaScript 🤖 AI/ML | [calesthio/Crucix](https://github.com/calesthio/Crucix) | 3052 | [💬讨论](https://news.ycombinator.com/item?id=47374536) | 您的个人情报代理。从多个数据源观察世界，并在发生变化时向您发出通知。 |
+| +24 | 🤖 AI/ML | [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) | 3799 | -- | Taste-Skill（高级代理前端）- 为您的 AI 提供良好的品味。阻止人工智能生成无聊的、通用的、“废话” |
+| +22 | 🏷️Python | [nikopueringer/CorridorKey](https://github.com/nikopueringer/CorridorKey) | 8064 | -- | 完美的绿屏键 |
