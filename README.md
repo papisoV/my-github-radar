@@ -1,21 +1,21 @@
 # 🌊 GitHub 技术暗流雷达
 
-> 🕒 更新: 2026-04-02 18:39:49 | 👑=大佬 | 🌐=有跨界讨论
+> 🕒 更新: 2026-04-02 19:35:59 | 👑=大佬 | 🌐=有跨界讨论
 
 | 增长/h | 智能标签 | 项目名称 | 总 Stars | 跨界讨论 | 中文简介 |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **🔥 +88** | 👑 大佬回归 🏷️TypeScript 🔥极客热议 | [chenglou/pretext](https://github.com/chenglou/pretext) | 31900 | [💬讨论](https://news.ycombinator.com/item?id=47556290) | 无描述 |
-| +8 | 🏢 大厂官号 🏷️JavaScript 🤖 AI/ML 🔥极客热议 | [NVIDIA/NemoClaw](https://github.com/NVIDIA/NemoClaw) | 18159 | [💬讨论](https://news.ycombinator.com/item?id=47427027) | 通过托管推理在 NVIDIA OpenShell 中更安全地运行 OpenClaw |
-| **🔥 +72** | 🏢 大厂官号 🏷️JavaScript 🤖 AI/ML | [openai/codex-plugin-cc](https://github.com/openai/codex-plugin-cc) | 9735 | [💬讨论](https://news.ycombinator.com/item?id=47592109) | 使用 Claude Code 的 Codex 来审查代码或委派任务。 |
-| +14 | 👑 大佬回归 🤖 AI/ML | [sanbuphy/learn-coding-agent](https://github.com/sanbuphy/learn-coding-agent) | 10885 | -- | 编码剂的研究 |
-| +8 | 🏢 大厂官号 🏷️Rust 🤖 AI/ML 🦀 Performance | [microsoft/RustTraining](https://github.com/microsoft/RustTraining) | 12223 | [💬讨论](https://news.ycombinator.com/item?id=47510651) | 初级、高级、专家级 Rust 培训材料 |
-| +-18 | 👑 大佬回归 🏷️TypeScript 🤖 AI/ML ⚙️ Tooling | [THU-MAIC/OpenMAIC](https://github.com/THU-MAIC/OpenMAIC) | 13624 | [💬讨论](https://news.ycombinator.com/item?id=47428711) | 开放式多智能体互动课堂——一键获得沉浸式多智能体学习体验 |
-| **🔥 +52** | 🏷️TypeScript 🤖 AI/ML 🔥极客热议 | [garrytan/gstack](https://github.com/garrytan/gstack) | 61517 | [💬讨论](https://news.ycombinator.com/item?id=47355173) | 使用 Garry Tan 的精确 Claude Code 设置：23 个固执己见的工具，可充当 CEO、设计师、工程经理、发布经理、文档工程师和 QA |
-| **🔥 +58** | 🏷️TypeScript 🤖 AI/ML 🌐 Web 🔥极客热议 | [claude-code-best/claude-code](https://github.com/claude-code-best/claude-code) | 9369 | [💬讨论](https://news.ycombinator.com/item?id=43163011) | 原汁原昧 Claude 代码可运行、可构建版本； Typescript 类型全修复； 企业级可靠性； 安全无毒，锁定文件保真，可直接bun i； Bun run dev 启动 |
-| **🔥 +941** | 🏷️Rust 🤖 AI/ML 🦀 Performance | [ultraworkers/claw-code](https://github.com/ultraworkers/claw-code) | 137852 | [💬讨论](https://news.ycombinator.com/item?id=47601010) | [注意] 所有权转移期间，回购暂时锁定。与此同时，我们继续在这里：https://github.com/ultraworkers/claw-code-parity。历史上最快超过 10 万颗星的仓库 ⭐。更好的利用工具来完成真正的事情。使用 oh-my-codex 内置 Rust。 |
-| **🔥 +164** | 🏷️TypeScript 🤖 AI/ML | [Gitlawb/openclaude](https://github.com/Gitlawb/openclaude) | 5297 | [💬讨论](https://news.ycombinator.com/item?id=43172295) | Claude Code 通过 OpenAI 兼容的 API shim 向任何 LLM 开放 - OpenAI、Gemini、DeepSeek、Ollama 和 200 多个模型 |
-| +48 | 🏷️Python | [titanwings/colleague-skill](https://github.com/titanwings/colleague-skill) | 5213 | [💬讨论](https://news.ycombinator.com/item?id=47573310) | 将冰冷的离别化为温暖的技能，欢迎加入数字生命1.0！将冰冷的告别化为温暖的技能？这是一个重生的时代。欢迎来到数字生活1.0。 🫶 |
-| +28 | 🏷️TypeScript 🤖 AI/ML ⚙️ Tooling | [jackwener/opencli](https://github.com/jackwener/opencli) | 11130 | -- | 让任何网站和工具成为您的 CLI。通用 CLI 中心和 AI 原生运行时。将任何网站、Electron 应用程序或本地二进制文件转换为标准化的命令行界面。专为 AI 代理而构建，可通过统一的 AGENT.md 集成无缝地发现、学习和执行工具。 |
-| +25 | 🏷️Python 🤖 AI/ML ⚙️ Tooling | [HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything) | 26789 | -- | CLI-Anything：使所有软件代理原生化 |
-| +23 | 🏷️Rust 🤖 AI/ML 🦀 Performance | [Kuberwastaken/claurst](https://github.com/Kuberwastaken/claurst) | 6987 | -- | 你最喜欢的终端编码代理，现在在 Rust 中，以及 Claude 代码泄漏和发现的详细分析 |
-| +21 | 🏷️TypeScript | [webadderall/Recordly](https://github.com/webadderall/Recordly) | 4690 | -- | 免费创建精美的屏幕录制。适用于 Mac/Windows/Linux 的开源屏幕录像机，可为您的视频添加自动缩放、动画光标、自动字幕等功能。 |
+| **🔥 +73** | 👑 大佬回归 🏷️TypeScript 🔥极客热议 | [chenglou/pretext](https://github.com/chenglou/pretext) | 31973 | [💬讨论](https://news.ycombinator.com/item?id=47556290) | 无描述 |
+| +6 | 🏢 大厂官号 🏷️JavaScript 🤖 AI/ML 🔥极客热议 | [NVIDIA/NemoClaw](https://github.com/NVIDIA/NemoClaw) | 18165 | [💬讨论](https://news.ycombinator.com/item?id=47427027) | 通过托管推理在 NVIDIA OpenShell 中更安全地运行 OpenClaw |
+| **🔥 +106** | 🏢 大厂官号 🏷️JavaScript 🤖 AI/ML | [openai/codex-plugin-cc](https://github.com/openai/codex-plugin-cc) | 9841 | [💬讨论](https://news.ycombinator.com/item?id=47592109) | 使用 Claude Code 的 Codex 来审查代码或委派任务。 |
+| +12 | 👑 大佬回归 🤖 AI/ML | [sanbuphy/learn-coding-agent](https://github.com/sanbuphy/learn-coding-agent) | 10897 | -- | 编码剂的研究 |
+| +4 | 🏢 大厂官号 🏷️Rust 🤖 AI/ML 🦀 Performance | [microsoft/RustTraining](https://github.com/microsoft/RustTraining) | 12227 | [💬讨论](https://news.ycombinator.com/item?id=47510651) | 初级、高级、专家级 Rust 培训材料 |
+| +-32 | 👑 大佬回归 🏷️TypeScript 🤖 AI/ML ⚙️ Tooling | [THU-MAIC/OpenMAIC](https://github.com/THU-MAIC/OpenMAIC) | 13592 | [💬讨论](https://news.ycombinator.com/item?id=47428711) | 开放式多智能体互动课堂——一键获得沉浸式多智能体学习体验 |
+| **🔥 +50** | 🏷️TypeScript 🤖 AI/ML 🔥极客热议 | [garrytan/gstack](https://github.com/garrytan/gstack) | 61567 | [💬讨论](https://news.ycombinator.com/item?id=47355173) | 使用 Garry Tan 的精确 Claude Code 设置：23 个固执己见的工具，可充当 CEO、设计师、工程经理、发布经理、文档工程师和 QA |
+| **🔥 +78** | 🏷️TypeScript 🤖 AI/ML 🌐 Web 🔥极客热议 | [claude-code-best/claude-code](https://github.com/claude-code-best/claude-code) | 9447 | [💬讨论](https://news.ycombinator.com/item?id=43163011) | 原汁原昧 Claude 代码可运行、可构建版本； Typescript 类型全修复； 企业级可靠性； 安全无毒，锁定文件保真，可直接bun i； Bun run dev 启动 |
+| **🔥 +1002** | 🏷️Rust 🤖 AI/ML 🦀 Performance | [ultraworkers/claw-code](https://github.com/ultraworkers/claw-code) | 138854 | [💬讨论](https://news.ycombinator.com/item?id=47601010) | [注意] 所有权转移期间，回购暂时锁定。与此同时，我们继续在这里：https://github.com/ultraworkers/claw-code-parity。历史上最快超过 10 万颗星的仓库 ⭐。更好的利用工具来完成真正的事情。使用 oh-my-codex 内置 Rust。 |
+| **🔥 +188** | 🏷️TypeScript 🤖 AI/ML | [Gitlawb/openclaude](https://github.com/Gitlawb/openclaude) | 5485 | [💬讨论](https://news.ycombinator.com/item?id=43172295) | Claude Code 通过 OpenAI 兼容的 API shim 向任何 LLM 开放 - OpenAI、Gemini、DeepSeek、Ollama 和 200 多个模型 |
+| +42 | 🏷️Python | [titanwings/colleague-skill](https://github.com/titanwings/colleague-skill) | 5255 | [💬讨论](https://news.ycombinator.com/item?id=47573310) | 将冰冷的离别化为温暖的技能，欢迎加入数字生命1.0！将冰冷的告别化为温暖的技能？这是一个重生的时代。欢迎来到数字生活1.0。 🫶 |
+| +30 | 🏷️Python 🤖 AI/ML ⚙️ Tooling | [HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything) | 26819 | -- | CLI-Anything：使所有软件代理原生化 |
+| +27 | 🏷️Rust 🤖 AI/ML 🦀 Performance | [Kuberwastaken/claurst](https://github.com/Kuberwastaken/claurst) | 7014 | -- | 你最喜欢的终端编码代理，现在在 Rust 中，以及 Claude 代码泄漏和发现的详细分析 |
+| +27 | 🏷️TypeScript | [webadderall/Recordly](https://github.com/webadderall/Recordly) | 4717 | -- | 免费创建精美的屏幕录制。适用于 Mac/Windows/Linux 的开源屏幕录像机，可为您的视频添加自动缩放、动画光标、自动字幕等功能。 |
+| +24 | 🏷️TypeScript 🤖 AI/ML ⚙️ Tooling | [jackwener/opencli](https://github.com/jackwener/opencli) | 11154 | -- | 让任何网站和工具成为您的 CLI。通用 CLI 中心和 AI 原生运行时。将任何网站、Electron 应用程序或本地二进制文件转换为标准化的命令行界面。专为 AI 代理而构建，可通过统一的 AGENT.md 集成无缝地发现、学习和执行工具。 |
