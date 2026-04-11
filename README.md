@@ -1,21 +1,21 @@
 # 🌊 GitHub 技术暗流雷达
 
-> 🕒 更新: 2026-04-11 16:28:13 | 👑=大佬 | 🌐=有跨界讨论
+> 🕒 更新: 2026-04-11 17:28:40 | 👑=大佬 | 🌐=有跨界讨论
 
 | 增长/h | 智能标签 | 项目名称 | 总 Stars | 跨界讨论 | 中文简介 |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **🔥 +63** | 👑 大佬回归 🏷️Python 🤖 AI/ML 🔥极客热议 | [milla-jovovich/mempalace](https://github.com/milla-jovovich/mempalace) | 40644 | [💬讨论](https://news.ycombinator.com/item?id=47672792) | 有史以来得分最高的人工智能内存系统。而且它是免费的。 |
-| +2 | 🏢 大厂官号 🏷️TypeScript 🤖 AI/ML 🔥极客热议 | [NVIDIA/NemoClaw](https://github.com/NVIDIA/NemoClaw) | 18931 | [💬讨论](https://news.ycombinator.com/item?id=47427027) | 通过托管推理在 NVIDIA OpenShell 中更安全地运行 OpenClaw |
-| +2 | 👑 大佬回归 🏷️TypeScript 🤖 AI/ML ⚙️ Tooling | [Gitlawb/openclaude](https://github.com/Gitlawb/openclaude) | 20504 | [💬讨论](https://news.ycombinator.com/item?id=43172295) | Open Claude 是开源编码代理 CLI，适用于 OpenAI、Gemini、DeepSeek、Ollama、Codex、GitHub 模型以及通过 OpenAI 兼容 API 的 200 多个模型。 |
-| **🔥 +200** | 🏷️Python 🤖 AI/ML 🔥极客热议 | [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman) | 14783 | [💬讨论](https://news.ycombinator.com/item?id=47647455) | 🪨 当很少的代币可以做戏时为什么要使用大量的代币 — Claude Code 技能通过像穴居人一样说话来减少 65% 的代币 |
-| **🔥 +77** | 🏷️Python 🤖 AI/ML ⚙️ Tooling | [safishamsi/graphify](https://github.com/safishamsi/graphify) | 20867 | [💬讨论](https://news.ycombinator.com/item?id=47668188) | AI编码助手技能（Claude Code、Codex、OpenCode、Cursor、Gemini CLI、OpenClaw、Factory Droid、Trae）。将任何代码、文档、论文、图像、视频或 YouTube 链接文件夹转换为可查询的知识图谱 |
-| +38 | 🏷️JavaScript 🤖 AI/ML | [santifer/career-ops](https://github.com/santifer/career-ops) | 29782 | [💬讨论](https://news.ycombinator.com/item?id=47697285) | 基于 Claude Code 构建的人工智能求职系统。 14 种技能模式、Go 仪表板、PDF 生成、批处理。 |
-| +34 | 🏷️Python 🤖 AI/ML | [alchaincyf/nuwa-skill](https://github.com/alchaincyf/nuwa-skill) | 6887 | -- | 你想提升下一个员工，何必是同事。提升任何人的思维方式——心智模型、决策灵感方式、表达DNA。提炼每个人的思维方式。 |
-| +19 | 🏷️Rust 🦀 Performance | [ultraworkers/claw-code](https://github.com/ultraworkers/claw-code) | 181050 | -- | 仓库终于解锁了。享受聚会！历史上最快超过 10 万颗星的仓库 ⭐。加入 Discord：https://discord.gg/5TUQKqFWd 使用 oh-my-codex 内置 Rust。 |
-| +14 | 🏷️Python | [titanwings/colleague-skill](https://github.com/titanwings/colleague-skill) | 12821 | -- | 将冰冷的离别化为温暖的技能，欢迎加入数字生命1.0！将冰冷的告别化为温暖的技能？这是一个重生的时代。欢迎来到数字生活1.0。 🫶 |
-| +8 | 🏷️JavaScript 🤖 AI/ML ⚙️ Tooling | [jackwener/OpenCLI](https://github.com/jackwener/OpenCLI) | 15030 | -- | 让任何网站和工具成为您的 CLI。通用 CLI 中心和 AI 原生运行时。将任何网站、Electron 应用程序或本地二进制文件转换为标准化的命令行界面。专为 AI 代理而构建，可通过统一的 AGENT.md 集成无缝地发现、学习和执行工具。 |
-| +7 | 🏷️Python 🤖 AI/ML | [HKUDS/OpenHarness](https://github.com/HKUDS/OpenHarness) | 8666 | -- | OpenHarness：带有内置个人代理 Ohmo 的开放代理 Harness！ |
-| +5 | 🏷️TypeScript 🤖 AI/ML 🌐 Web | [claude-code-best/claude-code](https://github.com/claude-code-best/claude-code) | 15337 | -- | 原汁原昧 Claude Code 可运行、可构建、可调试版本； Typescript 类型全修复； 企业级可靠性； 安全无毒，锁定文件保真，可直接bun i； Bun run dev 启动 |
-| +5 | 🏷️C# 🤖 AI/ML | [MiniMax-AI/skills](https://github.com/MiniMax-AI/skills) | 9974 | -- | 无描述 |
-| +5 | 🏷️TypeScript 🌐 Web | [emdash-cms/emdash](https://github.com/emdash-cms/emdash) | 8905 | -- | EmDash 是一个基于 Astro 的全栈 TypeScript CMS； WordPress 的精神继承者 |
-| +4 | 🏷️Go 🤖 AI/ML ⚙️ Tooling | [larksuite/cli](https://github.com/larksuite/cli) | 7388 | -- | Lark/飞书官方 CLI 工具，由 Larksuite 团队维护，专为人类和 AI 智能体打造。涵盖Messenger、Docs、Base、Sheets、Calendar、Mail、Tasks、Meetings等核心业务领域，拥有200多个命令和19项AI代理技能。 |
+| **🔥 +81** | 👑 大佬回归 🏷️Python 🤖 AI/ML 🔥极客热议 | [milla-jovovich/mempalace](https://github.com/milla-jovovich/mempalace) | 40725 | [💬讨论](https://news.ycombinator.com/item?id=47672792) | 有史以来得分最高的人工智能内存系统。而且它是免费的。 |
+| +3 | 🏢 大厂官号 🏷️TypeScript 🤖 AI/ML 🔥极客热议 | [NVIDIA/NemoClaw](https://github.com/NVIDIA/NemoClaw) | 18934 | [💬讨论](https://news.ycombinator.com/item?id=47427027) | 通过托管推理在 NVIDIA OpenShell 中更安全地运行 OpenClaw |
+| +5 | 👑 大佬回归 🏷️TypeScript 🤖 AI/ML ⚙️ Tooling | [Gitlawb/openclaude](https://github.com/Gitlawb/openclaude) | 20509 | [💬讨论](https://news.ycombinator.com/item?id=43172295) | Open Claude 是开源编码代理 CLI，适用于 OpenAI、Gemini、DeepSeek、Ollama、Codex、GitHub 模型以及通过 OpenAI 兼容 API 的 200 多个模型。 |
+| **🔥 +300** | 🏷️Python 🤖 AI/ML 🔥极客热议 | [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman) | 15083 | [💬讨论](https://news.ycombinator.com/item?id=47647455) | 🪨 当很少的代币可以做戏时为什么要使用大量的代币 — Claude Code 技能通过像穴居人一样说话来减少 65% 的代币 |
+| **🔥 +82** | 🏷️Python 🤖 AI/ML ⚙️ Tooling | [safishamsi/graphify](https://github.com/safishamsi/graphify) | 20949 | [💬讨论](https://news.ycombinator.com/item?id=47668188) | AI编码助手技能（Claude Code、Codex、OpenCode、Cursor、Gemini CLI、OpenClaw、Factory Droid、Trae）。将任何代码、文档、论文、图像、视频或 YouTube 链接文件夹转换为可查询的知识图谱 |
+| **🔥 +67** | 🏷️JavaScript 🤖 AI/ML | [santifer/career-ops](https://github.com/santifer/career-ops) | 29849 | [💬讨论](https://news.ycombinator.com/item?id=47697285) | 基于 Claude Code 构建的人工智能求职系统。 14 种技能模式、Go 仪表板、PDF 生成、批处理。 |
+| +33 | 🏷️Rust 🦀 Performance | [ultraworkers/claw-code](https://github.com/ultraworkers/claw-code) | 181083 | [💬讨论](https://news.ycombinator.com/item?id=47601010) | 仓库终于解锁了。享受聚会！历史上最快超过 10 万颗星的仓库 ⭐。加入 Discord：https://discord.gg/5TUQKqFWd 使用 oh-my-codex 内置 Rust。 |
+| +43 | 🏷️Python 🤖 AI/ML | [alchaincyf/nuwa-skill](https://github.com/alchaincyf/nuwa-skill) | 6930 | -- | 你想提升下一个员工，何必是同事。提升任何人的思维方式——心智模型、决策灵感方式、表达DNA。提炼每个人的思维方式。 |
+| +17 | 🏷️Python 🤖 AI/ML | [HKUDS/OpenHarness](https://github.com/HKUDS/OpenHarness) | 8683 | -- | OpenHarness：带有内置个人代理 Ohmo 的开放代理 Harness！ |
+| +14 | 🏷️JavaScript 🤖 AI/ML ⚙️ Tooling | [jackwener/OpenCLI](https://github.com/jackwener/OpenCLI) | 15044 | -- | 让任何网站和工具成为您的 CLI。通用 CLI 中心和 AI 原生运行时。将任何网站、Electron 应用程序或本地二进制文件转换为标准化的命令行界面。专为 AI 代理而构建，可通过统一的 AGENT.md 集成无缝地发现、学习和执行工具。 |
+| +8 | 🏷️TypeScript 🤖 AI/ML 🌐 Web | [claude-code-best/claude-code](https://github.com/claude-code-best/claude-code) | 15345 | -- | 原汁原昧 Claude Code 可运行、可构建、可调试版本； Typescript 类型全修复； 企业级可靠性； 安全无毒，锁定文件保真，可直接bun i； Bun run dev 启动 |
+| +6 | 🏷️C# 🤖 AI/ML | [MiniMax-AI/skills](https://github.com/MiniMax-AI/skills) | 9980 | -- | 无描述 |
+| +6 | 🏷️Go 🤖 AI/ML ⚙️ Tooling | [larksuite/cli](https://github.com/larksuite/cli) | 7394 | -- | Lark/飞书官方 CLI 工具，由 Larksuite 团队维护，专为人类和 AI 智能体打造。涵盖Messenger、Docs、Base、Sheets、Calendar、Mail、Tasks、Meetings等核心业务领域，拥有200多个命令和19项AI代理技能。 |
+| +5 | 🏷️TypeScript 🌐 Web | [emdash-cms/emdash](https://github.com/emdash-cms/emdash) | 8910 | -- | EmDash 是一个基于 Astro 的全栈 TypeScript CMS； WordPress 的精神继承者 |
+| +4 | 🏷️Python 🤖 AI/ML | [aiming-lab/AutoResearchClaw](https://github.com/aiming-lab/AutoResearchClaw) | 10921 | -- | 从想法到论文的完全自主和自我进化的研究。聊天一个想法。拿一张纸。 🦞 |
