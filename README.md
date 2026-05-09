@@ -1,21 +1,21 @@
 # 🌊 GitHub 技术暗流雷达
 
-> 🕒 更新: 2026-05-09 19:39:04 | 👑=大佬 | 🌐=有跨界讨论
+> 🕒 更新: 2026-05-09 20:44:36 | 👑=大佬 | 🌐=有跨界讨论
 
 | 增长/h | 智能标签 | 项目名称 | 总 Stars | 跨界讨论 | 中文简介 |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| +8 | 👑 大佬回归 🏷️TypeScript 🤖 AI/ML | [google-labs-code/design.md](https://github.com/google-labs-code/design.md) | 12288 | [💬讨论](https://news.ycombinator.com/item?id=47887123) | 用于向编码代理描述视觉标识的格式规范。 DESIGN.md 使代理能够对设计系统有持久的、结构化的理解。 |
-| +47 | 🏷️TypeScript 🤖 AI/ML ⚙️ Tooling 🔥极客热议 | [nexu-io/open-design](https://github.com/nexu-io/open-design) | 34763 | [💬讨论](https://news.ycombinator.com/item?id=47985750) | 🎨 Anthropic 的 Claude Design 的本地优先、开源替代方案。 ⚡ 19 项技能 · ✨ 71 个品牌级设计系统 🖼 生成网页 · 桌面 · 移动原型 · 幻灯片 · 图像 · 视频 · HyperFrames 📦 沙盒预览 · HTML/PDF/PPTX/MP4 导出 🤖 在 Claude Code / Codex / Cursor / Gemini / OpenCode / Qwen / Copilot / Hermes / Kimi CLI 上运行。 |
-| **🔥 +80** | 🏷️C 🤖 AI/ML | [antirez/ds4](https://github.com/antirez/ds4) | 3189 | [💬讨论](https://news.ycombinator.com/item?id=48050842) | 适用于 Metal 的 DeepSeek 4 Flash 本地推理引擎 |
-| +31 | 🏷️C 🤖 AI/ML | [V4bel/dirtyfrag](https://github.com/V4bel/dirtyfrag) | 3173 | [💬讨论](https://news.ycombinator.com/item?id=48068475) | 无描述 |
-| +24 | 🏷️Python | [Yuan1z0825/nature-skills](https://github.com/Yuan1z0825/nature-skills) | 3436 | -- | 符合自然论文学术表达和科研创作的技能 |
-| +9 | 🏷️Python 🤖 AI/ML ☁️ DevOps | [denuitt1/mhr-cfw](https://github.com/denuitt1/mhr-cfw) | 2764 | -- | 一个域前端中继，通过 GAS（Google Apps 脚本）路由流量并将其转发到 Cloudflare Workers。旨在绕过 DPI。 |
-| +7 | 🏷️Python 🤖 AI/ML | [masterking32/MasterHttpRelayVPN](https://github.com/masterking32/MasterHttpRelayVPN) | 2779 | -- | 域前端 HTTP/SOCKS5 代理通过 Google Apps 脚本通过 MITM TLS 拦截、HTTP/1-2 多路复用和 DPI 规避来隧道传输流量。 |
-| +4 | 🏷️Python 🤖 AI/ML 🌐 Web | [browser-use/browser-harness](https://github.com/browser-use/browser-harness) | 11774 | -- | 浏览器线束|自我修复工具使法学硕士能够完成任何任务。 |
-| +4 | 🏷️TypeScript 🤖 AI/ML | [getagentseal/codeburn](https://github.com/getagentseal/codeburn) | 5912 | -- | 查看您的 AI 编码代币去了哪里。用于 Claude Code、Codex 和 Cursor 成本可观察性的交互式 TUI 仪表板。 |
-| +4 | 🏷️TypeScript 🤖 AI/ML | [EKKOLearnAI/hermes-web-ui](https://github.com/EKKOLearnAI/hermes-web-ui) | 4114 | -- | Hermes Agent 的 Web 仪表板 — 多平台 AI 聊天、会话管理、计划作业、使用情况分析和频道配置（Telegram、Discord、Slack、WhatsApp） |
-| +3 | 🏷️Python | [Robbyant/lingbot-map](https://github.com/Robbyant/lingbot-map) | 5998 | -- | 用于从流数据重建场景的前馈 3D 基础模型 |
-| +3 | 🏷️TypeScript 🤖 AI/ML ⚙️ Tooling | [OpenCoworkAI/open-codesign](https://github.com/OpenCoworkAI/open-codesign) | 5334 | -- | 开源克劳德设计替代品。一键导入您的 Claude Code / Codex API 密钥。提示 → 原型/幻灯片/PDF。多模型（Claude、GPT、Gemini、Kimi、GLM、Ollama）。 BYOK、本地优先、麻省理工学院。 |
-| +3 | 🏷️HTML | [tw93/Kami](https://github.com/tw93/Kami) | 4887 | -- | 👩‍🚒 好的内容值得好的论文。 |
-| +2 | 🏷️TypeScript | [cursor/cookbook](https://github.com/cursor/cookbook) | 3700 | -- | 无描述 |
-| +0 | 🏷️Rust 🤖 AI/ML | [TencentCloud/CubeSandbox](https://github.com/TencentCloud/CubeSandbox) | 5202 | -- | 适用于 AI 代理的即时、并发、安全和轻量级沙箱。 |
+| +5 | 👑 大佬回归 🏷️TypeScript 🤖 AI/ML | [google-labs-code/design.md](https://github.com/google-labs-code/design.md) | 12293 | [💬讨论](https://news.ycombinator.com/item?id=47887123) | 用于向编码代理描述视觉标识的格式规范。 DESIGN.md 使代理能够对设计系统有持久的、结构化的理解。 |
+| **🔥 +56** | 🏷️TypeScript 🤖 AI/ML ⚙️ Tooling 🔥极客热议 | [nexu-io/open-design](https://github.com/nexu-io/open-design) | 34819 | [💬讨论](https://news.ycombinator.com/item?id=47985750) | 🎨 Anthropic 的 Claude Design 的本地优先、开源替代品。 ⚡ 19 项技能 · ✨ 71 个品牌级设计系统 🖼 生成网页 · 桌面 · 移动原型 · 幻灯片 · 图像 · 视频 · HyperFrames 📦 沙盒预览 · HTML/PDF/PPTX/MP4 导出 🤖 在 Claude Code / Codex / Cursor / Gemini / OpenCode / Qwen / Copilot / Hermes / Kimi CLI 上运行。 |
+| **🔥 +97** | 🏷️C 🤖 AI/ML | [antirez/ds4](https://github.com/antirez/ds4) | 3286 | [💬讨论](https://news.ycombinator.com/item?id=48050842) | 适用于 Metal 的 DeepSeek 4 Flash 本地推理引擎 |
+| +42 | 🏷️C 🤖 AI/ML | [V4bel/dirtyfrag](https://github.com/V4bel/dirtyfrag) | 3215 | [💬讨论](https://news.ycombinator.com/item?id=48068475) | 无描述 |
+| +18 | 🏷️Python | [Yuan1z0825/nature-skills](https://github.com/Yuan1z0825/nature-skills) | 3454 | -- | 符合自然论文学术表达和科研创作的技能 |
+| +8 | 🏷️Python 🤖 AI/ML ☁️ DevOps | [denuitt1/mhr-cfw](https://github.com/denuitt1/mhr-cfw) | 2772 | -- | 一个域前端中继，通过 GAS（Google Apps 脚本）路由流量并将其转发到 Cloudflare Workers。旨在绕过 DPI。 |
+| +7 | 🏷️Python | [Robbyant/lingbot-map](https://github.com/Robbyant/lingbot-map) | 6005 | -- | 用于从流数据重建场景的前馈 3D 基础模型 |
+| +6 | 🏷️TypeScript 🤖 AI/ML ⚙️ Tooling | [OpenCoworkAI/open-codesign](https://github.com/OpenCoworkAI/open-codesign) | 5340 | -- | 开源克劳德设计替代品。一键导入您的 Claude Code / Codex API 密钥。提示 → 原型/幻灯片/PDF。多模型（Claude、GPT、Gemini、Kimi、GLM、Ollama）。 BYOK、本地优先、麻省理工学院。 |
+| +5 | 🏷️TypeScript 🤖 AI/ML | [EKKOLearnAI/hermes-web-ui](https://github.com/EKKOLearnAI/hermes-web-ui) | 4119 | -- | Hermes Agent 的 Web 仪表板 — 多平台 AI 聊天、会话管理、计划作业、使用情况分析和频道配置（Telegram、Discord、Slack、WhatsApp） |
+| +4 | 🏷️Python 🤖 AI/ML 🌐 Web | [browser-use/browser-harness](https://github.com/browser-use/browser-harness) | 11778 | -- | 浏览器线束|自我修复工具使法学硕士能够完成任何任务。 |
+| +4 | 🏷️TypeScript 🤖 AI/ML | [getagentseal/codeburn](https://github.com/getagentseal/codeburn) | 5916 | -- | 查看您的 AI 编码代币去了哪里。用于 Claude Code、Codex 和 Cursor 成本可观察性的交互式 TUI 仪表板。 |
+| +3 | 🏷️Rust 🤖 AI/ML | [TencentCloud/CubeSandbox](https://github.com/TencentCloud/CubeSandbox) | 5205 | -- | 适用于 AI 代理的即时、并发、安全和轻量级沙箱。 |
+| +3 | 🏷️HTML | [tw93/Kami](https://github.com/tw93/Kami) | 4890 | -- | 👩‍🚒 好的内容值得好的论文。 |
+| +3 | 🏷️Python 🤖 AI/ML | [masterking32/MasterHttpRelayVPN](https://github.com/masterking32/MasterHttpRelayVPN) | 2782 | -- | 域前端 HTTP/SOCKS5 代理通过 Google Apps 脚本通过 MITM TLS 拦截、HTTP/1-2 多路复用和 DPI 规避来隧道传输流量。 |
+| +1 | 🏷️TypeScript | [cursor/cookbook](https://github.com/cursor/cookbook) | 3701 | -- | 无描述 |
