@@ -1,20 +1,20 @@
 # 🌊 GitHub 技术暗流雷达
 
-> 🕒 更新: 2026-05-13 10:08:43 | 👑=大佬 | 🌐=有跨界讨论
+> 🕒 更新: 2026-05-13 14:14:16 | 👑=大佬 | 🌐=有跨界讨论
 
 | 增长/h | 智能标签 | 项目名称 | 总 Stars | 跨界讨论 | 中文简介 |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **🔥 +77** | 🏷️TypeScript 🤖 AI/ML ⚙️ Tooling 🔥极客热议 | [nexu-io/open-design](https://github.com/nexu-io/open-design) | 38459 | [💬讨论](https://news.ycombinator.com/item?id=47985750) | 🎨 Anthropic 的 Claude Design 的本地优先、开源替代方案。 ⚡ 19 项技能 · ✨ 71 个品牌级设计系统 🖼 生成网页 · 桌面 · 移动原型 · 幻灯片 · 图像 · 视频 · HyperFrames 📦 沙盒预览 · HTML/PDF/PPTX/MP4 导出 🤖 在 Claude Code / Codex / Cursor / Gemini / OpenCode / Qwen / Copilot / Hermes / Kimi CLI 上运行。 |
-| +38 | 🏷️Zig | [vercel-labs/zero-native](https://github.com/vercel-labs/zero-native) | 2962 | [💬讨论](https://news.ycombinator.com/item?id=48116873) | 使用 Zig 和 Web UI 构建桌面 + 移动应用程序 |
-| +31 | 🏷️C 🤖 AI/ML 🦀 Performance | [antirez/ds4](https://github.com/antirez/ds4) | 8094 | [💬讨论](https://news.ycombinator.com/item?id=48050842) | 适用于 Metal 和 CUDA 的 DeepSeek 4 Flash 本地推理引擎 |
-| +30 | 🏷️Python | [Yuan1z0825/nature-skills](https://github.com/Yuan1z0825/nature-skills) | 4987 | -- | 符合自然论文学术表达和科研创作的技能 |
-| +15 | 🏷️TypeScript 🤖 AI/ML 🌐 Web | [crynta/terax-ai](https://github.com/crynta/terax-ai) | 2604 | -- | 使用 Rust、Tauri 和 React 构建的轻量级 (7MB) AI 终端模拟器 (ADE) |
-| +11 | 🏷️Python 🤖 AI/ML 🌐 Web | [browser-use/browser-harness](https://github.com/browser-use/browser-harness) | 12326 | -- | 浏览器线束|自我修复工具使法学硕士能够完成任何任务。 |
-| +11 | 🏷️Swift 🤖 AI/ML | [darrylmorley/whatcable](https://github.com/darrylmorley/whatcable) | 3392 | -- | macOS 菜单栏应用程序可以用简单的英语告诉您插入 Mac 的每根 USB-C 线缆的实际功能 |
-| +10 | 🏷️TypeScript 🤖 AI/ML | [1weiho/open-slide](https://github.com/1weiho/open-slide) | 3158 | -- | 为代理构建的幻灯片框架。 |
-| +6 | 🏷️TypeScript 🤖 AI/ML ⚙️ Tooling | [OpenCoworkAI/open-codesign](https://github.com/OpenCoworkAI/open-codesign) | 5739 | -- | 开源克劳德设计替代品。一键导入您的 Claude Code / Codex API 密钥。提示 → 原型/幻灯片/PDF。多模型（Claude、GPT、Gemini、Kimi、GLM、Ollama）。 BYOK、本地优先、麻省理工学院。 |
-| +6 | 🏷️Python 🤖 AI/ML | [masterking32/MasterHttpRelayVPN](https://github.com/masterking32/MasterHttpRelayVPN) | 3188 | -- | 域前端 HTTP/SOCKS5 代理通过 Google Apps 脚本通过 MITM TLS 拦截、HTTP/1-2 多路复用和 DPI 规避来隧道传输流量。 |
-| +6 | 🏷️TypeScript 🤖 AI/ML | [willchen96/mike](https://github.com/willchen96/mike) | 2887 | -- | OSS人工智能法律平台 |
-| +4 | 🏷️JavaScript 🤖 AI/ML | [earthtojake/text-to-cad](https://github.com/earthtojake/text-to-cad) | 2479 | -- | 使用您最喜爱的编码代理生成 3D 模型的开源 CAD 技能和工具 |
-| +2 | 🏷️Rust ⚙️ Tooling 🦀 Performance | [therealaleph/MasterHttpRelayVPN-RUST](https://github.com/therealaleph/MasterHttpRelayVPN-RUST) | 2643 | -- | @masterking32 的 MasterHttpRelayVPN 的 Rust 端口 — 全部归功于 @masterking32 的原始想法和 Python 实现。通过具有 TLS SNI 隐藏功能的 Google Apps 脚本中继免费绕过 DPI。 CLI + 跨平台桌面 UI，HTTP + SOCKS5 代理，无运行时依赖。 |
-| +2 | 🏷️JavaScript 🤖 AI/ML 🌐 Web | [Manavarya09/design-extract](https://github.com/Manavarya09/design-extract) | 2512 | -- | 使用一个命令提取任何网站的完整设计系统。 DTCG 代币、语义+原始+复合、Claude Code/Cursor/Windsurf 的 MCP 服务器、多平台发射器（iOS SwiftUI、Android Compose、Flutter、WordPress）、Tailwind v4、Figma 变量、shadcn/ui、CSS 健康审计、WCAG 修复、Chrome 扩展。麻省理工学院，剧作家，Node 20+。 |
+| **🔥 +199** | 🏷️TypeScript 🤖 AI/ML ⚙️ Tooling 🔥极客热议 | [nexu-io/open-design](https://github.com/nexu-io/open-design) | 38658 | [💬讨论](https://news.ycombinator.com/item?id=47985750) | 🎨 Anthropic 的 Claude Design 的本地优先、开源替代方案。 ⚡ 19 项技能 · ✨ 71 个品牌级设计系统 🖼 生成网页 · 桌面 · 移动原型 · 幻灯片 · 图像 · 视频 · HyperFrames 📦 沙盒预览 · HTML/PDF/PPTX/MP4 导出 🤖 在 Claude Code / Codex / Cursor / Gemini / OpenCode / Qwen / Copilot / Hermes / Kimi CLI 上运行。 |
+| **🔥 +73** | 🏷️Zig 🔥极客热议 | [vercel-labs/zero-native](https://github.com/vercel-labs/zero-native) | 3035 | [💬讨论](https://news.ycombinator.com/item?id=48116873) | 使用 Zig 和 Web UI 构建桌面 + 移动应用程序 |
+| **🔥 +75** | 🏷️Python | [Yuan1z0825/nature-skills](https://github.com/Yuan1z0825/nature-skills) | 5062 | -- | 符合自然论文学术表达和科研创作的技能 |
+| **🔥 +73** | 🏷️C 🤖 AI/ML 🦀 Performance | [antirez/ds4](https://github.com/antirez/ds4) | 8167 | [💬讨论](https://news.ycombinator.com/item?id=48050842) | 适用于 Metal 和 CUDA 的 DeepSeek 4 Flash 本地推理引擎 |
+| +31 | 🏷️TypeScript 🤖 AI/ML 🌐 Web | [crynta/terax-ai](https://github.com/crynta/terax-ai) | 2635 | [💬讨论](https://news.ycombinator.com/item?id=48061825) | 使用 Rust、Tauri 和 React 构建的轻量级 (7MB) AI 终端模拟器 (ADE) |
+| +29 | 🏷️Python 🤖 AI/ML 🌐 Web | [browser-use/browser-harness](https://github.com/browser-use/browser-harness) | 12355 | -- | 浏览器线束|自我修复工具使法学硕士能够完成任何任务。 |
+| +15 | 🏷️Swift 🤖 AI/ML | [darrylmorley/whatcable](https://github.com/darrylmorley/whatcable) | 3407 | -- | macOS 菜单栏应用程序可以用简单的英语告诉您插入 Mac 的每根 USB-C 线缆的实际功能 |
+| +14 | 🏷️TypeScript 🤖 AI/ML ⚙️ Tooling | [OpenCoworkAI/open-codesign](https://github.com/OpenCoworkAI/open-codesign) | 5753 | -- | 开源克劳德设计替代品。一键导入您的 Claude Code / Codex API 密钥。提示 → 原型/幻灯片/PDF。多模型（Claude、GPT、Gemini、Kimi、GLM、Ollama）。 BYOK、本地优先、麻省理工学院。 |
+| +14 | 🏷️Rust ⚙️ Tooling 🦀 Performance | [therealaleph/MasterHttpRelayVPN-RUST](https://github.com/therealaleph/MasterHttpRelayVPN-RUST) | 2657 | -- | @masterking32 的 MasterHttpRelayVPN 的 Rust 端口 — 全部归功于 @masterking32 的原始想法和 Python 实现。通过具有 TLS SNI 隐藏功能的 Google Apps 脚本中继免费绕过 DPI。 CLI + 跨平台桌面 UI，HTTP + SOCKS5 代理，无运行时依赖。 |
+| +9 | 🏷️TypeScript 🤖 AI/ML | [1weiho/open-slide](https://github.com/1weiho/open-slide) | 3167 | -- | 为代理构建的幻灯片框架。 |
+| +6 | 🏷️Python 🤖 AI/ML | [masterking32/MasterHttpRelayVPN](https://github.com/masterking32/MasterHttpRelayVPN) | 3194 | -- | 域前端 HTTP/SOCKS5 代理通过 Google Apps 脚本通过 MITM TLS 拦截、HTTP/1-2 多路复用和 DPI 规避来隧道传输流量。 |
+| +3 | 🏷️TypeScript 🤖 AI/ML | [willchen96/mike](https://github.com/willchen96/mike) | 2890 | -- | OSS人工智能法律平台 |
+| +2 | 🏷️JavaScript 🤖 AI/ML 🌐 Web | [Manavarya09/design-extract](https://github.com/Manavarya09/design-extract) | 2514 | -- | 使用一个命令提取任何网站的完整设计系统。 DTCG 代币、语义+原始+复合、Claude Code/Cursor/Windsurf 的 MCP 服务器、多平台发射器（iOS SwiftUI、Android Compose、Flutter、WordPress）、Tailwind v4、Figma 变量、shadcn/ui、CSS 健康审计、WCAG 修复、Chrome 扩展。麻省理工学院，剧作家，Node 20+。 |
+| +0 | 🏷️HTML 🤖 AI/ML | [op7418/guizang-ppt-skill](https://github.com/op7418/guizang-ppt-skill) | 8031 | -- | Claude 代码技能，可将提示转换为水平滑动杂志风格的 HTML 卡片组 — 10 种布局、5 个精选主题、WebGL 英雄背景、单文件输出。 |
