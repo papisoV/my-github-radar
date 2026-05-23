@@ -1,21 +1,21 @@
 # 🌊 GitHub 技术暗流雷达
 
-> 🕒 更新: 2026-05-23 20:51:52 | 👑=大佬 | 🌐=有跨界讨论
+> 🕒 更新: 2026-05-23 22:22:58 | 👑=大佬 | 🌐=有跨界讨论
 
 | 增长/h | 智能标签 | 项目名称 | 总 Stars | 跨界讨论 | 中文简介 |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| +4 | 👑 大佬回归 🏷️C 🤖 AI/ML 🦀 Performance 🔥极客热议 | [antirez/ds4](https://github.com/antirez/ds4) | 11481 | [💬讨论](https://news.ycombinator.com/item?id=48142108) | 适用于 Metal 和 CUDA 的 DeepSeek 4 Flash 本地推理引擎 |
-| +20 | 👑 大佬回归 🏷️Python | [Yuan1z0825/nature-skills](https://github.com/Yuan1z0825/nature-skills) | 10818 | -- | 符合自然论文学术表达和科研创作的技能 |
-| +36 | 🏷️TypeScript 🤖 AI/ML ⚙️ Tooling 🔥极客热议 | [nexu-io/open-design](https://github.com/nexu-io/open-design) | 50296 | [💬讨论](https://news.ycombinator.com/item?id=47985750) | 🎨 本地优先、开源的 Claude Design 替代方案。 ⚡ 19 项技能 · ✨ 71 个品牌级设计系统 🖼 生成网页 · 桌面 · 移动原型 · 幻灯片 · 图像 · 视频 · HyperFrames 📦 沙盒预览 · HTML/PDF/PPTX/MP4 导出 🤖 在 Claude Code / Codex / Cursor / Gemini / OpenCode / Qwen / Copilot / Hermes / Kimi CLI 上运行。 |
-| +26 | 🏷️TypeScript | [Achilng/floral-notepaper](https://github.com/Achilng/floral-notepaper) | 2041 | -- | 无描述 |
-| +23 | 🏷️TypeScript 🤖 AI/ML | [simplifaisoul/osiris](https://github.com/simplifaisoul/osiris) | 2341 | -- | 开源全球情报平台 - 实时 OSINT 仪表板 - Palantir 替代方案 |
-| +20 | 🏷️Rust | [BigPizzaV3/CodexPlusPlus](https://github.com/BigPizzaV3/CodexPlusPlus) | 4606 | -- | CodexApp的增强工具，努力让Codex更好用、更舒适一个CodexApp的增强工具，努力让Codex网格更好用更舒适 |
-| +11 | 🏷️JavaScript | [FoundZiGu/GuJumpgate](https://github.com/FoundZiGu/GuJumpgate) | 1960 | -- | 无描述 |
-| +5 | 🏷️Shell ⚙️ Tooling | [XBuilderLAB/cheat-on-content](https://github.com/XBuilderLAB/cheat-on-content) | 2638 | -- | 你正在读这篇文章。技能预测到了。将每个帖子变成校准实验的工作流程——评分、盲预测、回顾、进化。未来不会奖励努力，它奖励那些首先看到模式的人。一个月内就有 100 万粉丝——这不是运气，系统。 |
-| +3 | 🏷️C 🤖 AI/ML | [vercel-labs/zerolang](https://github.com/vercel-labs/zerolang) | 4377 | -- | 代理的编程语言 |
-| +3 | 🏷️Swift 🤖 AI/ML | [darrylmorley/whatcable](https://github.com/darrylmorley/whatcable) | 3959 | -- | macOS 菜单栏应用程序可以用简单的英语告诉您插入 Mac 的每根 USB-C 线缆的实际功能 |
-| +1 | 🏷️HTML 🤖 AI/ML ⚙️ Tooling | [nexu-io/html-anything](https://github.com/nexu-io/html-anything) | 4655 | -- | ✨ 代理 HTML 编辑器 — 您本地的 AI 代理编写 HTML，然后您发送它。 🚀 75 种技能 × 9 个界面（杂志·甲板·海报·XHS/推文·原型·数据报告·超帧）🛡️沙盒预览·📤一键进入微信/X/知乎/HTML/PNG🔑零API密钥 - Claude Code / Cursor / Codex / Gemini / Copilot / OpenCode / Qwen / Aider。 |
-| +1 | 🏷️TypeScript 🤖 AI/ML | [vercel-labs/deepsec](https://github.com/vercel-labs/deepsec) | 2890 | -- | Deepsec 是一种安全工具，用于查找由编码代理提供支持的代码库中的漏洞 |
-| +1 | 🏷️JavaScript 🤖 AI/ML | [huangserva/3DCellForge](https://github.com/huangserva/3DCellForge) | 2307 | -- | 由 AI 驱动的交互式 3D 模型生成、检查和演示工作室。 |
-| +0 | 🏷️TypeScript 🤖 AI/ML | [strukto-ai/mirage](https://github.com/strukto-ai/mirage) | 2572 | -- | 人工智能代理的统一虚拟文件系统 |
-| +0 | 🏷️TypeScript 🤖 AI/ML ⚙️ Tooling | [crafter-station/petdex](https://github.com/crafter-station/petdex) | 2198 | -- | Codex、Claude Code、OpenCode 和 Gemini CLI 的动画宠物公共画廊 |
+| +16 | 👑 大佬回归 🏷️C 🤖 AI/ML 🦀 Performance 🔥极客热议 | [antirez/ds4](https://github.com/antirez/ds4) | 11497 | [💬讨论](https://news.ycombinator.com/item?id=48142108) | 适用于 Metal 和 CUDA 的 DeepSeek 4 Flash 本地推理引擎 |
+| +30 | 👑 大佬回归 🏷️Python | [Yuan1z0825/nature-skills](https://github.com/Yuan1z0825/nature-skills) | 10848 | -- | 符合自然论文学术表达和科研创作的技能 |
+| **🔥 +60** | 🏷️TypeScript 🤖 AI/ML ⚙️ Tooling 🔥极客热议 | [nexu-io/open-design](https://github.com/nexu-io/open-design) | 50356 | [💬讨论](https://news.ycombinator.com/item?id=47985750) | 🎨 本地优先、开源的 Claude Design 替代方案。 ⚡ 19 项技能 · ✨ 71 个品牌级设计系统 🖼 生成网页 · 桌面 · 移动原型 · 幻灯片 · 图像 · 视频 · HyperFrames 📦 沙盒预览 · HTML/PDF/PPTX/MP4 导出 🤖 在 Claude Code / Codex / Cursor / Gemini / OpenCode / Qwen / Copilot / Hermes / Kimi CLI 上运行。 |
+| +34 | 🏷️Rust 🔥极客热议 | [BigPizzaV3/CodexPlusPlus](https://github.com/BigPizzaV3/CodexPlusPlus) | 4640 | [💬讨论](https://news.ycombinator.com/item?id=19362436) | CodexApp的增强工具，努力让Codex更好用、更舒适一个CodexApp的增强工具，努力让Codex网格更好用更舒适 |
+| +33 | 🏷️TypeScript | [Achilng/floral-notepaper](https://github.com/Achilng/floral-notepaper) | 2074 | -- | 无描述 |
+| +30 | 🏷️TypeScript 🤖 AI/ML | [simplifaisoul/osiris](https://github.com/simplifaisoul/osiris) | 2371 | -- | 开源全球情报平台 - 实时 OSINT 仪表板 - Palantir 替代方案 |
+| +24 | 🏷️JavaScript | [FoundZiGu/GuJumpgate](https://github.com/FoundZiGu/GuJumpgate) | 1984 | -- | 无描述 |
+| +7 | 🏷️C 🤖 AI/ML | [vercel-labs/zerolang](https://github.com/vercel-labs/zerolang) | 4384 | -- | 代理的编程语言 |
+| +5 | 🏷️HTML 🤖 AI/ML ⚙️ Tooling | [nexu-io/html-anything](https://github.com/nexu-io/html-anything) | 4660 | -- | ✨ 代理 HTML 编辑器 — 您本地的 AI 代理编写 HTML，然后您发送它。 🚀 75 种技能 × 9 个界面（杂志·甲板·海报·XHS/推文·原型·数据报告·超帧）🛡️沙盒预览·📤一键进入微信/X/知乎/HTML/PNG🔑零API密钥 - Claude Code / Cursor / Codex / Gemini / Copilot / OpenCode / Qwen / Aider。 |
+| +5 | 🏷️Shell ⚙️ Tooling | [XBuilderLAB/cheat-on-content](https://github.com/XBuilderLAB/cheat-on-content) | 2643 | -- | 你正在读这篇文章。技能预测到了。将每个帖子变成校准实验的工作流程——评分、盲预测、回顾、进化。未来不会奖励努力，它奖励那些首先看到模式的人。一个月内就有 100 万粉丝——这不是运气，系统。 |
+| +4 | 🏷️Swift 🤖 AI/ML | [darrylmorley/whatcable](https://github.com/darrylmorley/whatcable) | 3963 | -- | macOS 菜单栏应用程序可以用简单的英语告诉您插入 Mac 的每根 USB-C 线缆的实际功能 |
+| +4 | 🏷️TypeScript 🤖 AI/ML ⚙️ Tooling | [crafter-station/petdex](https://github.com/crafter-station/petdex) | 2202 | -- | Codex、Claude Code、OpenCode 和 Gemini CLI 的动画宠物公共画廊 |
+| +2 | 🏷️TypeScript 🤖 AI/ML | [strukto-ai/mirage](https://github.com/strukto-ai/mirage) | 2574 | -- | 人工智能代理的统一虚拟文件系统 |
+| +1 | 🏷️JavaScript 🤖 AI/ML | [huangserva/3DCellForge](https://github.com/huangserva/3DCellForge) | 2308 | -- | 由 AI 驱动的交互式 3D 模型生成、检查和演示工作室。 |
+| +0 | 🏷️TypeScript 🤖 AI/ML | [1weiho/open-slide](https://github.com/1weiho/open-slide) | 3579 | -- | 为代理构建的幻灯片框架。 |
