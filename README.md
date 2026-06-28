@@ -1,21 +1,21 @@
 # 🌊 GitHub 技术暗流雷达
 
-> 🕒 更新: 2026-06-29 01:55:53 | 👑=大佬 | 🌐=有跨界讨论
+> 🕒 更新: 2026-06-29 02:59:35 | 👑=大佬 | 🌐=有跨界讨论
 
 | 增长/h | 智能标签 | 项目名称 | 总 Stars | 跨界讨论 | 中文简介 |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| +26 | 👑 大佬回归 🏷️Python 🤖 AI/ML 🔥极客热议 | [pewdiepie-archdaemon/odysseus](https://github.com/pewdiepie-archdaemon/odysseus) | 78898 | [💬讨论](https://news.ycombinator.com/item?id=48346693) | 自托管人工智能工作区。 |
-| +15 | 👑 大佬回归 🏷️Python 🤖 AI/ML 🔥极客热议 | [baidu/Unlimited-OCR](https://github.com/baidu/Unlimited-OCR) | 11464 | [💬讨论](https://news.ycombinator.com/item?id=48643426) | 无限OCR作品：迎接一次性长视野解析时代。 |
-| +1 | 👑 大佬回归 🏷️TypeScript 🤖 AI/ML 🔥极客热议 | [XiaomiMiMo/MiMo-Code](https://github.com/XiaomiMiMo/MiMo-Code) | 10991 | [💬讨论](https://news.ycombinator.com/item?id=48490826) | MiMo 代码：模型和智能体共同进化的地方 |
+| +28 | 👑 大佬回归 🏷️Python 🤖 AI/ML 🔥极客热议 | [pewdiepie-archdaemon/odysseus](https://github.com/pewdiepie-archdaemon/odysseus) | 78926 | [💬讨论](https://news.ycombinator.com/item?id=48346693) | 自托管人工智能工作区。 |
+| +17 | 👑 大佬回归 🏷️Python 🤖 AI/ML 🔥极客热议 | [baidu/Unlimited-OCR](https://github.com/baidu/Unlimited-OCR) | 11481 | [💬讨论](https://news.ycombinator.com/item?id=48643426) | 无限OCR作品：迎接一次性长视野解析时代。 |
+| +2 | 👑 大佬回归 🏷️TypeScript 🤖 AI/ML 🔥极客热议 | [XiaomiMiMo/MiMo-Code](https://github.com/XiaomiMiMo/MiMo-Code) | 10993 | [💬讨论](https://news.ycombinator.com/item?id=48490826) | MiMo 代码：模型和智能体共同进化的地方 |
 | +0 | 🏢 大厂官号 🏷️TypeScript 🤖 AI/ML 🔥极客热议 | [vercel/eve](https://github.com/vercel/eve) | 2851 | [💬讨论](https://news.ycombinator.com/item?id=22107823) | 建筑代理框架 |
-| +39 | 🏷️Python 🔥极客热议 | [bikini/exploitarium](https://github.com/bikini/exploitarium) | 1916 | [💬讨论](https://news.ycombinator.com/item?id=48698617) | 公开利用 PoC 和漏洞研究文章的单一档案。当我发布这些内容时，还没有任何报道。您可以自行报告这些问题，如果发出了 lulz，则将获得 CVE 的荣誉。请不要滥用这些。我这样做是为了吸引人们进入这个领域，而且我一直发现这是最有效的方式。 |
-| +37 | 🏷️Python 🤖 AI/ML | [deepseek-ai/DeepSpec](https://github.com/deepseek-ai/DeepSpec) | 1987 | [💬讨论](https://news.ycombinator.com/item?id=48701346) | DeepSpec：用于训练和评估推测解码算法的全栈代码库 |
-| +24 | 🏷️HTML | [XxHuberrr/Mineradio](https://github.com/XxHuberrr/Mineradio) | 4427 | -- | 一款以电影镜头、道具和视觉歌词舞台为核心的沉浸式音乐播放器。 |
-| +19 | 🏷️JavaScript 🤖 AI/ML ⚙️ Tooling | [cobusgreyling/loop-engineering](https://github.com/cobusgreyling/loop-engineering) | 3602 | -- | 使用 AI 编码代理进行循环工程的实用模式、入门工具和 CLI 工具。设计提示和协调代理的系统（受到 Addy Osmani 和 Boris Cherny 的启发）。包括循环审核、循环初始化、循环成本。 |
-| +10 | 🏷️JavaScript 🤖 AI/ML ⚙️ Tooling | [Forward-Future/loopy](https://github.com/Forward-Future/loopy) | 1966 | -- | 实用的人工智能代理循环库和可安装的技能，用于查找、调整和设计可重复的代理工作流程。 |
-| +9 | 🏷️Python 🤖 AI/ML | [omnigent-ai/omnigent](https://github.com/omnigent-ai/omnigent) | 5258 | -- | Omnigent 是一个开源 AI 代理框架和元工具：编排 Claude Code、Codex、Cursor、Pi 和自定义代理 — 无需重写即可交换工具，执行策略和沙箱，并通过任何设备实时协作。 |
-| +6 | 🏷️TypeScript 🤖 AI/ML | [diffusionstudio/lottie](https://github.com/diffusionstudio/lottie) | 3991 | -- | 使用 Claude Code 或 Codex 生成可立即投入生产的 Lottie 动画 |
-| +4 | 🏷️Rust | [nubjs/nub](https://github.com/nubjs/nub) | 2338 | -- | 快速的一体化 Node.js 工具包 |
-| +2 | 🏷️Python 🤖 AI/ML | [lenucksi/aur-malware-check](https://github.com/lenucksi/aur-malware-check) | 1856 | -- | 2026 年 6 月原子锁文件 AUR 供应链攻击的检测工具。从社区要点整合而来。 |
-| +1 | 🏷️JavaScript 🤖 AI/ML | [BuilderIO/skills](https://github.com/BuilderIO/skills) | 2833 | -- | 编码代理的技能 |
-| +1 | 🏷️TypeScript 🤖 AI/ML | [Waishnav/devspace](https://github.com/Waishnav/devspace) | 2645 | -- | 将 ChatGPT 变成 Codex！ |
+| +41 | 🏷️Python 🔥极客热议 | [bikini/exploitarium](https://github.com/bikini/exploitarium) | 1957 | [💬讨论](https://news.ycombinator.com/item?id=48698617) | 公开利用 PoC 和漏洞研究文章的单一档案。当我发布这些内容时，还没有任何报道。您可以自行报告这些问题，如果发出了 lulz，则将获得 CVE 的荣誉。请不要滥用这些。我这样做是为了吸引人们进入这个领域，而且我一直发现这是最有效的方式。 |
+| +38 | 🏷️Python 🤖 AI/ML | [deepseek-ai/DeepSpec](https://github.com/deepseek-ai/DeepSpec) | 2025 | [💬讨论](https://news.ycombinator.com/item?id=48701346) | DeepSpec：用于训练和评估推测解码算法的全栈代码库 |
+| +21 | 🏷️HTML | [XxHuberrr/Mineradio](https://github.com/XxHuberrr/Mineradio) | 4448 | -- | 一款以电影镜头、道具和视觉歌词舞台为核心的沉浸式音乐播放器。 |
+| +10 | 🏷️JavaScript 🤖 AI/ML ⚙️ Tooling | [cobusgreyling/loop-engineering](https://github.com/cobusgreyling/loop-engineering) | 3612 | -- | 使用 AI 编码代理进行循环工程的实用模式、入门工具和 CLI 工具。设计提示和协调代理的系统（受到 Addy Osmani 和 Boris Cherny 的启发）。包括循环审核、循环初始化、循环成本。 |
+| +7 | 🏷️Python 🤖 AI/ML | [omnigent-ai/omnigent](https://github.com/omnigent-ai/omnigent) | 5265 | -- | Omnigent 是一个开源 AI 代理框架和元工具：编排 Claude Code、Codex、Cursor、Pi 和自定义代理 — 无需重写即可交换工具，执行策略和沙箱，并通过任何设备实时协作。 |
+| +6 | 🏷️JavaScript 🤖 AI/ML ⚙️ Tooling | [Forward-Future/loopy](https://github.com/Forward-Future/loopy) | 1972 | -- | 实用的人工智能代理循环库和可安装的技能，用于查找、调整和设计可重复的代理工作流程。 |
+| +3 | 🏷️TypeScript 🤖 AI/ML | [diffusionstudio/lottie](https://github.com/diffusionstudio/lottie) | 3994 | -- | 使用 Claude Code 或 Codex 生成可立即投入生产的 Lottie 动画 |
+| +3 | 🏷️JavaScript 🤖 AI/ML | [BuilderIO/skills](https://github.com/BuilderIO/skills) | 2836 | -- | 编码代理的技能 |
+| +1 | 🏷️Rust | [nubjs/nub](https://github.com/nubjs/nub) | 2339 | -- | 快速的一体化 Node.js 工具包 |
+| +1 | 🏷️Swift 🤖 AI/ML | [NoopApp/noop](https://github.com/NoopApp/noop) | 2066 | -- | 离线 WHOOP 伴侣 — 通过蓝牙配对您的腕带，将所有数据保存在您自己的设备上。没有云，没有帐户，没有订阅。 |
+| +0 | 🏷️TypeScript 🤖 AI/ML | [Waishnav/devspace](https://github.com/Waishnav/devspace) | 2645 | -- | 将 ChatGPT 变成 Codex！ |
