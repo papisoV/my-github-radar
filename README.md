@@ -1,21 +1,21 @@
 # 🌊 GitHub 技术暗流雷达
 
-> 🕒 更新: 2026-07-02 21:54:32 | 👑=大佬 | 🌐=有跨界讨论
+> 🕒 更新: 2026-07-02 23:57:23 | 👑=大佬 | 🌐=有跨界讨论
 
 | 增长/h | 智能标签 | 项目名称 | 总 Stars | 跨界讨论 | 中文简介 |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| +5 | 🏢 大厂官号 🏷️TypeScript 🤖 AI/ML 🔥极客热议 | [vercel/eve](https://github.com/vercel/eve) | 3064 | [💬讨论](https://news.ycombinator.com/item?id=22107823) | 建筑代理框架 |
-| **🔥 +139** | 🏷️JavaScript 🤖 AI/ML 🔥极客热议 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 71323 | [💬讨论](https://news.ycombinator.com/item?id=48527946) | 让你的人工智能代理像房间里最懒的高级开发人员一样思考。最好的代码是你从未编写过的代码。 |
-| **🔥 +74** | 🏷️Mermaid 🔥极客热议 | [makerspet/oomwoo](https://github.com/makerspet/oomwoo) | 2826 | [💬讨论](https://news.ycombinator.com/item?id=48755005) | 开源扫地机器人 |
-| +15 | 🏷️JavaScript 🤖 AI/ML ⚙️ Tooling | [cobusgreyling/loop-engineering](https://github.com/cobusgreyling/loop-engineering) | 4788 | -- | 使用 AI 编码代理进行循环工程的实用模式、入门工具和 CLI 工具。设计提示和协调代理的系统（受到 Addy Osmani 和 Boris Cherny 的启发）。包括循环审核、循环初始化、循环成本。 |
-| +15 | 🏷️TypeScript 🤖 AI/ML | [baairon/torlink](https://github.com/baairon/torlink) | 2426 | -- | 一款时尚、零设置的 torrent 查找器和下载器，就位于您的终端中。 |
-| +13 | 🏷️Python | [bikini/exploitarium](https://github.com/bikini/exploitarium) | 3418 | -- | 公开利用 PoC 和漏洞研究文章的单一档案。当我发布这些内容时，还没有任何报道。您可以自行报告这些问题，如果发出了 lulz，则将获得 CVE 的荣誉。请不要滥用这些。我这样做是为了吸引人们进入这个领域，而且我一直发现这是最有效的方式。 |
-| +11 | 🏷️Python 🤖 AI/ML | [omnigent-ai/omnigent](https://github.com/omnigent-ai/omnigent) | 6010 | -- | Omnigent 是一个开源 AI 代理框架和元工具：编排 Claude Code、Codex、Cursor、Pi 和自定义代理 — 无需重写即可交换工具，执行策略和沙箱，并通过任何设备实时协作。 |
-| +9 | 🏷️Swift 🤖 AI/ML | [vorssaint/vorssaint-utils](https://github.com/vorssaint/vorssaint-utils) | 2141 | -- | 免费的开源 macOS 菜单栏工具包。每个应用程序的音量混合器、系统监视器、停靠预览、保持唤醒、窗口切换器（Alt 选项卡）、架子、应用程序卸载程序等等。 |
-| +7 | 🏷️TypeScript 🤖 AI/ML | [XiaomiMiMo/MiMo-Code](https://github.com/XiaomiMiMo/MiMo-Code) | 11269 | -- | MiMo 代码：模型和智能体共同进化的地方 |
-| +7 | 🏷️TypeScript 🤖 AI/ML | [inkeep/open-knowledge](https://github.com/inkeep/open-knowledge) | 1768 | -- | 漂亮的 AI 原生 Markdown 编辑器和 LLM Wiki |
-| +6 | 🏷️JavaScript 🤖 AI/ML | [BuilderIO/skills](https://github.com/BuilderIO/skills) | 3064 | -- | 编码代理的技能 |
-| +4 | 🏷️TypeScript 🤖 AI/ML | [Waishnav/devspace](https://github.com/Waishnav/devspace) | 2786 | -- | 将 ChatGPT 变成 Codex！ |
-| +4 | 🏷️Swift 🤖 AI/ML | [NoopApp/noop](https://github.com/NoopApp/noop) | 2122 | -- | 离线 WHOOP 伴侣 — 通过蓝牙配对您的腕带，将所有数据保存在您自己的设备上。没有云，没有帐户，没有订阅。 |
-| +3 | 🏷️TypeScript 🤖 AI/ML | [diffusionstudio/lottie](https://github.com/diffusionstudio/lottie) | 4362 | -- | 使用 Claude Code 或 Codex 生成可立即投入生产的 Lottie 动画 |
-| +2 | 🏷️Rust | [nubjs/nub](https://github.com/nubjs/nub) | 2535 | -- | 快速的一体化 Node.js 工具包 |
+| +8 | 🏢 大厂官号 🏷️TypeScript 🤖 AI/ML 🔥极客热议 | [vercel/eve](https://github.com/vercel/eve) | 3072 | [💬讨论](https://news.ycombinator.com/item?id=22107823) | 建筑代理框架 |
+| **🔥 +103** | 🏷️JavaScript 🤖 AI/ML 🔥极客热议 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 71426 | [💬讨论](https://news.ycombinator.com/item?id=48527946) | 让你的人工智能代理像房间里最懒的高级开发人员一样思考。最好的代码是你从未编写过的代码。 |
+| **🔥 +63** | 🏷️Mermaid 🔥极客热议 | [makerspet/oomwoo](https://github.com/makerspet/oomwoo) | 2889 | [💬讨论](https://news.ycombinator.com/item?id=48755005) | 开源扫地机器人 |
+| +15 | 🏷️TypeScript 🤖 AI/ML | [baairon/torlink](https://github.com/baairon/torlink) | 2441 | -- | 一款时尚、零设置的 torrent 查找器和下载器，就位于您的终端中。 |
+| +11 | 🏷️JavaScript 🤖 AI/ML ⚙️ Tooling | [cobusgreyling/loop-engineering](https://github.com/cobusgreyling/loop-engineering) | 4799 | -- | 使用 AI 编码代理进行循环工程的实用模式、入门工具和 CLI 工具。设计提示和协调代理的系统（受到 Addy Osmani 和 Boris Cherny 的启发）。包括循环审核、循环初始化、循环成本。 |
+| +11 | 🏷️Python | [bikini/exploitarium](https://github.com/bikini/exploitarium) | 3429 | -- | 公开利用 PoC 和漏洞研究文章的单一档案。当我发布这些内容时，还没有任何报道。您可以自行报告这些问题，如果发出了 lulz，则将获得 CVE 的荣誉。请不要滥用这些。我这样做是为了吸引人们进入这个领域，而且我一直发现这是最有效的方式。 |
+| +10 | 🏷️Swift 🤖 AI/ML | [vorssaint/vorssaint-utils](https://github.com/vorssaint/vorssaint-utils) | 2151 | -- | 免费的开源 macOS 菜单栏工具包。每个应用程序的音量混合器、系统监视器、停靠预览、保持唤醒、窗口切换器（Alt 选项卡）、架子、应用程序卸载程序等等。 |
+| +9 | 🏷️TypeScript 🤖 AI/ML | [XiaomiMiMo/MiMo-Code](https://github.com/XiaomiMiMo/MiMo-Code) | 11278 | -- | MiMo 代码：模型和智能体共同进化的地方 |
+| +9 | 🏷️Python 🤖 AI/ML | [omnigent-ai/omnigent](https://github.com/omnigent-ai/omnigent) | 6019 | -- | Omnigent 是一个开源 AI 代理框架和元工具：编排 Claude Code、Codex、Cursor、Pi 和自定义代理 — 无需重写即可交换工具，执行策略和沙箱，并通过任何设备实时协作。 |
+| +7 | 🏷️TypeScript 🤖 AI/ML | [inkeep/open-knowledge](https://github.com/inkeep/open-knowledge) | 1775 | -- | 漂亮的 AI 原生 Markdown 编辑器和 LLM Wiki |
+| +6 | 🏷️TypeScript 🤖 AI/ML | [Waishnav/devspace](https://github.com/Waishnav/devspace) | 2792 | -- | 将 ChatGPT 变成 Codex！ |
+| +5 | 🏷️Rust | [nubjs/nub](https://github.com/nubjs/nub) | 2540 | -- | 快速的一体化 Node.js 工具包 |
+| +4 | 🏷️TypeScript 🤖 AI/ML | [diffusionstudio/lottie](https://github.com/diffusionstudio/lottie) | 4366 | -- | 使用 Claude Code 或 Codex 生成可立即投入生产的 Lottie 动画 |
+| +4 | 🏷️Swift 🤖 AI/ML | [NoopApp/noop](https://github.com/NoopApp/noop) | 2126 | -- | 离线 WHOOP 伴侣 — 通过蓝牙配对您的腕带，将所有数据保存在您自己的设备上。没有云，没有帐户，没有订阅。 |
+| +3 | 🏷️JavaScript 🤖 AI/ML | [BuilderIO/skills](https://github.com/BuilderIO/skills) | 3067 | -- | 编码代理的技能 |
