@@ -1,17 +1,17 @@
 # 🌊 GitHub 技术暗流雷达
 
-> 🕒 更新: 2026-07-20 00:40:19 | 👑=大佬 | 🌐=有跨界讨论
+> 🕒 更新: 2026-07-20 01:44:51 | 👑=大佬 | 🌐=有跨界讨论
 
 | 增长/h | 智能标签 | 项目名称 | 总 Stars | 跨界讨论 | 中文简介 |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| +40 | 🏢 大厂官号 🏷️Rust 🤖 AI/ML 🔥极客热议 | [xai-org/grok-build](https://github.com/xai-org/grok-build) | 19857 | [💬讨论](https://news.ycombinator.com/item?id=48926590) | SpaceXAI 的编码代理线束和 TUI。全屏、鼠标交互、可扩展。 |
-| +14 | 👑 大佬回归 🏷️JavaScript | [Fei-Away/Codex-Dream-Skin](https://github.com/Fei-Away/Codex-Dream-Skin) | 10235 | -- | 法典梦想皮肤 |
-| +27 | 🏷️C | [JustVugg/colibri](https://github.com/JustVugg/colibri) | 16364 | -- | 在 25GB RAM 消费机器上运行 GLM-5.2 (744B MoE) — 纯 C、零依赖、从磁盘流式传输的专家。微小的发动机，巨大的模型。 🐦 |
-| +10 |  | [xuchonglang/investing-for-beginners](https://github.com/xuchonglang/investing-for-beginners) | 2118 | -- | 小隐寺投资百科官方公开索引：美股、期权与加密货币知识框架 |
-| +5 | 🏷️TypeScript 🤖 AI/ML ⚙️ Tooling | [langchain-ai/openwiki](https://github.com/langchain-ai/openwiki) | 12406 | -- | OpenWiki 是一个 CLI，用于为您的代码库编写和维护代理文档。 |
-| +3 | 🏷️TypeScript 🤖 AI/ML ⚙️ Tooling | [oomol-lab/open-connector](https://github.com/oomol-lab/open-connector) | 2988 | -- | 开源身份验证网关，通过 SDK、CLI、MCP、HTTP 和 OpenAPI 将 1000 多个 SaaS 提供商连接到 AI 代理。 |
-| +2 | 🏷️TypeScript 🤖 AI/ML | [baairon/torlink](https://github.com/baairon/torlink) | 3688 | -- | 一款时尚、零设置的 torrent 查找器和下载器，就位于您的终端中。 |
-| +2 | 🏷️TypeScript | [Younesfdj/gitfut](https://github.com/Younesfdj/gitfut) | 2216 | -- | 你的 GitHub 统计数据，变成了世界杯风格的球员卡 |
-| +0 | 🏷️Shell 🤖 AI/ML | [davidondrej/skills](https://github.com/davidondrej/skills) | 2601 | -- | 接触大卫·翁德雷的个人经纪人技能 |
-| +0 | 🏷️JavaScript | [Shpigford/knockoff](https://github.com/Shpigford/knockoff) | 1941 | -- | Chrome 扩展程序可从亚马逊过滤伪品牌垃圾。从真正的知名品牌购买。 |
+| +24 | 🏢 大厂官号 🏷️Rust 🤖 AI/ML 🔥极客热议 | [xai-org/grok-build](https://github.com/xai-org/grok-build) | 19881 | [💬讨论](https://news.ycombinator.com/item?id=48926590) | SpaceXAI 的编码代理线束和 TUI。全屏、鼠标交互、可扩展。 |
+| +13 | 👑 大佬回归 🏷️JavaScript | [Fei-Away/Codex-Dream-Skin](https://github.com/Fei-Away/Codex-Dream-Skin) | 10248 | -- | 法典梦想皮肤 |
+| +27 | 🏷️C | [JustVugg/colibri](https://github.com/JustVugg/colibri) | 16391 | -- | 在 25GB RAM 消费机器上运行 GLM-5.2 (744B MoE) — 纯 C、零依赖、从磁盘流式传输的专家。微小的发动机，巨大的模型。 🐦 |
+| +7 |  | [xuchonglang/investing-for-beginners](https://github.com/xuchonglang/investing-for-beginners) | 2125 | -- | 小隐寺投资百科官方公开索引：美股、期权与加密货币知识框架 |
+| +6 | 🏷️TypeScript 🤖 AI/ML ⚙️ Tooling | [langchain-ai/openwiki](https://github.com/langchain-ai/openwiki) | 12412 | -- | OpenWiki 是一个 CLI，用于为您的代码库编写和维护代理文档。 |
+| +2 | 🏷️TypeScript 🤖 AI/ML | [baairon/torlink](https://github.com/baairon/torlink) | 3690 | -- | 一款时尚、零设置的 torrent 查找器和下载器，就位于您的终端中。 |
+| +2 | 🏷️JavaScript | [Shpigford/knockoff](https://github.com/Shpigford/knockoff) | 1943 | -- | Chrome 扩展程序可从亚马逊过滤伪品牌垃圾。从真正的知名品牌购买。 |
+| +1 | 🏷️TypeScript 🤖 AI/ML ⚙️ Tooling | [oomol-lab/open-connector](https://github.com/oomol-lab/open-connector) | 2989 | -- | 开源身份验证网关，通过 SDK、CLI、MCP、HTTP 和 OpenAPI 将 1000 多个 SaaS 提供商连接到 AI 代理。 |
+| +1 | 🏷️Shell 🤖 AI/ML | [davidondrej/skills](https://github.com/davidondrej/skills) | 2602 | -- | 接触大卫·翁德雷的个人经纪人技能 |
+| +0 | 🏷️TypeScript | [Younesfdj/gitfut](https://github.com/Younesfdj/gitfut) | 2216 | -- | 你的 GitHub 统计数据，变成了世界杯风格的球员卡 |
 | +0 | 🏷️Python 🤖 AI/ML | [HUANGCHIHHUNGLeo/claude-real-video](https://github.com/HUANGCHIHHUNGLeo/claude-real-video) | 1745 | -- | 让克劳德（或任何法学硕士）实际观看来自 URL 或本地文件的场景感知、重复数据删除的帧 + 文字记录视频。在麻省理工学院本地运行。 |
