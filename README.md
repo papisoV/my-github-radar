@@ -1,19 +1,18 @@
 # 🌊 GitHub 技术暗流雷达
 
-> 🕒 更新: 2026-07-23 12:59:52 | 👑=大佬 | 🌐=有跨界讨论
+> 🕒 更新: 2026-07-23 15:31:56 | 👑=大佬 | 🌐=有跨界讨论
 
 | 增长/h | 智能标签 | 项目名称 | 总 Stars | 跨界讨论 | 中文简介 |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **🔥 +67** | 🏢 大厂官号 🏷️Rust 🤖 AI/ML 🔥极客热议 | [xai-org/grok-build](https://github.com/xai-org/grok-build) | 21875 | [💬讨论](https://news.ycombinator.com/item?id=48926590) | SpaceXAI 的编码代理线束和 TUI。全屏、鼠标交互、可扩展。 |
-| **🔥 +60** | 👑 大佬回归 🏷️JavaScript | [Fei-Away/Codex-Dream-Skin](https://github.com/Fei-Away/Codex-Dream-Skin) | 11898 | -- | 法典梦想皮肤 |
-| +45 | 🏷️C 🔥极客热议 | [JustVugg/colibri](https://github.com/JustVugg/colibri) | 18022 | [💬讨论](https://news.ycombinator.com/item?id=47533283) | 在 25GB RAM 消费机器上运行 GLM-5.2 (744B MoE) — 纯 C、零依赖、从磁盘流式传输的专家。微小的发动机，巨大的模型。 🐦 |
-| **🔥 +70** | 🏷️Rust 🤖 AI/ML 🔥极客热议 | [unicity-aos/aos-ce](https://github.com/unicity-aos/aos-ce) | 6684 | [💬讨论](https://news.ycombinator.com/item?id=38375239) | AOS Community Edition：开放代理操作系统。 |
-| **🔥 +91** | 🏷️Python 🤖 AI/ML | [hoainho/img2threejs](https://github.com/hoainho/img2threejs) | 2134 | -- | 将参考图像中的对象重建为纯代码、程序化、质量门控、动画就绪的 Three.js 模型。令牌高效的图像转 3D。 |
-| +35 | 🏷️Python 🤖 AI/ML ⚙️ Tooling | [MDX-Tom/gpt-5.6-instruct](https://github.com/MDX-Tom/gpt-5.6-instruct) | 2626 | -- | gpt-5.6-sol 的 Codex CLI 越狱提示和测试包。 针对gpt-5.6系列的Codex CLI破甲提示词与测试包。 |
-| +8 | 🏷️TypeScript 🤖 AI/ML | [baairon/torlink](https://github.com/baairon/torlink) | 3767 | -- | 一款时尚、零设置的 torrent 查找器和下载器，就位于您的终端中。 |
-| +6 | 🏷️TypeScript 🤖 AI/ML | [synthetic-sciences/openscience](https://github.com/synthetic-sciences/openscience) | 2689 | -- | 用于科学研究的开源人工智能工作台 |
-| +5 | 🏷️TypeScript 🤖 AI/ML ⚙️ Tooling | [oomol-lab/open-connector](https://github.com/oomol-lab/open-connector) | 3109 | -- | 开源身份验证网关，通过 SDK、CLI、MCP、HTTP 和 OpenAPI 将 1000 多个 SaaS 提供商连接到 AI 代理。 |
-| +4 | 🏷️Python | [x4gKing/X4G](https://github.com/x4gKing/X4G) | 6426 | -- | 无描述 |
-| +3 | 🏷️Shell 🤖 AI/ML | [davidondrej/skills](https://github.com/davidondrej/skills) | 2651 | -- | 接触大卫·翁德雷的个人经纪人技能 |
-| +3 | 🏷️Python 🤖 AI/ML | [HUANGCHIHHUNGLeo/claude-real-video](https://github.com/HUANGCHIHHUNGLeo/claude-real-video) | 1826 | -- | 让克劳德（或任何法学硕士）实际观看来自 URL 或本地文件的场景感知、重复数据删除的帧 + 文字记录视频。在麻省理工学院本地运行。 |
-| +0 | 🏷️TypeScript | [Younesfdj/gitfut](https://github.com/Younesfdj/gitfut) | 2285 | -- | 你的 GitHub 统计数据，变成了世界杯风格的球员卡 |
+| **🔥 +56** | 🏢 大厂官号 🏷️Rust 🤖 AI/ML 🔥极客热议 | [xai-org/grok-build](https://github.com/xai-org/grok-build) | 21931 | [💬讨论](https://news.ycombinator.com/item?id=48926590) | SpaceXAI 的编码代理线束和 TUI。全屏、鼠标交互、可扩展。 |
+| +32 | 👑 大佬回归 🏷️JavaScript | [Fei-Away/Codex-Dream-Skin](https://github.com/Fei-Away/Codex-Dream-Skin) | 11930 | -- | 法典梦想皮肤 |
+| **🔥 +67** | 🏷️Rust 🤖 AI/ML 🔥极客热议 | [unicity-aos/aos-ce](https://github.com/unicity-aos/aos-ce) | 6751 | [💬讨论](https://news.ycombinator.com/item?id=38375239) | AOS Community Edition：开放代理操作系统。 |
+| **🔥 +70** | 🏷️Python 🤖 AI/ML | [hoainho/img2threejs](https://github.com/hoainho/img2threejs) | 2204 | -- | 将参考图像中的对象重建为纯代码、程序化、质量门控、动画就绪的 Three.js 模型。令牌高效的图像转 3D。 |
+| +30 | 🏷️C | [JustVugg/colibri](https://github.com/JustVugg/colibri) | 18052 | -- | 在 25GB RAM 消费机器上运行 GLM-5.2 (744B MoE) — 纯 C、零依赖、从磁盘流式传输的专家。微小的发动机，巨大的模型。 🐦 |
+| +18 | 🏷️Python 🤖 AI/ML ⚙️ Tooling | [MDX-Tom/gpt-5.6-instruct](https://github.com/MDX-Tom/gpt-5.6-instruct) | 2644 | -- | gpt-5.6-sol 的 Codex CLI 越狱提示和测试包。 针对gpt-5.6系列的Codex CLI破甲提示词与测试包。 |
+| +8 | 🏷️Python | [x4gKing/X4G](https://github.com/x4gKing/X4G) | 6434 | -- | 无描述 |
+| +4 | 🏷️TypeScript 🤖 AI/ML | [baairon/torlink](https://github.com/baairon/torlink) | 3771 | -- | 👾 一款时尚、零设置的 torrent 查找器和下载器，就位于您的终端中。 |
+| +3 | 🏷️TypeScript 🤖 AI/ML ⚙️ Tooling | [oomol-lab/open-connector](https://github.com/oomol-lab/open-connector) | 3112 | -- | 开源身份验证网关，通过 SDK、CLI、MCP、HTTP 和 OpenAPI 将 1000 多个 SaaS 提供商连接到 AI 代理。 |
+| +3 | 🏷️TypeScript 🤖 AI/ML | [synthetic-sciences/openscience](https://github.com/synthetic-sciences/openscience) | 2692 | -- | 用于科学研究的开源人工智能工作台 |
+| +3 | 🏷️TypeScript | [Younesfdj/gitfut](https://github.com/Younesfdj/gitfut) | 2288 | -- | 你的 GitHub 统计数据，变成了世界杯风格的球员卡 |
+| +2 | 🏷️Shell 🤖 AI/ML | [davidondrej/skills](https://github.com/davidondrej/skills) | 2653 | -- | 接触大卫·翁德雷的个人经纪人技能 |
