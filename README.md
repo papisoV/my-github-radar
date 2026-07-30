@@ -1,21 +1,21 @@
 # 🌊 GitHub 技术暗流雷达
 
-> 🕒 更新: 2026-07-30 12:42:27 | 👑=大佬 | 🌐=有跨界讨论
+> 🕒 更新: 2026-07-30 15:23:53 | 👑=大佬 | 🌐=有跨界讨论
 
 | 增长/h | 智能标签 | 项目名称 | 总 Stars | 跨界讨论 | 中文简介 |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **🔥 +274** | 🏢 大厂官号 🏷️TypeScript 🤖 AI/ML 🌐 Web 🔥极客热议 | [openai/codex-security](https://github.com/openai/codex-security) | 5239 | [💬讨论](https://news.ycombinator.com/item?id=49089755) | OpenAI 的 Codex Security CLI 和 TypeScript SDK 用于查找、验证和修复安全漏洞。 npm：https://www.npmjs.com/package/@openai/codex-security |
-| **🔥 +78** | 👑 大佬回归 🏷️Python 🔥极客热议 | [andrewyng/openworker](https://github.com/andrewyng/openworker) | 10705 | [💬讨论](https://news.ycombinator.com/item?id=46454693) | 无描述 |
-| +30 | 🏢 大厂官号 🏷️Rust 🤖 AI/ML 🔥极客热议 | [xai-org/grok-build](https://github.com/xai-org/grok-build) | 23449 | [💬讨论](https://news.ycombinator.com/item?id=48926590) | SpaceXAI 的编码代理线束和 TUI。全屏、鼠标交互、可扩展。 |
-| +23 | 👑 大佬回归 🏷️JavaScript | [Fei-Away/Codex-Dream-Skin](https://github.com/Fei-Away/Codex-Dream-Skin) | 12710 | -- | 法典梦想皮肤 |
-| +39 | 🏷️C 🔥极客热议 | [JustVugg/colibri](https://github.com/JustVugg/colibri) | 21037 | [💬讨论](https://news.ycombinator.com/item?id=47533283) | 在您已经拥有的硬件上运行前沿 MoE 模型 - 纯 C、零依赖、从磁盘流式传输的专家。微小的发动机，巨大的模型。 🐦 |
-| **🔥 +519** | 🤖 AI/ML 🔥极客热议 | [MoonshotAI/Kimi-K3](https://github.com/MoonshotAI/Kimi-K3) | 6297 | [💬讨论](https://news.ycombinator.com/item?id=48935342) | 开放前沿情报 |
-| **🔥 +142** | 🏷️Rust 🤖 AI/ML | [kvcache-ai/AgentENV](https://github.com/kvcache-ai/AgentENV) | 2267 | [💬讨论](https://news.ycombinator.com/item?id=35809814) | AgentENV (AENV) 是一个用于大规模运行代理环境的分布式平台。 |
-| **🔥 +106** | 🏷️Python | [img2threejs/img2threejs](https://github.com/img2threejs/img2threejs) | 8262 | -- | 将参考图像中的对象重建为纯代码、程序化、质量门控、动画就绪的 Three.js 模型。令牌高效的图像转 3D。 |
-| **🔥 +72** | 🏷️JavaScript | [oso95/scroll-world](https://github.com/oso95/scroll-world) | 5828 | [💬讨论](https://news.ycombinator.com/item?id=38311264) | 将任何品牌变成可滚动 3D 世界的技能 |
-| +36 | 🏷️TypeScript 🤖 AI/ML | [Vincentwei1021/video-shotcraft](https://github.com/Vincentwei1021/video-shotcraft) | 2758 | -- | Claude Code & Codex 的 AI 视频技能 — 使用 Remotion 的电影产品视频：106 个镜头配方卡、161 个动作预览、一个可立即投入生产的模板 |
-| +35 | 🏷️Python 🤖 AI/ML ⚙️ Tooling | [MDX-Tom/gpt-5.6-instruct](https://github.com/MDX-Tom/gpt-5.6-instruct) | 3782 | -- | gpt-5.6-sol 的 Codex CLI 越狱提示和测试包。 针对gpt-5.6系列的Codex CLI破甲提示词与测试包。 |
-| +30 | 🏷️TypeScript 🌐 Web | [DavidHDev/canvas-ui](https://github.com/DavidHDev/canvas-ui) | 2624 | -- | 创意画布组件库。带有 WebGL 效果的真实 HTML。 React、Vue、Svelte、vanilla。 |
-| +21 | 🏷️TypeScript | [nyblnet/bento](https://github.com/nyblnet/bento) | 3051 | -- | Bento，适合文件的办公套件 |
-| +16 | 🏷️TypeScript 🌐 Web | [vercel-labs/scriptc](https://github.com/vercel-labs/scriptc) | 2347 | -- | TypeScript 到 Native 编译器 |
-| +10 | 🏷️Rust | [yynxxxxx/Codex-X](https://github.com/yynxxxxx/Codex-X) | 1853 | -- | Codex 切换和指示桌面管理器 |
+| **🔥 +169** | 🏢 大厂官号 🏷️TypeScript 🤖 AI/ML 🌐 Web 🔥极客热议 | [openai/codex-security](https://github.com/openai/codex-security) | 5408 | [💬讨论](https://news.ycombinator.com/item?id=49089755) | OpenAI 的 Codex Security CLI 和 TypeScript SDK 用于查找、验证和修复安全漏洞。 npm：https://www.npmjs.com/package/@openai/codex-security |
+| **🔥 +55** | 👑 大佬回归 🏷️Python 🔥极客热议 | [andrewyng/openworker](https://github.com/andrewyng/openworker) | 10760 | [💬讨论](https://news.ycombinator.com/item?id=46454693) | 无描述 |
+| +14 | 🏢 大厂官号 🏷️Rust 🤖 AI/ML 🔥极客热议 | [xai-org/grok-build](https://github.com/xai-org/grok-build) | 23463 | [💬讨论](https://news.ycombinator.com/item?id=48926590) | SpaceXAI 的编码代理线束和 TUI。全屏、鼠标交互、可扩展。 |
+| +13 | 👑 大佬回归 🏷️JavaScript | [Fei-Away/Codex-Dream-Skin](https://github.com/Fei-Away/Codex-Dream-Skin) | 12723 | -- | 法典梦想皮肤 |
+| **🔥 +436** | 🤖 AI/ML 🔥极客热议 | [MoonshotAI/Kimi-K3](https://github.com/MoonshotAI/Kimi-K3) | 6733 | [💬讨论](https://news.ycombinator.com/item?id=48935342) | 开放前沿情报 |
+| +37 | 🏷️TypeScript 🌐 Web 🔥极客热议 | [vercel-labs/scriptc](https://github.com/vercel-labs/scriptc) | 2384 | [💬讨论](https://news.ycombinator.com/item?id=49063175) | TypeScript 到 Native 编译器 |
+| **🔥 +104** | 🏷️Rust 🤖 AI/ML | [kvcache-ai/AgentENV](https://github.com/kvcache-ai/AgentENV) | 2371 | [💬讨论](https://news.ycombinator.com/item?id=35809814) | AgentENV (AENV) 是一个用于大规模运行代理环境的分布式平台。 |
+| **🔥 +57** | 🏷️Python | [img2threejs/img2threejs](https://github.com/img2threejs/img2threejs) | 8319 | -- | 将参考图像中的对象重建为纯代码、程序化、质量控制、动画就绪的 Three.js 模型。令牌高效的图像转 3D。 |
+| +43 | 🏷️JavaScript | [oso95/scroll-world](https://github.com/oso95/scroll-world) | 5871 | [💬讨论](https://news.ycombinator.com/item?id=38311264) | 将任何品牌变成可滚动 3D 世界的技能 |
+| +39 | 🏷️Python 🤖 AI/ML ⚙️ Tooling | [MDX-Tom/gpt-5.6-instruct](https://github.com/MDX-Tom/gpt-5.6-instruct) | 3821 | -- | gpt-5.6-sol 的 Codex CLI 越狱提示和测试包。 针对gpt-5.6系列的Codex CLI破甲提示词与测试包。 |
+| +26 | 🏷️TypeScript | [nyblnet/bento](https://github.com/nyblnet/bento) | 3077 | -- | Bento，适合文件的办公套件 |
+| +25 | 🏷️C | [JustVugg/colibri](https://github.com/JustVugg/colibri) | 21062 | -- | 在您已经拥有的硬件上运行前沿 MoE 模型 - 纯 C、零依赖、从磁盘流式传输的专家。微小的发动机，巨大的模型。 🐦 |
+| +18 | 🏷️TypeScript 🌐 Web | [DavidHDev/canvas-ui](https://github.com/DavidHDev/canvas-ui) | 2642 | -- | 创意画布组件库。带有 WebGL 效果的真实 HTML。 React、Vue、Svelte、vanilla。 |
+| +7 | 🏷️Rust | [yynxxxxx/Codex-X](https://github.com/yynxxxxx/Codex-X) | 1860 | -- | Codex 切换和指示桌面管理器 |
+| +1 | 🏷️TypeScript 🤖 AI/ML | [synthetic-sciences/openscience](https://github.com/synthetic-sciences/openscience) | 2933 | -- | 用于科学研究的开源人工智能工作台 |
