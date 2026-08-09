@@ -1,21 +1,21 @@
 # 🌊 GitHub 技术暗流雷达
 
-> 🕒 更新: 2026-08-09 12:06:22 | 👑=大佬 | 🌐=有跨界讨论
+> 🕒 更新: 2026-08-09 13:38:06 | 👑=大佬 | 🌐=有跨界讨论
 
 | 增长/h | 智能标签 | 项目名称 | 总 Stars | 跨界讨论 | 中文简介 |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| +12 | 👑 大佬回归 🏷️Python 🔥极客热议 | [andrewyng/openworker](https://github.com/andrewyng/openworker) | 13829 | [💬讨论](https://news.ycombinator.com/item?id=46454693) | 无描述 |
-| +7 | 🏢 大厂官号 🏷️Rust 🤖 AI/ML 🔥极客热议 | [xai-org/grok-build](https://github.com/xai-org/grok-build) | 24489 | [💬讨论](https://news.ycombinator.com/item?id=48926590) | SpaceXAI 的编码代理线束和 TUI。全屏、鼠标交互、可扩展。 |
-| +7 | 👑 大佬回归 🏷️TypeScript 🤖 AI/ML 🔥极客热议 | [yc-software/qm](https://github.com/yc-software/qm) | 12574 | [💬讨论](https://news.ycombinator.com/item?id=42551900) | 用于工作的多人代理安全带 |
-| +6 | 🏢 大厂官号 🏷️TypeScript 🤖 AI/ML 🌐 Web 🔥极客热议 | [openai/codex-security](https://github.com/openai/codex-security) | 9355 | [💬讨论](https://news.ycombinator.com/item?id=49089755) | OpenAI 的 Codex Security CLI 和 TypeScript SDK 用于查找、验证和修复安全漏洞。 npm：https://www.npmjs.com/package/@openai/codex-security |
-| +5 | 🏢 大厂官号 🏷️TypeScript ⚙️ Tooling | [microsoft/skill-recorder](https://github.com/microsoft/skill-recorder) | 2538 | [💬讨论](https://news.ycombinator.com/item?id=26080705) | 桌面应用程序，记录您的屏幕上工作会话，并使用 GitHub Copilot CLI 将其重建为意图 + 有序步骤，然后为 Microsoft Scout、Microsoft Copilot Cowork 或 Copilot Studio 构建可重用的技能或自动化。 |
-| +1 | 👑 大佬回归 🏷️JavaScript | [Fei-Away/Codex-Dream-Skin](https://github.com/Fei-Away/Codex-Dream-Skin) | 13432 | -- | 法典梦想皮肤 |
-| +34 | 🏷️Rust 🦀 Performance 🔥极客热议 | [firecrawl/anydoc](https://github.com/firecrawl/anydoc) | 12207 | [💬讨论](https://news.ycombinator.com/item?id=44005236) | 将 Word、PowerPoint、Excel、OpenDocument、RTF、EPUB、CSV 和 PDF 转换为干净的 Markdown。使用 Rust 构建，具有 Node.js 和 Python 绑定。 |
-| +25 | 🏷️C 🤖 AI/ML | [FareedKhan-dev/kimi-k3-in-c](https://github.com/FareedKhan-dev/kimi-k3-in-c) | 3851 | -- | 具有 2.78 万亿参数的 Kimi K3 在 8.24 GB RAM 的单个 CPU 上运行推理。便携式 C99：无 BLAS、无框架、无 GPU。 |
-| +12 | 🏷️TypeScript 🤖 AI/ML | [trycompai/crm](https://github.com/trycompai/crm) | 7821 | -- | Comp AI CRM 是一款专为 AI 客服人员设计的开源 CRM。代理优先的 CRM。 |
-| +8 | 🏷️TypeScript | [bashalarmistalt/decimen-optical-transfer](https://github.com/bashalarmistalt/decimen-optical-transfer) | 5355 | -- | 无描述 |
-| +8 | 🏷️C | [bryanthaboi/gen1recomp](https://github.com/bryanthaboi/gen1recomp) | 2607 | -- | Gen1Recomp - Gen 1 Poke 的原生 Lua / LÖVE2D 娱乐 |
-| +6 |  | [xdash/FDE-the-Guidance-Book-of-Forward-Deployed-Engineer](https://github.com/xdash/FDE-the-Guidance-Book-of-Forward-Deployed-Engineer) | 3634 | -- | FDE（前沿部署工程师）从零入门指南（基于范冰《生长黑客》原书框架） |
-| +4 | 🏷️Python | [img2threejs/img2threejs](https://github.com/img2threejs/img2threejs) | 10262 | -- | 将参考图像中的对象重建为纯代码、程序化、质量门控、动画就绪的 Three.js 模型。令牌高效的图像转 3D。 |
-| +4 | 🏷️TypeScript 🤖 AI/ML | [Vincentwei1021/video-shotcraft](https://github.com/Vincentwei1021/video-shotcraft) | 4232 | -- | Claude Code & Codex 的 AI 视频技能 — 使用 Remotion 的电影产品视频：106 个镜头配方卡、161 个动作预览、一个可立即投入生产的模板 |
-| +4 | 🏷️Python | [kirodotdev/KiroCrew](https://github.com/kirodotdev/KiroCrew) | 2408 | -- | 一个用于开发工作的持久工作空间，可以自我改进并在一次会议之后继续进行。 |
+| +17 | 👑 大佬回归 🏷️TypeScript 🤖 AI/ML 🔥极客热议 | [yc-software/qm](https://github.com/yc-software/qm) | 12591 | [💬讨论](https://news.ycombinator.com/item?id=42551900) | 用于工作的多人代理安全带 |
+| +10 | 👑 大佬回归 🏷️Python 🔥极客热议 | [andrewyng/openworker](https://github.com/andrewyng/openworker) | 13839 | [💬讨论](https://news.ycombinator.com/item?id=46454693) | 无描述 |
+| +5 | 🏢 大厂官号 🏷️TypeScript 🤖 AI/ML 🌐 Web 🔥极客热议 | [openai/codex-security](https://github.com/openai/codex-security) | 9360 | [💬讨论](https://news.ycombinator.com/item?id=49089755) | OpenAI 的 Codex Security CLI 和 TypeScript SDK 用于查找、验证和修复安全漏洞。 npm：https://www.npmjs.com/package/@openai/codex-security |
+| +3 | 🏢 大厂官号 🏷️Rust 🤖 AI/ML 🔥极客热议 | [xai-org/grok-build](https://github.com/xai-org/grok-build) | 24492 | [💬讨论](https://news.ycombinator.com/item?id=48926590) | SpaceXAI 的编码代理线束和 TUI。全屏、鼠标交互、可扩展。 |
+| +5 | 🏢 大厂官号 🏷️TypeScript ⚙️ Tooling | [microsoft/skill-recorder](https://github.com/microsoft/skill-recorder) | 2543 | [💬讨论](https://news.ycombinator.com/item?id=26080705) | 桌面应用程序，记录您的屏幕上工作会话，并使用 GitHub Copilot CLI 将其重建为意图 + 有序步骤，然后为 Microsoft Scout、Microsoft Copilot Cowork 或 Copilot Studio 构建可重用的技能或自动化。 |
+| +1 | 👑 大佬回归 🏷️JavaScript | [Fei-Away/Codex-Dream-Skin](https://github.com/Fei-Away/Codex-Dream-Skin) | 13433 | -- | 法典梦想皮肤 |
+| +35 | 🏷️Rust 🦀 Performance 🔥极客热议 | [firecrawl/anydoc](https://github.com/firecrawl/anydoc) | 12242 | [💬讨论](https://news.ycombinator.com/item?id=44005236) | 将 Word、PowerPoint、Excel、OpenDocument、RTF、EPUB、CSV 和 PDF 转换为干净的 Markdown。使用 Rust 构建，具有 Node.js 和 Python 绑定。 |
+| +20 | 🏷️C 🤖 AI/ML | [FareedKhan-dev/kimi-k3-in-c](https://github.com/FareedKhan-dev/kimi-k3-in-c) | 3871 | -- | 2.78 万亿参数的 Kimi K3 在 8.24 GB RAM 的单个 CPU 上运行推理。便携式 C99：无 BLAS、无框架、无 GPU。 |
+| +12 | 🏷️TypeScript 🤖 AI/ML | [trycompai/crm](https://github.com/trycompai/crm) | 7833 | -- | Comp AI CRM 是一款专为 AI 客服人员设计的开源 CRM。代理优先的 CRM。 |
+| +9 | 🏷️C | [bryanthaboi/gen1recomp](https://github.com/bryanthaboi/gen1recomp) | 2616 | -- | Gen1Recomp - Gen 1 Poke 的原生 Lua / LÖVE2D 娱乐 |
+| +8 | 🏷️Python | [img2threejs/img2threejs](https://github.com/img2threejs/img2threejs) | 10270 | -- | 将参考图像中的对象重建为纯代码、程序化、质量门控、动画就绪的 Three.js 模型。令牌高效的图像转 3D。 |
+| +8 |  | [xdash/FDE-the-Guidance-Book-of-Forward-Deployed-Engineer](https://github.com/xdash/FDE-the-Guidance-Book-of-Forward-Deployed-Engineer) | 3642 | -- | FDE（前沿部署工程师）从零入门指南（基于范冰《生长黑客》原书框架） |
+| +7 | 🏷️TypeScript 🤖 AI/ML | [Vincentwei1021/video-shotcraft](https://github.com/Vincentwei1021/video-shotcraft) | 4239 | -- | Claude Code & Codex 的 AI 视频技能 — 使用 Remotion 的电影产品视频：106 个镜头配方卡、161 个动作预览、一个可立即投入生产的模板 |
+| +2 | 🏷️Swift 🤖 AI/ML | [drumih/turbo-fieldfare](https://github.com/drumih/turbo-fieldfare) | 5458 | -- | 在任何 M 系列 MacBook 上约 2 GB RAM 中进行 Gemma 4 26B-A4B 推理 |
+| +2 | 🏷️TypeScript 🌐 Web | [DavidHDev/canvas-ui](https://github.com/DavidHDev/canvas-ui) | 3642 | -- | 创意画布组件库。带有 WebGL 效果的真实 HTML。 React、Vue、Svelte、vanilla。 |
