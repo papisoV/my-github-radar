@@ -1,21 +1,21 @@
 # 🌊 GitHub 技术暗流雷达
 
-> 🕒 更新: 2026-09-23 15:06:10 | 👑=大佬 | 🌐=有跨界讨论
+> 🕒 更新: 2026-09-23 21:03:15 | 👑=大佬 | 🌐=有跨界讨论
 
 | 增长/h | 智能标签 | 项目名称 | 总 Stars | 跨界讨论 | 中文简介 |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **🔥 +1110** | 🏷️Python 🔥极客热议 | [NandhaKishorM/laya](https://github.com/NandhaKishorM/laya) | 17915 | [💬讨论](https://news.ycombinator.com/item?id=24800303) | 无描述 |
-| **🔥 +463** | 🏷️Python 🤖 AI/ML 🔥极客热议 | [jaredpalmer/kev](https://github.com/jaredpalmer/kev) | 4812 | [💬讨论](https://news.ycombinator.com/item?id=36795173) | tiny Jev-like family of decision models built on top of Qwen3.5 you can train and run on your own |
-| **🔥 +88** | 🏷️Swift 🔥极客热议 | [robbietilton/Compositor](https://github.com/robbietilton/Compositor) | 4995 | [💬讨论](https://news.ycombinator.com/item?id=45461500) | The Photoshop alternative for Mac |
-| **🔥 +71** | 🏷️Python 🔥极客热议 | [TheoLeeCJ/SemIf](https://github.com/TheoLeeCJ/SemIf) | 3930 | [💬讨论](https://news.ycombinator.com/item?id=19149696) | Semantic ifs from open models, on a 3090 at home. Independent; not affiliated with Jev or TypeSafe. |
-| **🔥 +67** | 🏷️Python 🤖 AI/ML 🔥极客热议 | [Human-Agent-Society/reef](https://github.com/Human-Agent-Society/reef) | 4168 | [💬讨论](https://news.ycombinator.com/item?id=48993816) | Continual learning infra for self-improving agents |
-| +36 | 🏷️Rust 🔥极客热议 | [jub0t/Concat](https://github.com/jub0t/Concat) | 3327 | [💬讨论](https://news.ycombinator.com/item?id=3582261) | Free & Open-Source CapCut replacement (supports MCPs). |
-| **🔥 +200** | 🏷️HTML | [eternity4719/HowToLiveBetter](https://github.com/eternity4719/HowToLiveBetter) | 12565 | -- | 按性价比排序的循证生活指南：长寿防病、急救、省钱理财、法律红线、失业与工伤、医保社保、恋爱婚育、怀孕育儿、创业与做平台合规、出国与技能。每条写明成本、收益、证据等级和原始出处，只引期刊论文与官方文件。 |
-| **🔥 +631** | 🏷️Kotlin | [jev-chat/jev-chat-jarvis](https://github.com/jev-chat/jev-chat-jarvis) | 4561 | -- | 装在手机上的对话副驾：在微信 / QQ / X / 飞书里读懂对方、给出候选回复、一键填入输入框，发不发由你。非侵入，只读屏幕，不 hook 不改包。 |
-| **🔥 +220** | 🏷️Swift 🤖 AI/ML | [Mak5er/AirCard](https://github.com/Mak5er/AirCard) | 3044 | [💬讨论](https://news.ycombinator.com/item?id=29819628) | Apple Wallet Card Skinner for iOS 18+ (No Jailbreak Required) |
-| **🔥 +155** | 🏷️Python | [mizorewww/laya-mlx](https://github.com/mizorewww/laya-mlx) | 5643 | [💬讨论](https://news.ycombinator.com/item?id=49775860) | Native MLX runtime for Laya typed decision models — 7–14 ms short decisions on M3 Max. No text generation, PyTorch, or cloud API. |
-| +28 | 🏷️TypeScript 🤖 AI/ML 🌐 Web | [lnkiai/m3e-canvas](https://github.com/lnkiai/m3e-canvas) | 8042 | -- | Sketch Material 3 Expressive screens in the browser and turn them into vibe-coding prompts. |
-| +26 | 🏷️HTML | [yang0/handraw-style](https://github.com/yang0/handraw-style) | 2984 | -- | 手绘风格编号画廊与双语提示词 Skill |
-| +26 | 🏷️TypeScript 🤖 AI/ML 🌐 Web | [shadcn-ui/lint](https://github.com/shadcn-ui/lint) | 2609 | -- | An agent-first linter for Tailwind design systems. Write design system rules that agents can verify. |
-| +20 | 🏷️TypeScript 🤖 AI/ML | [NVlabs/SoL-Pi](https://github.com/NVlabs/SoL-Pi) | 2928 | -- | SoL-Pi: Scaling Auto-Research Loops for Efficient Agent Harnesses |
-| +7 | 🏷️Rust 🦀 Performance | [crmne/spotifast](https://github.com/crmne/spotifast) | 4536 | -- | Spotify, native and fast. One lightweight Rust app for your whole library, local playback, and Spotify Connect on Linux, macOS, and Windows. |
+| **🔥 +1181** | 🏷️Python 🔥极客热议 | [NandhaKishorM/laya](https://github.com/NandhaKishorM/laya) | 19096 | [💬讨论](https://news.ycombinator.com/item?id=24800303) | 非自回归系统 1 决策引擎。在单次正向传递中以 100 多种语言输入对任何文本的选择、评分以及是/否决定，并且路由器会根据请求选择正确的检查点。 |
+| **🔥 +463** | 🏷️Python 🤖 AI/ML 🔥极客热议 | [jaredpalmer/kev](https://github.com/jaredpalmer/kev) | 5275 | [💬讨论](https://news.ycombinator.com/item?id=36795173) | 类似于 Jev 的小型决策模型系列，构建在 Qwen3.5 之上，您可以自行训练和运行 |
+| **🔥 +103** | 🏷️Swift 🔥极客热议 | [robbietilton/Compositor](https://github.com/robbietilton/Compositor) | 5098 | [💬讨论](https://news.ycombinator.com/item?id=45461500) | 适用于 Mac 的 Photoshop 替代品 |
+| **🔥 +81** | 🏷️Python 🤖 AI/ML 🔥极客热议 | [Human-Agent-Society/reef](https://github.com/Human-Agent-Society/reef) | 4249 | [💬讨论](https://news.ycombinator.com/item?id=48993816) | 自我完善代理的持续学习基础设施 |
+| +48 | 🏷️TypeScript 🤖 AI/ML 🌐 Web 🔥极客热议 | [shadcn-ui/lint](https://github.com/shadcn-ui/lint) | 2657 | [💬讨论](https://news.ycombinator.com/item?id=23563823) | Tailwind 设计系统的代理优先检查器。编写代理可以验证的设计系统规则。 |
+| **🔥 +251** | 🏷️HTML | [eternity4719/HowToLiveBetter](https://github.com/eternity4719/HowToLiveBetter) | 12816 | -- | 按顺序排序的循证生活指南：长寿防病、急救、省钱理财、法律红线、失业与工伤、医保社保、恋爱婚育、怀孕育儿、创业与做平台合规、出国与技能。每条写明成本、收益、证据等级和原始出处，只引期刊论文与官方文件。 |
+| **🔥 +465** | 🏷️Kotlin | [jev-chat/jev-chat-jarvis](https://github.com/jev-chat/jev-chat-jarvis) | 5026 | -- | 安装在手机上的对话副驾：在微信/QQ/X/飞书里读懂对方、给出候选回复、一键填入输入框，发不由你发。非入侵，碍眼屏幕，不勾不改包。 |
+| **🔥 +170** | 🏷️Swift 🤖 AI/ML | [Mak5er/AirCard](https://github.com/Mak5er/AirCard) | 3214 | [💬讨论](https://news.ycombinator.com/item?id=29819628) | 适用于 iOS 18+ 的 Apple Wallet Card Skinner（无需越狱） |
+| **🔥 +130** | 🏷️Python | [mizorewww/laya-mlx](https://github.com/mizorewww/laya-mlx) | 5773 | [💬讨论](https://news.ycombinator.com/item?id=49775860) | Laya 类型决策模型的原生 MLX 运行时 — M3 Max 上的 7-14 毫秒短决策。没有文本生成、PyTorch 或云 API。 |
+| **🔥 +83** | 🏷️Python | [TheoLeeCJ/SemIf-OpenJev](https://github.com/TheoLeeCJ/SemIf-OpenJev) | 4013 | -- | 来自开放模型的语义 ifs，在家里的 3090 上。独立的;不隶属于 Jev 或 TypeSafe。 |
+| +34 | 🏷️HTML | [yang0/handraw-style](https://github.com/yang0/handraw-style) | 3018 | -- | 手指风格编号画廊与双语提示词技能 |
+| +29 | 🏷️TypeScript 🤖 AI/ML | [NVlabs/SoL-Pi](https://github.com/NVlabs/SoL-Pi) | 2957 | -- | SoL-Pi：扩展自动研究循环以实现高效的代理工具 |
+| +26 | 🏷️Rust | [jub0t/Concat](https://github.com/jub0t/Concat) | 3353 | -- | 免费开源 CapCut 替换（支持 MCP）。 |
+| +11 | 🏷️TypeScript 🤖 AI/ML 🌐 Web | [lnkiai/m3e-canvas](https://github.com/lnkiai/m3e-canvas) | 8053 | -- | 在浏览器中绘制 Material 3 富有表现力的屏幕，并将其转变为振动编码提示。 |
+| +10 | 🏷️Rust 🦀 Performance | [crmne/spotifast](https://github.com/crmne/spotifast) | 4546 | -- | Spotify，原生且快速。一款轻量级 Rust 应用程序，适用于 Linux、macOS 和 Windows 上的整个库、本地播放和 Spotify Connect。 |
