@@ -1,21 +1,21 @@
 # 🌊 GitHub 技术暗流雷达
 
-> 🕒 更新: 2026-09-24 23:31:34 | 👑=大佬 | 🌐=有跨界讨论
+> 🕒 更新: 2026-09-25 03:31:49 | 👑=大佬 | 🌐=有跨界讨论
 
 | 增长/h | 智能标签 | 项目名称 | 总 Stars | 跨界讨论 | 中文简介 |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **🔥 +564** | 🏷️Python 🔥极客热议 | [NandhaKishorM/laya](https://github.com/NandhaKishorM/laya) | 22404 | [💬讨论](https://news.ycombinator.com/item?id=24800303) | 非自回归系统 1 决策引擎。在单次正向传递中以 100 多种语言输入对任何文本的选择、评分以及是/否决定，并且路由器会根据请求选择正确的检查点。 |
-| **🔥 +120** | 🏷️Python 🤖 AI/ML 🔥极客热议 | [jaredpalmer/kev](https://github.com/jaredpalmer/kev) | 6626 | [💬讨论](https://news.ycombinator.com/item?id=36795173) | 类似于 Jev 的小型决策模型系列，构建在 Qwen3.5 之上，您可以自行训练和运行 |
-| **🔥 +315** | 🏷️HTML | [eternity4719/HowToLiveBetter](https://github.com/eternity4719/HowToLiveBetter) | 13927 | -- | 按顺序排序的循证生活指南：长寿防病、急救、省钱理财、法律红线、失业与工伤、医保社保、恋爱婚育、怀孕育儿、创业与做平台合规、出国与技能。每条写明成本、收益、证据等级和原始出处，只引期刊论文与官方文件。 |
-| **🔥 +287** | 🏷️Kotlin | [jev-chat/jev-chat-jarvis](https://github.com/jev-chat/jev-chat-jarvis) | 5858 | -- | 安装在手机上的对话副驾：在微信/QQ/X/飞书里读懂对方、给出候选回复、一键填入输入框，发不由你发。非入侵，碍眼屏幕，不勾不改包。 |
-| **🔥 +64** | 🏷️Swift 🤖 AI/ML | [Mak5er/AirCard](https://github.com/Mak5er/AirCard) | 3862 | [💬讨论](https://news.ycombinator.com/item?id=29819628) | 适用于 iOS 18+ 的 Apple Wallet Card Skinner（无需越狱） |
-| +34 | 🏷️Python | [TheoLeeCJ/SemIf-OpenJev](https://github.com/TheoLeeCJ/SemIf-OpenJev) | 4201 | -- | 来自开放模型的语义 ifs，在家里的 3090 上。独立的;不隶属于 Jev 或 TypeSafe。 |
-| +29 | 🏷️Swift | [robbietilton/Compositor](https://github.com/robbietilton/Compositor) | 5360 | -- | 适用于 Mac 的 Photoshop 替代品 |
-| +26 | 🏷️TypeScript 🤖 AI/ML | [zai-org/ZCode](https://github.com/zai-org/ZCode) | 6680 | -- | Z.ai 的编码代理线束。强大、智能、可扩展。 |
-| +19 | 🏷️HTML | [yang0/handraw-style](https://github.com/yang0/handraw-style) | 3118 | -- | 手指风格编号画廊与双语提示词技能 |
-| +15 | 🏷️Python 🤖 AI/ML | [Human-Agent-Society/reef](https://github.com/Human-Agent-Society/reef) | 4644 | -- | 自我完善代理的持续学习基础设施 |
-| +7 | 🏷️TypeScript 🤖 AI/ML | [NVlabs/SoL-Pi](https://github.com/NVlabs/SoL-Pi) | 3022 | -- | SoL-Pi：扩展自动研究循环以实现高效的代理工具 |
-| +6 | 🏷️Python 🤖 AI/ML ⚙️ Tooling | [Nanako0129/sepia](https://github.com/Nanako0129/sepia) | 2831 | -- | 适用于任何与 Agent Skills 兼容的代理的 De-AI 编写技能（通过 Skills CLI 达到 77+），并带有 Claude Code、Codex、Grok Build 和 Antigravity 的本机插件。小说的叙事结构修复，专业散文的场地匹配规则。基于 StoryScope (arXiv:2604.03136)。 |
-| +3 | 🏷️Python | [sapientinc/PRAXIST](https://github.com/sapientinc/PRAXIST) | 6751 | -- | 用于可测量、计算机可执行研究的自主研究系统。 |
-| +3 | 🏷️Rust 🦀 Performance | [crmne/spotifast](https://github.com/crmne/spotifast) | 4577 | -- | Spotify，原生且快速。一款轻量级 Rust 应用程序，适用于 Linux、macOS 和 Windows 上的整个库、本地播放和 Spotify Connect。 |
-| +2 | 🏷️Python 🤖 AI/ML | [mcncarl/jianying-headless](https://github.com/mcncarl/jianying-headless) | 2493 | -- | 私有源码预览：原生剑影草稿、独立编辑/导出、独立特工技能。 |
+| **🔥 +341** | 🏷️Python 🔥极客热议 | [NandhaKishorM/laya](https://github.com/NandhaKishorM/laya) | 22745 | [💬讨论](https://news.ycombinator.com/item?id=24800303) | 非自回归系统 1 决策引擎。在单次正向传递中以 100 多种语言输入对任何文本的选择、评分以及是/否决定，并且路由器会根据请求选择正确的检查点。 |
+| **🔥 +69** | 🏷️Python 🤖 AI/ML 🔥极客热议 | [jaredpalmer/kev](https://github.com/jaredpalmer/kev) | 6695 | [💬讨论](https://news.ycombinator.com/item?id=36795173) | 类似 Jev 的决策模型系列构建于 Qwen3.5/3.8 之上，您可以自行训练和运行 |
+| **🔥 +177** | 🏷️HTML | [eternity4719/HowToLiveBetter](https://github.com/eternity4719/HowToLiveBetter) | 14104 | -- | 按顺序排序的循证生活指南：长寿防病、急救、省钱理财、法律红线、失业与工伤、医保社保、恋爱婚育、怀孕育儿、创业与做平台合规、出国与技能。每条写明成本、收益、证据等级和原始出处，只引期刊论文与官方文件。 |
+| **🔥 +130** | 🏷️Kotlin | [jev-chat/jev-chat-jarvis](https://github.com/jev-chat/jev-chat-jarvis) | 5988 | -- | 安装在手机上的对话副驾驶：在QQ / X / 飞书里读懂对方、给出入选回复、一键填输入框，发不发由你。非侵入，粗鲁屏幕，不勾不改包。 |
+| +38 | 🏷️Swift 🤖 AI/ML | [Mak5er/AirCard](https://github.com/Mak5er/AirCard) | 3900 | [💬讨论](https://news.ycombinator.com/item?id=29819628) | 适用于 iOS 18+ 的 Apple Wallet Card Skinner（无需越狱） |
+| +22 | 🏷️Swift | [robbietilton/Compositor](https://github.com/robbietilton/Compositor) | 5382 | -- | 适用于 Mac 的 Photoshop 替代品 |
+| +20 | 🏷️Python | [TheoLeeCJ/SemIf-OpenJev](https://github.com/TheoLeeCJ/SemIf-OpenJev) | 4221 | -- | 来自开放模型的语义 ifs，在家里的 3090 上。独立的;不隶属于 Jev 或 TypeSafe。 |
+| +17 | 🏷️TypeScript 🤖 AI/ML | [zai-org/ZCode](https://github.com/zai-org/ZCode) | 6697 | -- | Z.ai 的编码代理线束。强大、智能、可扩展。 |
+| +14 | 🏷️TypeScript 🤖 AI/ML 🌐 Web | [lnkiai/m3e-canvas](https://github.com/lnkiai/m3e-canvas) | 8158 | -- | 在浏览器中绘制 Material 3 富有表现力的屏幕，并将其转变为振动编码提示。 |
+| +12 | 🏷️TypeScript 🤖 AI/ML | [NVlabs/SoL-Pi](https://github.com/NVlabs/SoL-Pi) | 3034 | -- | SoL-Pi：扩展自动研究循环以实现高效的代理工具 |
+| +8 | 🏷️Python 🤖 AI/ML | [Human-Agent-Society/reef](https://github.com/Human-Agent-Society/reef) | 4652 | -- | 自我完善代理的持续学习基础设施 |
+| +7 | 🏷️Rust 🦀 Performance | [crmne/spotifast](https://github.com/crmne/spotifast) | 4584 | -- | Spotify，原生且快速。一款轻量级 Rust 应用程序，适用于 Linux、macOS 和 Windows 上的整个库、本地播放和 Spotify Connect。 |
+| +7 | 🏷️HTML | [yang0/handraw-style](https://github.com/yang0/handraw-style) | 3125 | -- | 手指风格编号画廊与双语提示词技能 |
+| +2 | 🏷️Python | [sapientinc/PRAXIST](https://github.com/sapientinc/PRAXIST) | 6753 | -- | 用于可测量、计算机可执行研究的自主研究系统。 |
+| +2 | 🏷️Python 🤖 AI/ML | [mcncarl/jianying-headless](https://github.com/mcncarl/jianying-headless) | 2495 | -- | 私有源码预览：原生剑影草稿、独立编辑/导出、独立特工技能。 |
