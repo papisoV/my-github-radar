@@ -1,21 +1,21 @@
 # 🌊 GitHub 技术暗流雷达
 
-> 🕒 更新: 2026-10-19 01:38:17 | 👑=大佬 | 🌐=有跨界讨论
+> 🕒 更新: 2026-10-19 03:44:04 | 👑=大佬 | 🌐=有跨界讨论
 
 | 增长/h | 智能标签 | 项目名称 | 总 Stars | 跨界讨论 | 中文简介 |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **🔥 +79** | 👑 大佬回归 🏷️C++ 🤖 AI/ML ⚙️ Tooling 🔥极客热议 | [Niko1221/Strata](https://github.com/Niko1221/Strata) | 27346 | [💬讨论](https://news.ycombinator.com/item?id=45347914) | Qwen3.8-Flash-Next 适用于任何消费类硬件：适用于 Windows / Linux 的一键安装。 Strata 推理引擎、本地主机上的 OpenAI/Anthropic API、可选图像输入。 |
-| **🔥 +134** | 🏷️Rust 🦀 Performance 🔥极客热议 | [storytold/photocraft](https://github.com/storytold/photocraft) | 67220 | [💬讨论](https://news.ycombinator.com/item?id=49986072) | PhotoCraft：一款用纯 Rust 从头开始​​编写的开源照片编辑器 |
-| **🔥 +124** | 🏷️Go 🤖 AI/ML 🔥极客热议 | [yetone/magpie](https://github.com/yetone/magpie) | 15822 | [💬讨论](https://news.ycombinator.com/item?id=43321109) | 每个代理的模型。一处。来自菜单栏的 DeepSeek 上的 Codex、Kimi 上的 Claude Code。 |
-| **🔥 +214** | 🏷️Rust ⚙️ Tooling 🦀 Performance 🔥极客热议 | [tangency-labs/solidcraft](https://github.com/tangency-labs/solidcraft) | 5222 | [💬讨论](https://news.ycombinator.com/item?id=50064840) | SolidCraft：一个用纯 Rust 构建的开源参数化 3D CAD 应用程序。通过 MCP 实现桌面、Web 和自动化。 |
-| +40 | 🏷️Swift 🔥极客热议 | [ARahim3/DigUp](https://github.com/ARahim3/DigUp) | 4761 | [💬讨论](https://news.ycombinator.com/item?id=33150272) | 通过文件中的内容搜索您的计算机：照片、PDF、文档、录音、视频和代码。 Mac、Windows 和 Linux 设备上，基于 Google DeepMind 的 EmbeddingGemma 2 构建。 |
-| **🔥 +355** | 🏷️JavaScript | [Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model) | 24538 | -- | 在 dsh 里装上这个插件就可以，无需登录、注册或填写 API Key，可以使用包括 DeepSeek V4.1 Flash、Kimi K3 前沿模型——完全免费，不用争。 你所要做的就是在 dsh 中安装这个插件：无需登录、无需注册、无需 API 密钥 — 前沿模型就在那里，DeepSeek V4.1 Flash 和 Kimi K3 其中之一。完全免费，没有使用上限。 |
-| **🔥 +80** | 🏷️Kotlin | [Droid-Deck/DroidDeck](https://github.com/Droid-Deck/DroidDeck) | 10735 | [💬讨论](https://news.ycombinator.com/item?id=50075688) | DroidDeck 将 SteamOS 体验引入 Android |
-| +44 | 🏷️Rust 🦀 Performance | [storytold/pdfcraft](https://github.com/storytold/pdfcraft) | 15781 | [💬讨论](https://news.ycombinator.com/item?id=50102597) | PdfCraft：用纯 Rust 从头开始​​编写的开源 PDF 阅读器和编辑器 |
-| +33 | 🏷️Rust 🦀 Performance | [storytold/filmcraft](https://github.com/storytold/filmcraft) | 14772 | [💬讨论](https://news.ycombinator.com/item?id=8297246) | FilmCraft：一款用纯 Rust 从头开始​​编写的开源非线性视频编辑器 |
-| +33 | 🏷️Rust 🦀 Performance | [storytold/wordcraft](https://github.com/storytold/wordcraft) | 14296 | [💬讨论](https://news.ycombinator.com/item?id=50043900) | 用纯 Rust 开源、干净地重新实现了 Microsoft Word |
-| +23 | 🏷️Rust 🦀 Performance | [storytold/lightcraft](https://github.com/storytold/lightcraft) | 13631 | -- | LightCraft：一款用纯 Rust 从头开始​​编写的开源非破坏性照片编辑器 |
-| +21 | 🏷️Rust 🦀 Performance | [storytold/effectcraft](https://github.com/storytold/effectcraft) | 7284 | -- | EffectCraft：一款用纯 Rust 编写的开源动态图形和合成工具 |
-| +20 | 🏷️Kotlin | [shihabal3amri/DiPlay](https://github.com/shihabal3amri/DiPlay) | 11460 | -- | 适用于兼容 Android 主机的独立 CarPlay 接收器。有线和无线公共预览。 |
-| +17 | 🏷️Rust 🦀 Performance | [storytold/vectorcraft](https://github.com/storytold/vectorcraft) | 9802 | -- | VectorCraft：一款用纯 Rust 从头开始​​编写的开源矢量艺术工具 |
-| +17 | 🏷️Rust 🤖 AI/ML 🦀 Performance | [storytold/cadcraft](https://github.com/storytold/cadcraft) | 5730 | -- | CADCraft：计算机辅助设计和绘图 — 一款纯 Rust 语言的开源、洁净室 AutoCAD 风格的应用程序 |
+| +49 | 👑 大佬回归 🏷️C++ 🤖 AI/ML ⚙️ Tooling 🔥极客热议 | [Niko1221/Strata](https://github.com/Niko1221/Strata) | 27395 | [💬讨论](https://news.ycombinator.com/item?id=45347914) | Qwen3.8-Flash-Next on any consumer hardware: one-click install for Windows / Linux. Strata inference engine, OpenAI/Anthropic API on localhost, optional image input. |
+| **🔥 +89** | 🏷️Rust 🦀 Performance 🔥极客热议 | [storytold/photocraft](https://github.com/storytold/photocraft) | 67309 | [💬讨论](https://news.ycombinator.com/item?id=49986072) | PhotoCraft: An open-source, photo editor written by scratch in pure Rust |
+| +38 | 🏷️Go 🤖 AI/ML 🔥极客热议 | [yetone/magpie](https://github.com/yetone/magpie) | 15860 | [💬讨论](https://news.ycombinator.com/item?id=43321109) | Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar. |
+| **🔥 +140** | 🏷️Rust ⚙️ Tooling 🦀 Performance 🔥极客热议 | [tangency-labs/solidcraft](https://github.com/tangency-labs/solidcraft) | 5362 | [💬讨论](https://news.ycombinator.com/item?id=50064840) | SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP. |
+| **🔥 +97** | 🏷️JavaScript | [Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model) | 24635 | -- | 在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there, DeepSeek V4.1 Flash and Kimi K3 among them. Completely free, with no usage cap. |
+| +31 | 🏷️Rust 🦀 Performance | [storytold/pdfcraft](https://github.com/storytold/pdfcraft) | 15812 | [💬讨论](https://news.ycombinator.com/item?id=50102597) | PdfCraft: An open-source PDF reader and editor written by scratch in pure Rust |
+| +28 | 🏷️Rust 🦀 Performance | [storytold/wordcraft](https://github.com/storytold/wordcraft) | 14324 | -- | An open-source, clean-room reimplementation of Microsoft Word in pure Rust |
+| +25 | 🏷️Kotlin | [Droid-Deck/DroidDeck](https://github.com/Droid-Deck/DroidDeck) | 10760 | -- | DroidDeck brings the SteamOS experience to Android |
+| +21 | 🏷️Rust 🦀 Performance | [storytold/filmcraft](https://github.com/storytold/filmcraft) | 14793 | -- | FilmCraft: An open-source, nonlinear video editor written by scratch in pure Rust |
+| +19 | 🏷️Rust 🦀 Performance | [storytold/vectorcraft](https://github.com/storytold/vectorcraft) | 9821 | -- | VectorCraft: An open-source, vector art tool written by scratch in pure Rust |
+| +18 | 🏷️Rust 🦀 Performance | [storytold/lightcraft](https://github.com/storytold/lightcraft) | 13649 | -- | LightCraft: An open-source non-destructive photo editor written by scratch in pure Rust |
+| +16 | 🏷️Rust 🤖 AI/ML 🦀 Performance | [storytold/cadcraft](https://github.com/storytold/cadcraft) | 5746 | -- | CADCraft: computer-aided design and drafting — an open-source, clean-room AutoCAD-style app in pure Rust |
+| +14 | 🏷️Rust 🦀 Performance | [storytold/gridcraft](https://github.com/storytold/gridcraft) | 5716 | -- | GridCraft: an open-source, clean-room spreadsheet (Microsoft Excel-style) in pure Rust. By ArtCraft. |
+| +14 | 🏷️Swift | [ARahim3/DigUp](https://github.com/ARahim3/DigUp) | 4775 | -- | Search your computer by what's in your files: photos, PDFs, documents, recordings, videos and code. On-device on Mac, Windows and Linux, built on Google DeepMind's EmbeddingGemma 2. |
+| +11 | 🏷️Rust 🦀 Performance | [storytold/effectcraft](https://github.com/storytold/effectcraft) | 7295 | -- | EffectCraft: An open-source motion graphics and compositing tool written by scratch in pure Rust |
